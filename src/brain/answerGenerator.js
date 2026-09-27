@@ -56,32 +56,79 @@ function createGenericListAnswer(items) {
     return `Here are the most relevant current results I found:\n\n${rows.map((title, index) => `${index + 1}. ${title}`).join("\n")}`;
 }
 
+function isCurrentGpuModel(model) {
+    const value = String(model || "").replace(/\s+/g, " ").trim();
+
+    // Current consumer desktop GPU families verified against
+    // the current manufacturer lineups:
+    // NVIDIA GeForce RTX 50 series
+    // AMD Radeon RX 9000 series
+    // Intel Arc B-series
+    return (
+        /\bRTX\s+50\d{2}\b/i.test(value) ||
+        /\b(?:Radeon\s+)?RX\s+9\d{3}\b/i.test(value) ||
+        /\bArc\s+B\d{3}\b/i.test(value)
+    );
+}
+
 function extractGpuModels(items) {
     const models = [];
     const seen = new Set();
-    const pattern = /(?:(?:NVIDIA\s+)?(?:GeForce\s+)?RTX\s+\d{4}(?:\s+(?:Ti|SUPER|Super))?(?:\s+(?:Laptop|Mobile))?|(?:AMD\s+)?Radeon\s+(?:RX|AI\s+PRO)\s+[A-Z]?\d{3,5}(?:\s+(?:XT|GRE|XTX|PRO))?|(?:Intel\s+)?Arc\s+(?:A|B)?\d{3,4})/gi;
-    for (const item of items) {
+
+    const pattern = /(?:\b(?:NVIDIA\s+)?(?:GeForce\s+)?RTX\s+50\d{2}(?:\s+(?:Ti|SUPER|Super))?(?:\s+(?:Laptop|Mobile))?|\b(?:AMD\s+)?(?:Radeon\s+)?RX\s+9\d{3}(?:\s+(?:XT|GRE|XTX|PRO))?|\b(?:Intel\s+)?Arc\s+B\d{3,4})/gi;
+
+    for (const item of items || []) {
         const text = `${item.title || ""}. ${item.text || item.answer || ""}`;
+
         for (const match of text.matchAll(pattern)) {
             const model = match[0].replace(/\s+/g, " ").trim();
-            const key = model.toLowerCase();
+
+            // Never allow older generations from broad reference pages
+            // to contaminate a "latest GPU" answer.
+            if (!isCurrentGpuModel(model)) continue;
+
+            // Canonicalize vendor/brand prefixes before deduplication.
+            // This makes these count as the same GPU:
+            //   Radeon RX 9070 XT
+            //   RX 9070 XT
+            //   AMD Radeon RX 9070 XT
+            // and likewise:
+            //   GeForce RTX 5090
+            //   NVIDIA GeForce RTX 5090
+            const key = model
+                .toLowerCase()
+                .replace(/\b(?:nvidia|amd|intel|geforce|radeon)\b/g, "")
+                .replace(/\s+/g, " ")
+                .trim();
+
             if (!seen.has(key)) {
                 seen.add(key);
                 models.push({ model, item });
             }
+
             if (models.length >= 5) return models;
         }
     }
+
     return models;
 }
 
 function createGpuAnswer(items) {
     const models = extractGpuModels(items);
-    if (!models.length) return null;
-    const lines = models.slice(0, 5).map((entry, index) => `${index + 1}. ${entry.model}`);
-    return `Here are five current GPU models I found:\n\n${lines.join("\n")}`;
-}
 
+    if (!models.length) return null;
+
+    const count = Math.min(models.length, 5);
+    const label = count === 5
+        ? "Here are five current GPU models I found:"
+        : `Here are ${count} current GPU models I found:`;
+
+    const lines = models
+        .slice(0, 5)
+        .map((entry, index) => `${index + 1}. ${entry.model}`);
+
+    return `${label}\n\n${lines.join("\n")}`;
+}
 function isCurrentOfficeQuery(query) {
     return /\b(current|present|now|today)\b/i.test(query) && /\b(chief minister|minister|president|prime minister|governor|mayor|cm)\b/i.test(query);
 }

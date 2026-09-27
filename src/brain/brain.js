@@ -1,25 +1,25 @@
 /**
  * ================================================
- * 🧠 Prime CORE BRAIN ENGINE v32
+ * ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â  Prime CORE BRAIN ENGINE v32
  * ================================================
  *
  * CONTEXT-AWARE AI PIPELINE
  *
- * ✅ Prime User Memory
- * ✅ User-specific Short Term Memory
- * ✅ Long Term Memory
- * ✅ Memory Recall
- * ✅ Conversation Context
- * ✅ Follow-up Resolution
- * ✅ Pronoun Resolution
- * ✅ Math Engine
- * ✅ Reasoning Engine
- * ✅ Local Knowledge
- * ✅ External Knowledge
- * ✅ Knowledge Fusion
- * ✅ Answer Generator
- * ✅ Quality Checker
- * ✅ Confidence System
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Prime User Memory
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ User-specific Short Term Memory
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Long Term Memory
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Memory Recall
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Conversation Context
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Follow-up Resolution
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Pronoun Resolution
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Math Engine
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Reasoning Engine
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Local Knowledge
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ External Knowledge
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Knowledge Fusion
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Answer Generator
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Quality Checker
+ * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Confidence System
  *
  * ================================================
  */
@@ -339,7 +339,7 @@ function findLastTopic(
 
 
     /*
-     * Search newest → oldest.
+     * Search newest ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ oldest.
      */
 
     const recentConversation = conversation.slice(-8);
@@ -571,7 +571,7 @@ async function processMessage(
     try {
 
         console.log(
-            "\n🧠 Prime THINKING..."
+            "\nÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â  Prime THINKING..."
         );
 
 
@@ -609,8 +609,34 @@ async function processMessage(
                 input
             );
         const originalNormalizedQuery = understanding.normalizedQuery;
+        // Greetings are complete conversational turns.
+        // They must never enter follow-up resolution, retrieval, semantic memory,
+        // or model generation where unrelated previous topics could leak into
+        // the greeting response.
+        if (understanding.intent === "GREETING") {
+            const answer = "Hi! What would you like to work on?";
 
-        console.log(`🧭 Query classified: ${understanding.intent}`);
+            memoryManager.addConversation(
+                userId,
+                "user",
+                input
+            );
+
+            memoryManager.addConversation(
+                userId,
+                "assistant",
+                answer
+            );
+
+            return {
+                answer,
+                confidence: 100,
+                tool: "greeting",
+                query: understanding
+            };
+        }
+
+        console.log(`ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â­ Query classified: ${understanding.intent}`);
 
 
         // ==========================================
@@ -698,7 +724,7 @@ async function processMessage(
             followUp.resolved
         ) {
 
-            console.log("🔗 Context resolved");
+            console.log("ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬â€ Context resolved");
 
             // The original short clarification may have had a different intent
             // from its resolved meaning. Re-run the classifier on the resolved
@@ -1019,7 +1045,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
 
 
         console.log(
-            "🧠 Intent:",
+            "ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â  Intent:",
             reasoning.type
         );
 
@@ -1039,7 +1065,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
 
 
         console.log(
-            "📚 Local knowledge"
+            "ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â¡ Local knowledge"
         );
 
 
@@ -1086,7 +1112,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
 
         if (shouldSearchBeforeModel) {
             try {
-                console.log("🌐 External knowledge");
+                console.log("ÃƒÂ°Ã…Â¸Ã…â€™Ã‚Â External knowledge");
                 external = await externalKnowledge.getExternalKnowledge(
                     resolvedInput,
                     { location: options.location }
@@ -1103,7 +1129,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
         // ==========================================
 
         console.log(
-            "🧬 Knowledge Fusion"
+            "ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â¬ Knowledge Fusion"
         );
 
         const fused =
@@ -1123,7 +1149,15 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
             ["CURRENT_OFFICE_HOLDER", "CURRENT_FACT", "NEWS"].includes(understanding.intent)
         );
         const hasFreshEvidence = external.length > 0;
-        const canUseModel = modelManager.enabled() && (!requiresFreshEvidence || hasFreshEvidence);
+        const deterministicFreshIntents = new Set([
+    "LATEST_GPU",
+    "LATEST_LIST"
+]);
+
+const canUseModel =
+    modelManager.enabled() &&
+    !deterministicFreshIntents.has(understanding.intent) &&
+    (!requiresFreshEvidence || hasFreshEvidence);
 
         let generated = null;
 
@@ -1224,7 +1258,7 @@ For programming requests, write secure, runnable, production-quality code and re
         // ==========================================
 
         console.log(
-            "✍️ Generating answer"
+            "ÃƒÂ¢Ã…â€œÃ‚ÂÃƒÂ¯Ã‚Â¸Ã‚Â Generating answer"
         );
 
         if (!generated) {
@@ -1268,7 +1302,7 @@ For programming requests, write secure, runnable, production-quality code and re
 
 
         console.log(
-            "🔍 Quality:",
+            "ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â Quality:",
             analysis.qualityScore
         );
 

@@ -888,7 +888,7 @@ async function fetchPageEvidence(item) {
             fetched: true
         };
     } catch (error) {
-        console.log(`⚠️ Page fetch failed (${item.provider}):`, error.response?.status || error.code || error.message);
+        console.log(`âš ï¸ Page fetch failed (${item.provider}):`, error.response?.status || error.code || error.message);
         return null;
     }
 }
@@ -915,7 +915,7 @@ async function enrichWebPages(results) {
 
 async function run(query, options = {}) {
     const names = sourcePlan(query);
-    console.log(`🔎 Prime web search: ${names.join(", ")}`);
+    console.log(`ðŸ”Ž Prime web search: ${names.join(", ")}`);
     const variants = queryVariants(query);
     const jobs = [];
 
@@ -923,12 +923,23 @@ async function run(query, options = {}) {
     const locationSuffix = location && Number.isFinite(location.latitude) && Number.isFinite(location.longitude)
         ? ` near ${location.latitude.toFixed(3)},${location.longitude.toFixed(3)}`
         : "";
+
+    const searchInfo = classifyQuery(query);
+
     for (const name of names) {
         const handler = handlers[name];
         if (!handler) continue;
-        const sourceQueries = name === "googleNews" || name === "newsRss" || name === "braveContext"
-            ? variants.slice(0, 3)
-            : variants.slice(0, name === "duckduckgo" ? 2 : 1);
+
+        const sourceQueries =
+            name === "googleNews" || name === "newsRss" || name === "braveContext"
+                ? variants.slice(0, 3)
+                : (
+                    searchInfo.currentList &&
+                    searchInfo.gpu &&
+                    ["duckduckgo", "browser"].includes(name)
+                )
+                    ? variants.slice(0, 4)
+                    : variants.slice(0, name === "duckduckgo" ? 2 : 1);
         for (const variant of sourceQueries) {
             const queryForSource = locationSuffix && ["duckduckgo", "browser", "braveWeb"].includes(name) ? `${variant}${locationSuffix}` : variant;
             jobs.push({ name, variant: queryForSource, handler });
@@ -940,7 +951,7 @@ async function run(query, options = {}) {
             const values = await job.handler(job.variant);
             return Array.isArray(values) ? values : [];
         } catch (error) {
-            console.log(`⚠️ Search source failed (${job.name}):`, error.response?.status || error.code || error.message);
+            console.log(`âš ï¸ Search source failed (${job.name}):`, error.response?.status || error.code || error.message);
             return [];
         }
     }));
