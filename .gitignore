@@ -1,0 +1,23 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Runtime data / user content
+data/*.json
+data/uploads/*
+data/images/*
+data/memory.json
+!data/uploads/.gitkeep
+!data/images/.gitkeep
+
+# Logs
+logs/*.log
+
+# Legacy runtime files
+src/image/imageStorage.json
+src/image/outputs/jobs.json
+src/image/outputs/generated/*

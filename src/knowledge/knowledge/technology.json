@@ -1,0 +1,180 @@
+{
+  "category": "Technology",
+  "facts": [
+    {
+      "id": 81,
+      "topic": "technology",
+      "question": "Satellites help monitor Earth's weather.",
+      "answer": "Satellites help monitor Earth's weather.",
+      "keywords": [
+        "satellites",
+        "help",
+        "monitor",
+        "earths",
+        "weather"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 288,
+      "topic": "technology",
+      "question": "Artificial satellites help communication and navigation.",
+      "answer": "Artificial satellites help communication and navigation.",
+      "keywords": [
+        "artificial",
+        "satellites",
+        "help",
+        "communication",
+        "navigation"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 372,
+      "topic": "technology",
+      "question": "The internet connects billions of devices.",
+      "answer": "The internet connects billions of devices.",
+      "keywords": [
+        "internet",
+        "connects",
+        "billions",
+        "devices"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 376,
+      "topic": "technology",
+      "question": "Wi-Fi uses wireless radio communication.",
+      "answer": "Wi-Fi uses wireless radio communication.",
+      "keywords": [
+        "wi-fi",
+        "uses",
+        "wireless",
+        "radio",
+        "communication"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 380,
+      "topic": "technology",
+      "question": "A modem connects to internet service providers.",
+      "answer": "A modem connects to internet service providers.",
+      "keywords": [
+        "modem",
+        "connects",
+        "internet",
+        "service",
+        "providers"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 464,
+      "topic": "technology",
+      "question": "The telephone changed communication.",
+      "answer": "The telephone changed communication.",
+      "keywords": [
+        "telephone",
+        "changed",
+        "communication"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 465,
+      "topic": "technology",
+      "question": "The automobile changed transportation.",
+      "answer": "The automobile changed transportation.",
+      "keywords": [
+        "automobile",
+        "changed",
+        "transportation"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 466,
+      "topic": "technology",
+      "question": "Airplanes made global travel possible.",
+      "answer": "Airplanes made global travel possible.",
+      "keywords": [
+        "airplanes",
+        "made",
+        "global",
+        "travel",
+        "possible"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 467,
+      "topic": "technology",
+      "question": "The internet changed information sharing.",
+      "answer": "The internet changed information sharing.",
+      "keywords": [
+        "internet",
+        "changed",
+        "information",
+        "sharing"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 484,
+      "topic": "technology",
+      "question": "Inventions improve human life.",
+      "answer": "Inventions improve human life.",
+      "keywords": [
+        "inventions",
+        "improve",
+        "human",
+        "life"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 595,
+      "topic": "technology",
+      "question": "Technology changes rapidly over time.",
+      "answer": "Technology changes rapidly over time.",
+      "keywords": [
+        "technology",
+        "changes",
+        "rapidly",
+        "time"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 597,
+      "topic": "technology",
+      "question": "The internet connects billions of devices worldwide.",
+      "answer": "The internet connects billions of devices worldwide.",
+      "keywords": [
+        "internet",
+        "connects",
+        "billions",
+        "devices",
+        "worldwide"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 598,
+      "topic": "technology",
+      "question": "Artificial satellites help humans study Earth and space.",
+      "answer": "Artificial satellites help humans study Earth and space.",
+      "keywords": [
+        "artificial",
+        "satellites",
+        "help",
+        "humans",
+        "study",
+        "earth"
+      ],
+      "importance": 5
+    }
+  ]
+}

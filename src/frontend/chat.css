@@ -1,0 +1,71 @@
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#171717;background:#fff}
+button,textarea,input{font:inherit}
+button{cursor:pointer}
+.app{height:100%;display:flex}
+.sidebar{width:270px;border-right:1px solid #e7e7e7;background:#f7f7f8;display:flex;flex-direction:column;padding:14px}
+.brand{font-size:20px;font-weight:700;letter-spacing:-.3px}
+.sidebar-head{display:grid;gap:18px;padding:8px}
+.new-chat{border:1px solid #ddd;background:#fff;border-radius:9px;padding:10px 12px;text-align:left}
+.new-chat:hover,.history-item:hover{background:#eee}
+.history{overflow:auto;display:grid;gap:3px;margin-top:8px}
+.history-item{border:0;background:transparent;border-radius:8px;padding:10px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#333}
+.history-item.active{background:#e8e8e8}
+.account{margin-top:auto;border-top:1px solid #ddd;padding:12px 6px;display:flex;align-items:center;gap:8px}
+.account span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;font-size:13px}
+.account button{border:0;background:none;color:#555}
+.main{min-width:0;flex:1;display:flex;flex-direction:column;height:100%}
+.topbar{height:54px;border-bottom:1px solid #eee;display:flex;align-items:center;gap:12px;padding:0 18px}
+.top-title{font-weight:650}
+.icon{display:none;border:0;background:none;font-size:20px}
+.messages{flex:1;overflow:auto;padding:36px 20px 145px}
+.welcome{max-width:760px;margin:15vh auto 0;text-align:center}
+.welcome h1{font-size:32px;letter-spacing:-1px;margin:0 0 8px}
+.welcome p{color:#777;margin:0}
+.row{max-width:820px;margin:0 auto 28px;display:flex}
+.row.user{justify-content:flex-end}
+.bubble{max-width:82%;line-height:1.6;font-size:15.5px;white-space:normal;overflow-wrap:anywhere;word-break:break-word;min-width:0}.bubble .text-line{margin:0 0 8px}.bubble h3,.bubble h4{margin:10px 0 6px;line-height:1.35}.bubble ul,.bubble ol{margin:6px 0 10px;padding-left:22px}.bubble li{margin:3px 0}.bubble code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f2f2f2;padding:1px 5px;border-radius:5px}.bubble pre{white-space:pre-wrap;overflow:auto;overflow-x:auto;max-width:100%;word-break:break-word}
+.row.user .bubble{background:#f1f1f1;padding:10px 14px;border-radius:18px}
+.row.ai .bubble{width:100%;min-width:0}
+.bubble pre{white-space:pre;overflow:auto;background:#181818;color:#f5f5f5;padding:15px;border-radius:10px;margin:12px 0}
+.message-attachments{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.attachment-card{border:1px solid #ddd;border-radius:10px;padding:8px;background:#fff;display:flex;align-items:center;gap:8px;max-width:280px;text-decoration:none;color:#222}
+.attachment-card img{width:42px;height:42px;object-fit:cover;border-radius:7px}
+.attachment-name{font-size:12px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.typing{max-width:820px;margin:0 auto 20px;color:#888;font-size:13px}
+.composer{position:fixed;bottom:22px;left:calc(270px + (100% - 270px)/2 - 410px);width:820px;max-width:calc(100% - 40px);display:flex;align-items:flex-end;border:1px solid #d9d9d9;border-radius:18px;background:#fff;box-shadow:0 3px 18px #00000012;padding:8px}
+.input-wrap{min-width:0;flex:1}
+.composer textarea{width:100%;border:0;outline:0;resize:none;max-height:180px;line-height:1.45;padding:7px 4px;background:transparent}
+.tool-button,.send-button{flex:0 0 36px;width:36px;height:36px;border:0;border-radius:50%;display:grid;place-items:center}
+.tool-button{background:transparent;color:#555;font-size:20px}
+.tool-button:hover{background:#eee}
+.send-button{background:#111;color:#fff;font-size:21px}
+.attachments{display:flex;flex-wrap:wrap;gap:6px;padding:2px 4px 0}
+.pending-attachment{display:flex;align-items:center;gap:6px;border:1px solid #ddd;background:#f7f7f8;border-radius:10px;padding:5px 8px;font-size:12px;max-width:240px}
+.pending-attachment span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pending-attachment button{border:0;background:transparent;color:#777;padding:0}
+.attachment-menu{position:absolute;bottom:72px;margin-left:0;border:1px solid #ddd;background:#fff;border-radius:12px;box-shadow:0 8px 28px #0002;padding:6px}
+.attachment-menu button{border:0;background:#fff;padding:10px 14px;border-radius:8px}
+.attachment-menu button:hover{background:#f1f1f1}
+.hint{position:fixed;bottom:2px;left:calc(270px + (100% - 270px)/2 - 410px);width:820px;max-width:calc(100% - 40px);text-align:center;font-size:11px;color:#999}
+.voice-active{background:#eee;color:#c33}
+@media(max-width:800px){
+.sidebar{position:fixed;z-index:10;height:100%;left:-280px;transition:.2s}
+.sidebar.open{left:0}
+.icon{display:block}
+.composer{left:20px;width:calc(100% - 40px)}
+.hint{left:20px;width:calc(100% - 40px)}
+.messages{padding-left:15px;padding-right:15px}
+.bubble{max-width:92%}
+}
+
+.generated-image { display: block; max-width: 100%; border-radius: 14px; margin-top: 10px; }
+
+.search-visual{display:block;width:100%;max-width:460px;height:54px;margin-top:6px;border-radius:8px;background:#f7f7f7}
+.message-sources .source-link{color:#555}
+
+.message-correction {
+    margin-top: 7px;
+    font-size: 0.78rem;
+    color: #777;
+}

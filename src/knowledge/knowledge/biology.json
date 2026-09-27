@@ -1,0 +1,1462 @@
+{
+  "category": "Biology",
+  "facts": [
+    {
+      "id": 34,
+      "topic": "biology",
+      "question": "Wetlands provide habitats for many species.",
+      "answer": "Wetlands provide habitats for many species.",
+      "keywords": [
+        "wetlands",
+        "provide",
+        "habitats",
+        "many",
+        "species"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 36,
+      "topic": "biology",
+      "question": "Rainforests contain extremely high biodiversity.",
+      "answer": "Rainforests contain extremely high biodiversity.",
+      "keywords": [
+        "rainforests",
+        "contain",
+        "extremely",
+        "high",
+        "biodiversity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 43,
+      "topic": "biology",
+      "question": "Biomes are large ecological regions.",
+      "answer": "Biomes are large ecological regions.",
+      "keywords": [
+        "biomes",
+        "large",
+        "ecological",
+        "regions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 44,
+      "topic": "biology",
+      "question": "A habitat is the natural home of an organism.",
+      "answer": "A habitat is the natural home of an organism.",
+      "keywords": [
+        "habitat",
+        "natural",
+        "home",
+        "organism"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 45,
+      "topic": "biology",
+      "question": "A species is a group of similar organisms.",
+      "answer": "A species is a group of similar organisms.",
+      "keywords": [
+        "species",
+        "group",
+        "similar",
+        "organisms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 46,
+      "topic": "biology",
+      "question": "An ecosystem includes organisms and their environment.",
+      "answer": "An ecosystem includes organisms and their environment.",
+      "keywords": [
+        "ecosystem",
+        "includes",
+        "organisms",
+        "environment"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 50,
+      "topic": "biology",
+      "question": "Coal formed from ancient plant material.",
+      "answer": "Coal formed from ancient plant material.",
+      "keywords": [
+        "coal",
+        "formed",
+        "ancient",
+        "plant",
+        "material"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 56,
+      "topic": "biology",
+      "question": "Oxygen is released during photosynthesis.",
+      "answer": "Oxygen is released during photosynthesis.",
+      "keywords": [
+        "oxygen",
+        "released",
+        "photosynthesis"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 180,
+      "topic": "biology",
+      "question": "X-rays can pass through soft tissues.",
+      "answer": "X-rays can pass through soft tissues.",
+      "keywords": [
+        "x-rays",
+        "pass",
+        "soft",
+        "tissues"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 189,
+      "topic": "biology",
+      "question": "Solar cells convert sunlight into electricity.",
+      "answer": "Solar cells convert sunlight into electricity.",
+      "keywords": [
+        "solar",
+        "cells",
+        "convert",
+        "sunlight",
+        "electricity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 190,
+      "topic": "biology",
+      "question": "Photosynthesis converts light energy into chemical energy.",
+      "answer": "Photosynthesis converts light energy into chemical energy.",
+      "keywords": [
+        "photosynthesis",
+        "converts",
+        "light",
+        "energy",
+        "chemical"
+      ],
+      "importance": 9
+    },
+    {
+      "id": 191,
+      "topic": "biology",
+      "question": "Respiration releases energy from food.",
+      "answer": "Respiration releases energy from food.",
+      "keywords": [
+        "respiration",
+        "releases",
+        "energy",
+        "food"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 194,
+      "topic": "biology",
+      "question": "Cells are the basic units of living things.",
+      "answer": "Cells are the basic units of living things.",
+      "keywords": [
+        "cells",
+        "basic",
+        "units",
+        "living",
+        "things"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 195,
+      "topic": "biology",
+      "question": "Cell membranes control what enters and leaves cells.",
+      "answer": "Cell membranes control what enters and leaves cells.",
+      "keywords": [
+        "cell",
+        "membranes",
+        "control",
+        "enters",
+        "leaves",
+        "cells"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 197,
+      "topic": "biology",
+      "question": "Cytoplasm fills the inside of cells.",
+      "answer": "Cytoplasm fills the inside of cells.",
+      "keywords": [
+        "cytoplasm",
+        "fills",
+        "inside",
+        "cells"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 198,
+      "topic": "biology",
+      "question": "Mitochondria produce cellular energy.",
+      "answer": "Mitochondria produce cellular energy.",
+      "keywords": [
+        "mitochondria",
+        "produce",
+        "cellular",
+        "energy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 199,
+      "topic": "biology",
+      "question": "Ribosomes build proteins.",
+      "answer": "Ribosomes build proteins.",
+      "keywords": [
+        "ribosomes",
+        "build",
+        "proteins"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 200,
+      "topic": "biology",
+      "question": "Plant cells have cell walls.",
+      "answer": "Plant cells have cell walls.",
+      "keywords": [
+        "plant",
+        "cells",
+        "cell",
+        "walls"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 201,
+      "topic": "biology",
+      "question": "Plant cells contain chloroplasts.",
+      "answer": "Plant cells contain chloroplasts.",
+      "keywords": [
+        "plant",
+        "cells",
+        "contain",
+        "chloroplasts"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 202,
+      "topic": "biology",
+      "question": "Animal cells do not have chloroplasts.",
+      "answer": "Animal cells do not have chloroplasts.",
+      "keywords": [
+        "animal",
+        "cells",
+        "chloroplasts"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 203,
+      "topic": "biology",
+      "question": "DNA contains instructions for life.",
+      "answer": "DNA contains instructions for life.",
+      "keywords": [
+        "dna",
+        "contains",
+        "instructions",
+        "life"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 204,
+      "topic": "biology",
+      "question": "Genes are sections of DNA.",
+      "answer": "Genes are sections of DNA.",
+      "keywords": [
+        "genes",
+        "sections",
+        "dna"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 205,
+      "topic": "biology",
+      "question": "Chromosomes carry genes.",
+      "answer": "Chromosomes carry genes.",
+      "keywords": [
+        "chromosomes",
+        "carry",
+        "genes"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 206,
+      "topic": "biology",
+      "question": "Genetics studies inherited traits.",
+      "answer": "Genetics studies inherited traits.",
+      "keywords": [
+        "genetics",
+        "studies",
+        "inherited",
+        "traits"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 207,
+      "topic": "biology",
+      "question": "Mutations are changes in DNA.",
+      "answer": "Mutations are changes in DNA.",
+      "keywords": [
+        "mutations",
+        "changes",
+        "dna"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 208,
+      "topic": "biology",
+      "question": "Some mutations can create variation.",
+      "answer": "Some mutations can create variation.",
+      "keywords": [
+        "mutations",
+        "create",
+        "variation"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 209,
+      "topic": "biology",
+      "question": "Evolution occurs over many generations.",
+      "answer": "Evolution occurs over many generations.",
+      "keywords": [
+        "evolution",
+        "occurs",
+        "many",
+        "generations"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 210,
+      "topic": "biology",
+      "question": "Natural selection favors helpful adaptations.",
+      "answer": "Natural selection favors helpful adaptations.",
+      "keywords": [
+        "natural selection",
+        "natural",
+        "selection",
+        "favors",
+        "helpful",
+        "adaptations"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 211,
+      "topic": "biology",
+      "question": "Organisms compete for resources.",
+      "answer": "Organisms compete for resources.",
+      "keywords": [
+        "organisms",
+        "compete",
+        "resources"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 212,
+      "topic": "biology",
+      "question": "Populations contain members of the same species.",
+      "answer": "Populations contain members of the same species.",
+      "keywords": [
+        "populations",
+        "contain",
+        "members",
+        "species"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 213,
+      "topic": "biology",
+      "question": "Communities contain multiple species.",
+      "answer": "Communities contain multiple species.",
+      "keywords": [
+        "communities",
+        "contain",
+        "multiple",
+        "species"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 214,
+      "topic": "biology",
+      "question": "Ecology studies relationships between organisms.",
+      "answer": "Ecology studies relationships between organisms.",
+      "keywords": [
+        "ecology",
+        "studies",
+        "relationships",
+        "organisms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 215,
+      "topic": "biology",
+      "question": "Food webs show connected food chains.",
+      "answer": "Food webs show connected food chains.",
+      "keywords": [
+        "food web",
+        "food chain",
+        "food",
+        "webs",
+        "show",
+        "connected"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 216,
+      "topic": "biology",
+      "question": "Producers make their own food.",
+      "answer": "Producers make their own food.",
+      "keywords": [
+        "producers",
+        "make",
+        "food"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 217,
+      "topic": "biology",
+      "question": "Consumers obtain energy by eating organisms.",
+      "answer": "Consumers obtain energy by eating organisms.",
+      "keywords": [
+        "consumers",
+        "obtain",
+        "energy",
+        "eating",
+        "organisms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 218,
+      "topic": "biology",
+      "question": "Decomposers break down dead material.",
+      "answer": "Decomposers break down dead material.",
+      "keywords": [
+        "decomposers",
+        "break",
+        "dead",
+        "material"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 219,
+      "topic": "biology",
+      "question": "Bacteria can be useful in ecosystems.",
+      "answer": "Bacteria can be useful in ecosystems.",
+      "keywords": [
+        "bacteria",
+        "useful",
+        "ecosystems"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 220,
+      "topic": "biology",
+      "question": "Some bacteria cause diseases.",
+      "answer": "Some bacteria cause diseases.",
+      "keywords": [
+        "bacteria",
+        "cause",
+        "diseases"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 221,
+      "topic": "biology",
+      "question": "Viruses need host cells to reproduce.",
+      "answer": "Viruses need host cells to reproduce.",
+      "keywords": [
+        "viruses",
+        "need",
+        "host",
+        "cells",
+        "reproduce"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 222,
+      "topic": "biology",
+      "question": "Vaccines help the immune system recognize pathogens.",
+      "answer": "Vaccines help the immune system recognize pathogens.",
+      "keywords": [
+        "immune system",
+        "vaccines",
+        "help",
+        "immune",
+        "system",
+        "recognize"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 487,
+      "topic": "biology",
+      "question": "Animals are living organisms.",
+      "answer": "Animals are living organisms.",
+      "keywords": [
+        "animals",
+        "living",
+        "organisms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 488,
+      "topic": "biology",
+      "question": "Mammals usually have hair and produce milk.",
+      "answer": "Mammals usually have hair and produce milk.",
+      "keywords": [
+        "mammals",
+        "usually",
+        "hair",
+        "produce",
+        "milk"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 489,
+      "topic": "biology",
+      "question": "Birds have feathers and lay eggs.",
+      "answer": "Birds have feathers and lay eggs.",
+      "keywords": [
+        "birds",
+        "feathers",
+        "lay",
+        "eggs"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 490,
+      "topic": "biology",
+      "question": "Fish breathe using gills.",
+      "answer": "Fish breathe using gills.",
+      "keywords": [
+        "fish",
+        "breathe",
+        "using",
+        "gills"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 491,
+      "topic": "biology",
+      "question": "Reptiles are cold-blooded animals.",
+      "answer": "Reptiles are cold-blooded animals.",
+      "keywords": [
+        "reptiles",
+        "cold-blooded",
+        "animals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 492,
+      "topic": "biology",
+      "question": "Amphibians live on land and water.",
+      "answer": "Amphibians live on land and water.",
+      "keywords": [
+        "amphibians",
+        "live",
+        "land",
+        "water"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 493,
+      "topic": "biology",
+      "question": "Insects have six legs.",
+      "answer": "Insects have six legs.",
+      "keywords": [
+        "insects",
+        "six",
+        "legs"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 494,
+      "topic": "biology",
+      "question": "Spiders have eight legs.",
+      "answer": "Spiders have eight legs.",
+      "keywords": [
+        "spiders",
+        "eight",
+        "legs"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 495,
+      "topic": "biology",
+      "question": "Octopuses have eight arms.",
+      "answer": "Octopuses have eight arms.",
+      "keywords": [
+        "octopuses",
+        "eight",
+        "arms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 496,
+      "topic": "biology",
+      "question": "Whales are the largest animals on Earth.",
+      "answer": "Whales are the largest animals on Earth.",
+      "keywords": [
+        "whales",
+        "largest",
+        "animals",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 497,
+      "topic": "biology",
+      "question": "Elephants are the largest land animals.",
+      "answer": "Elephants are the largest land animals.",
+      "keywords": [
+        "elephants",
+        "largest",
+        "land",
+        "animals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 498,
+      "topic": "biology",
+      "question": "Cheetahs are among the fastest land animals.",
+      "answer": "Cheetahs are among the fastest land animals.",
+      "keywords": [
+        "cheetahs",
+        "fastest",
+        "land",
+        "animals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 499,
+      "topic": "biology",
+      "question": "Eagles have excellent eyesight.",
+      "answer": "Eagles have excellent eyesight.",
+      "keywords": [
+        "eagles",
+        "excellent",
+        "eyesight"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 500,
+      "topic": "biology",
+      "question": "Dolphins are intelligent marine mammals.",
+      "answer": "Dolphins are intelligent marine mammals.",
+      "keywords": [
+        "dolphins",
+        "intelligent",
+        "marine",
+        "mammals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 501,
+      "topic": "biology",
+      "question": "Penguins are birds that cannot fly.",
+      "answer": "Penguins are birds that cannot fly.",
+      "keywords": [
+        "penguins",
+        "birds",
+        "cannot",
+        "fly"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 502,
+      "topic": "biology",
+      "question": "Bees help plants reproduce through pollination.",
+      "answer": "Bees help plants reproduce through pollination.",
+      "keywords": [
+        "bees",
+        "help",
+        "plants",
+        "reproduce",
+        "pollination"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 503,
+      "topic": "biology",
+      "question": "Ants live in organized colonies.",
+      "answer": "Ants live in organized colonies.",
+      "keywords": [
+        "ants",
+        "live",
+        "organized",
+        "colonies"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 504,
+      "topic": "biology",
+      "question": "Butterflies undergo metamorphosis.",
+      "answer": "Butterflies undergo metamorphosis.",
+      "keywords": [
+        "butterflies",
+        "undergo",
+        "metamorphosis"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 505,
+      "topic": "biology",
+      "question": "Frogs begin life as tadpoles.",
+      "answer": "Frogs begin life as tadpoles.",
+      "keywords": [
+        "frogs",
+        "begin",
+        "life",
+        "tadpoles"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 506,
+      "topic": "biology",
+      "question": "Sharks have existed for millions of years.",
+      "answer": "Sharks have existed for millions of years.",
+      "keywords": [
+        "sharks",
+        "existed",
+        "millions",
+        "years"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 507,
+      "topic": "biology",
+      "question": "Coral reefs support ocean life.",
+      "answer": "Coral reefs support ocean life.",
+      "keywords": [
+        "coral",
+        "reefs",
+        "support",
+        "ocean",
+        "life"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 508,
+      "topic": "biology",
+      "question": "Forests provide habitats for animals.",
+      "answer": "Forests provide habitats for animals.",
+      "keywords": [
+        "forests",
+        "provide",
+        "habitats",
+        "animals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 510,
+      "topic": "biology",
+      "question": "Plants release oxygen through photosynthesis.",
+      "answer": "Plants release oxygen through photosynthesis.",
+      "keywords": [
+        "plants",
+        "release",
+        "oxygen",
+        "photosynthesis"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 511,
+      "topic": "biology",
+      "question": "Roots absorb water and nutrients.",
+      "answer": "Roots absorb water and nutrients.",
+      "keywords": [
+        "roots",
+        "absorb",
+        "water",
+        "nutrients"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 512,
+      "topic": "biology",
+      "question": "Leaves capture sunlight.",
+      "answer": "Leaves capture sunlight.",
+      "keywords": [
+        "leaves",
+        "capture",
+        "sunlight"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 513,
+      "topic": "biology",
+      "question": "Flowers help plant reproduction.",
+      "answer": "Flowers help plant reproduction.",
+      "keywords": [
+        "flowers",
+        "help",
+        "plant",
+        "reproduction"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 514,
+      "topic": "biology",
+      "question": "Seeds contain future plants.",
+      "answer": "Seeds contain future plants.",
+      "keywords": [
+        "seeds",
+        "contain",
+        "future",
+        "plants"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 515,
+      "topic": "biology",
+      "question": "Fungi recycle nutrients in ecosystems.",
+      "answer": "Fungi recycle nutrients in ecosystems.",
+      "keywords": [
+        "fungi",
+        "recycle",
+        "nutrients",
+        "ecosystems"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 516,
+      "topic": "biology",
+      "question": "Bacteria exist almost everywhere.",
+      "answer": "Bacteria exist almost everywhere.",
+      "keywords": [
+        "bacteria",
+        "exist",
+        "almost",
+        "everywhere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 517,
+      "topic": "biology",
+      "question": "Some bacteria are helpful.",
+      "answer": "Some bacteria are helpful.",
+      "keywords": [
+        "bacteria",
+        "helpful",
+        "biology"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 518,
+      "topic": "biology",
+      "question": "Some microorganisms cause disease.",
+      "answer": "Some microorganisms cause disease.",
+      "keywords": [
+        "microorganisms",
+        "cause",
+        "disease"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 519,
+      "topic": "biology",
+      "question": "Ecosystems depend on balance.",
+      "answer": "Ecosystems depend on balance.",
+      "keywords": [
+        "ecosystems",
+        "depend",
+        "balance"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 520,
+      "topic": "biology",
+      "question": "Predators control populations.",
+      "answer": "Predators control populations.",
+      "keywords": [
+        "predators",
+        "control",
+        "populations"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 521,
+      "topic": "biology",
+      "question": "Herbivores eat plants.",
+      "answer": "Herbivores eat plants.",
+      "keywords": [
+        "herbivores",
+        "eat",
+        "plants"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 522,
+      "topic": "biology",
+      "question": "Carnivores eat animals.",
+      "answer": "Carnivores eat animals.",
+      "keywords": [
+        "carnivores",
+        "eat",
+        "animals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 523,
+      "topic": "biology",
+      "question": "Omnivores eat both plants and animals.",
+      "answer": "Omnivores eat both plants and animals.",
+      "keywords": [
+        "omnivores",
+        "eat",
+        "plants",
+        "animals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 524,
+      "topic": "biology",
+      "question": "Migration helps animals survive.",
+      "answer": "Migration helps animals survive.",
+      "keywords": [
+        "migration",
+        "helps",
+        "animals",
+        "survive"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 525,
+      "topic": "biology",
+      "question": "Hibernation helps animals survive cold periods.",
+      "answer": "Hibernation helps animals survive cold periods.",
+      "keywords": [
+        "hibernation",
+        "helps",
+        "animals",
+        "survive",
+        "cold",
+        "periods"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 526,
+      "topic": "biology",
+      "question": "Adaptation helps organisms survive environments.",
+      "answer": "Adaptation helps organisms survive environments.",
+      "keywords": [
+        "adaptation",
+        "helps",
+        "organisms",
+        "survive",
+        "environments"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 527,
+      "topic": "biology",
+      "question": "Humans are complex biological organisms.",
+      "answer": "Humans are complex biological organisms.",
+      "keywords": [
+        "humans",
+        "complex",
+        "biological",
+        "organisms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 528,
+      "topic": "biology",
+      "question": "The human body contains trillions of cells.",
+      "answer": "The human body contains trillions of cells.",
+      "keywords": [
+        "human",
+        "body",
+        "contains",
+        "trillions",
+        "cells"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 529,
+      "topic": "biology",
+      "question": "The brain controls thoughts and actions.",
+      "answer": "The brain controls thoughts and actions.",
+      "keywords": [
+        "brain",
+        "controls",
+        "thoughts",
+        "actions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 530,
+      "topic": "biology",
+      "question": "The nervous system sends signals.",
+      "answer": "The nervous system sends signals.",
+      "keywords": [
+        "nervous",
+        "system",
+        "sends",
+        "signals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 531,
+      "topic": "biology",
+      "question": "The spinal cord connects the brain and body.",
+      "answer": "The spinal cord connects the brain and body.",
+      "keywords": [
+        "spinal",
+        "cord",
+        "connects",
+        "brain",
+        "body"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 532,
+      "topic": "biology",
+      "question": "The heart pumps blood.",
+      "answer": "The heart pumps blood.",
+      "keywords": [
+        "heart",
+        "pumps",
+        "blood"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 533,
+      "topic": "biology",
+      "question": "Blood carries oxygen and nutrients.",
+      "answer": "Blood carries oxygen and nutrients.",
+      "keywords": [
+        "blood",
+        "carries",
+        "oxygen",
+        "nutrients"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 534,
+      "topic": "biology",
+      "question": "Red blood cells carry oxygen.",
+      "answer": "Red blood cells carry oxygen.",
+      "keywords": [
+        "red",
+        "blood",
+        "cells",
+        "carry",
+        "oxygen"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 535,
+      "topic": "biology",
+      "question": "White blood cells fight infections.",
+      "answer": "White blood cells fight infections.",
+      "keywords": [
+        "white",
+        "blood",
+        "cells",
+        "fight",
+        "infections"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 536,
+      "topic": "biology",
+      "question": "Platelets help blood clot.",
+      "answer": "Platelets help blood clot.",
+      "keywords": [
+        "platelets",
+        "help",
+        "blood",
+        "clot"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 538,
+      "topic": "biology",
+      "question": "The digestive system breaks down food.",
+      "answer": "The digestive system breaks down food.",
+      "keywords": [
+        "digestive",
+        "system",
+        "breaks",
+        "food"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 539,
+      "topic": "biology",
+      "question": "The stomach helps digest food.",
+      "answer": "The stomach helps digest food.",
+      "keywords": [
+        "stomach",
+        "helps",
+        "digest",
+        "food"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 541,
+      "topic": "biology",
+      "question": "The kidneys filter blood.",
+      "answer": "The kidneys filter blood.",
+      "keywords": [
+        "kidneys",
+        "filter",
+        "blood"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 542,
+      "topic": "biology",
+      "question": "Bones support the body.",
+      "answer": "Bones support the body.",
+      "keywords": [
+        "bones",
+        "support",
+        "body"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 543,
+      "topic": "biology",
+      "question": "Muscles create movement.",
+      "answer": "Muscles create movement.",
+      "keywords": [
+        "muscles",
+        "create",
+        "movement"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 544,
+      "topic": "biology",
+      "question": "Joints allow movement between bones.",
+      "answer": "Joints allow movement between bones.",
+      "keywords": [
+        "joints",
+        "allow",
+        "movement",
+        "bones"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 545,
+      "topic": "biology",
+      "question": "Skin protects the body.",
+      "answer": "Skin protects the body.",
+      "keywords": [
+        "skin",
+        "protects",
+        "body"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 546,
+      "topic": "biology",
+      "question": "The immune system protects against diseases.",
+      "answer": "The immune system protects against diseases.",
+      "keywords": [
+        "immune system",
+        "immune",
+        "system",
+        "protects",
+        "diseases"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 547,
+      "topic": "biology",
+      "question": "Vaccines train the immune system.",
+      "answer": "Vaccines train the immune system.",
+      "keywords": [
+        "immune system",
+        "vaccines",
+        "train",
+        "immune",
+        "system"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 548,
+      "topic": "biology",
+      "question": "Doctors diagnose and treat illnesses.",
+      "answer": "Doctors diagnose and treat illnesses.",
+      "keywords": [
+        "doctors",
+        "diagnose",
+        "treat",
+        "illnesses"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 549,
+      "topic": "biology",
+      "question": "Medicine uses science to improve health.",
+      "answer": "Medicine uses science to improve health.",
+      "keywords": [
+        "medicine",
+        "uses",
+        "science",
+        "improve",
+        "health"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 550,
+      "topic": "biology",
+      "question": "Surgery treats some medical conditions.",
+      "answer": "Surgery treats some medical conditions.",
+      "keywords": [
+        "surgery",
+        "treats",
+        "medical",
+        "conditions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 553,
+      "topic": "biology",
+      "question": "Exercise improves fitness.",
+      "answer": "Exercise improves fitness.",
+      "keywords": [
+        "exercise",
+        "improves",
+        "fitness"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 554,
+      "topic": "biology",
+      "question": "Sleep helps recovery.",
+      "answer": "Sleep helps recovery.",
+      "keywords": [
+        "sleep",
+        "helps",
+        "recovery"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 555,
+      "topic": "biology",
+      "question": "Mental health affects thoughts and emotions.",
+      "answer": "Mental health affects thoughts and emotions.",
+      "keywords": [
+        "mental",
+        "health",
+        "affects",
+        "thoughts",
+        "emotions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 556,
+      "topic": "biology",
+      "question": "Healthy habits improve quality of life.",
+      "answer": "Healthy habits improve quality of life.",
+      "keywords": [
+        "healthy",
+        "habits",
+        "improve",
+        "quality",
+        "life"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 577,
+      "topic": "biology",
+      "question": "Octopuses have three hearts.",
+      "answer": "Octopuses have three hearts.",
+      "keywords": [
+        "octopuses",
+        "three",
+        "hearts"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 578,
+      "topic": "biology",
+      "question": "Honey can remain edible for thousands of years.",
+      "answer": "Honey can remain edible for thousands of years.",
+      "keywords": [
+        "honey",
+        "remain",
+        "edible",
+        "thousands",
+        "years"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 580,
+      "topic": "biology",
+      "question": "Bananas are scientifically classified as berries.",
+      "answer": "Bananas are scientifically classified as berries.",
+      "keywords": [
+        "bananas",
+        "scientifically",
+        "classified",
+        "berries"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 581,
+      "topic": "biology",
+      "question": "Strawberries are not true botanical berries.",
+      "answer": "Strawberries are not true botanical berries.",
+      "keywords": [
+        "strawberries",
+        "true",
+        "botanical",
+        "berries"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 584,
+      "topic": "biology",
+      "question": "The human eye can distinguish millions of colors.",
+      "answer": "The human eye can distinguish millions of colors.",
+      "keywords": [
+        "human",
+        "eye",
+        "distinguish",
+        "millions",
+        "colors"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 592,
+      "topic": "biology",
+      "question": "The brain uses a large amount of energy.",
+      "answer": "The brain uses a large amount of energy.",
+      "keywords": [
+        "brain",
+        "uses",
+        "large",
+        "amount",
+        "energy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 593,
+      "topic": "biology",
+      "question": "Some animals can regenerate body parts.",
+      "answer": "Some animals can regenerate body parts.",
+      "keywords": [
+        "animals",
+        "regenerate",
+        "body",
+        "parts"
+      ],
+      "importance": 5
+    }
+  ]
+}

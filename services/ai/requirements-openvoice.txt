@@ -1,0 +1,2 @@
+# Install OpenVoice from the upstream GitHub repository when expressive TTS is enabled.
+# See GITHUB_COMPONENTS.md and services/ai/voice_service.py.

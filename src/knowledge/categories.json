@@ -1,0 +1,145 @@
+{
+  "categories": [
+
+    {
+      "id": "artificial_intelligence",
+      "name": "Artificial Intelligence",
+      "priority": 10,
+      "description": "AI, machine learning, deep learning, neural networks and intelligent systems"
+    },
+
+    {
+      "id": "computer_science",
+      "name": "Computer Science",
+      "priority": 10,
+      "description": "Programming, algorithms, data structures, software and computing"
+    },
+
+    {
+      "id": "cybersecurity",
+      "name": "Cybersecurity",
+      "priority": 10,
+      "description": "Security, ethical hacking, networks, malware and protection"
+    },
+
+    {
+      "id": "technology",
+      "name": "Technology",
+      "priority": 9,
+      "description": "Modern technology, devices, internet and innovation"
+    },
+
+    {
+      "id": "robotics",
+      "name": "Robotics",
+      "priority": 9,
+      "description": "Robots, automation, sensors and embedded systems"
+    },
+
+    {
+      "id": "physics",
+      "name": "Physics",
+      "priority": 9,
+      "description": "Matter, energy, forces, universe and physical laws"
+    },
+
+    {
+      "id": "astronomy",
+      "name": "Astronomy",
+      "priority": 8,
+      "description": "Stars, planets, galaxies and space science"
+    },
+
+    {
+      "id": "space_technology",
+      "name": "Space Technology",
+      "priority": 8,
+      "description": "Satellites, rockets, spacecraft and missions"
+    },
+
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "priority": 8,
+      "description": "Numbers, equations, geometry and advanced mathematics"
+    },
+
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "priority": 8,
+      "description": "Elements, reactions, molecules and materials"
+    },
+
+    {
+      "id": "biology",
+      "name": "Biology",
+      "priority": 8,
+      "description": "Life science, genetics, organisms and evolution"
+    },
+
+    {
+      "id": "medicine",
+      "name": "Medicine",
+      "priority": 7,
+      "description": "Human health, diseases and medical science"
+    },
+
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "priority": 7,
+      "description": "Mechanical, electrical, civil and other engineering fields"
+    },
+
+    {
+      "id": "environment",
+      "name": "Environment",
+      "priority": 7,
+      "description": "Climate, ecosystems and environmental science"
+    },
+
+    {
+      "id": "earth_science",
+      "name": "Earth Science",
+      "priority": 7,
+      "description": "Earth structure, geology and natural processes"
+    },
+
+    {
+      "id": "history",
+      "name": "History",
+      "priority": 6,
+      "description": "Historical events, civilizations and important people"
+    },
+
+    {
+      "id": "geography",
+      "name": "Geography",
+      "priority": 6,
+      "description": "Countries, locations, climate and Earth regions"
+    },
+
+    {
+      "id": "finance",
+      "name": "Finance",
+      "priority": 6,
+      "description": "Money, economics, banking and investments"
+    },
+
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "priority": 6,
+      "description": "Human behaviour, thinking and emotions"
+    },
+
+    {
+      "id": "general_knowledge",
+      "name": "General Knowledge",
+      "priority": 5,
+      "description": "Common facts and everyday knowledge"
+    }
+
+  ]
+}

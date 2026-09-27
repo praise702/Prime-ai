@@ -1,0 +1,3604 @@
+{
+    "facts": [
+        {
+            "id": 1,
+            "topic": "general",
+            "question": "Earth is the third planet from the Sun.",
+            "answer": "Earth is the third planet from the Sun."
+        },
+        {
+            "id": 2,
+            "topic": "general",
+            "question": "Earth is the only known planet with life.",
+            "answer": "Earth is the only known planet with life."
+        },
+        {
+            "id": 3,
+            "topic": "general",
+            "question": "Earth has a solid surface called the crust.",
+            "answer": "Earth has a solid surface called the crust."
+        },
+        {
+            "id": 4,
+            "topic": "general",
+            "question": "Earth has several layers including crust, mantle, outer core, and inner core.",
+            "answer": "Earth has several layers including crust, mantle, outer core, and inner core."
+        },
+        {
+            "id": 5,
+            "topic": "general",
+            "question": "The mantle is made of hot semi-solid rock.",
+            "answer": "The mantle is made of hot semi-solid rock."
+        },
+        {
+            "id": 6,
+            "topic": "general",
+            "question": "The outer core is mostly liquid metal.",
+            "answer": "The outer core is mostly liquid metal."
+        },
+        {
+            "id": 7,
+            "topic": "general",
+            "question": "The inner core is extremely hot and solid.",
+            "answer": "The inner core is extremely hot and solid."
+        },
+        {
+            "id": 8,
+            "topic": "general",
+            "question": "Tectonic plates move slowly across Earth's surface.",
+            "answer": "Tectonic plates move slowly across Earth's surface."
+        },
+        {
+            "id": 9,
+            "topic": "general",
+            "question": "Plate movement can cause earthquakes and volcanoes.",
+            "answer": "Plate movement can cause earthquakes and volcanoes."
+        },
+        {
+            "id": 10,
+            "topic": "general",
+            "question": "Continents move over millions of years.",
+            "answer": "Continents move over millions of years."
+        },
+        {
+            "id": 11,
+            "topic": "general",
+            "question": "Pangaea was an ancient supercontinent.",
+            "answer": "Pangaea was an ancient supercontinent."
+        },
+        {
+            "id": 12,
+            "topic": "general",
+            "question": "The Pacific Ocean is the largest ocean.",
+            "answer": "The Pacific Ocean is the largest ocean."
+        },
+        {
+            "id": 13,
+            "topic": "general",
+            "question": "The Atlantic Ocean separates the Americas from Europe and Africa.",
+            "answer": "The Atlantic Ocean separates the Americas from Europe and Africa."
+        },
+        {
+            "id": 14,
+            "topic": "general",
+            "question": "The Indian Ocean is the third largest ocean.",
+            "answer": "The Indian Ocean is the third largest ocean."
+        },
+        {
+            "id": 15,
+            "topic": "general",
+            "question": "The Southern Ocean surrounds Antarctica.",
+            "answer": "The Southern Ocean surrounds Antarctica."
+        },
+        {
+            "id": 16,
+            "topic": "general",
+            "question": "The Arctic Ocean is the smallest ocean.",
+            "answer": "The Arctic Ocean is the smallest ocean."
+        },
+        {
+            "id": 17,
+            "topic": "general",
+            "question": "A peninsula is land surrounded by water on three sides.",
+            "answer": "A peninsula is land surrounded by water on three sides."
+        },
+        {
+            "id": 18,
+            "topic": "general",
+            "question": "An island is land surrounded by water.",
+            "answer": "An island is land surrounded by water."
+        },
+        {
+            "id": 19,
+            "topic": "general",
+            "question": "An archipelago is a group of islands.",
+            "answer": "An archipelago is a group of islands."
+        },
+        {
+            "id": 20,
+            "topic": "general",
+            "question": "A valley is low land between mountains.",
+            "answer": "A valley is low land between mountains."
+        },
+        {
+            "id": 21,
+            "topic": "general",
+            "question": "A plateau is a high flat area of land.",
+            "answer": "A plateau is a high flat area of land."
+        },
+        {
+            "id": 22,
+            "topic": "general",
+            "question": "A canyon is a deep valley with steep sides.",
+            "answer": "A canyon is a deep valley with steep sides."
+        },
+        {
+            "id": 23,
+            "topic": "general",
+            "question": "A glacier is a large moving mass of ice.",
+            "answer": "A glacier is a large moving mass of ice."
+        },
+        {
+            "id": 24,
+            "topic": "general",
+            "question": "Ice caps cover large polar regions.",
+            "answer": "Ice caps cover large polar regions."
+        },
+        {
+            "id": 25,
+            "topic": "general",
+            "question": "Permafrost is permanently frozen ground.",
+            "answer": "Permafrost is permanently frozen ground."
+        },
+        {
+            "id": 26,
+            "topic": "general",
+            "question": "The water cycle moves water around Earth.",
+            "answer": "The water cycle moves water around Earth."
+        },
+        {
+            "id": 27,
+            "topic": "general",
+            "question": "Evaporation changes liquid water into vapor.",
+            "answer": "Evaporation changes liquid water into vapor."
+        },
+        {
+            "id": 28,
+            "topic": "general",
+            "question": "Condensation forms clouds from water vapor.",
+            "answer": "Condensation forms clouds from water vapor."
+        },
+        {
+            "id": 29,
+            "topic": "general",
+            "question": "Precipitation returns water to Earth.",
+            "answer": "Precipitation returns water to Earth."
+        },
+        {
+            "id": 30,
+            "topic": "general",
+            "question": "Groundwater is water stored underground.",
+            "answer": "Groundwater is water stored underground."
+        },
+        {
+            "id": 31,
+            "topic": "general",
+            "question": "Aquifers contain underground water.",
+            "answer": "Aquifers contain underground water."
+        },
+        {
+            "id": 32,
+            "topic": "general",
+            "question": "Rivers usually flow toward oceans or lakes.",
+            "answer": "Rivers usually flow toward oceans or lakes."
+        },
+        {
+            "id": 33,
+            "topic": "general",
+            "question": "Watersheds collect water from surrounding land.",
+            "answer": "Watersheds collect water from surrounding land."
+        },
+        {
+            "id": 34,
+            "topic": "general",
+            "question": "Wetlands provide habitats for many species.",
+            "answer": "Wetlands provide habitats for many species."
+        },
+        {
+            "id": 35,
+            "topic": "general",
+            "question": "Mangrove forests protect coastal areas.",
+            "answer": "Mangrove forests protect coastal areas."
+        },
+        {
+            "id": 36,
+            "topic": "general",
+            "question": "Rainforests contain extremely high biodiversity.",
+            "answer": "Rainforests contain extremely high biodiversity."
+        },
+        {
+            "id": 37,
+            "topic": "general",
+            "question": "The Amazon rainforest is the largest tropical rainforest.",
+            "answer": "The Amazon rainforest is the largest tropical rainforest."
+        },
+        {
+            "id": 38,
+            "topic": "general",
+            "question": "The Sahara is the largest hot desert.",
+            "answer": "The Sahara is the largest hot desert."
+        },
+        {
+            "id": 39,
+            "topic": "general",
+            "question": "Deserts can be hot or cold.",
+            "answer": "Deserts can be hot or cold."
+        },
+        {
+            "id": 40,
+            "topic": "general",
+            "question": "Oases provide water in deserts.",
+            "answer": "Oases provide water in deserts."
+        },
+        {
+            "id": 41,
+            "topic": "general",
+            "question": "Savannas contain grasslands with scattered trees.",
+            "answer": "Savannas contain grasslands with scattered trees."
+        },
+        {
+            "id": 42,
+            "topic": "general",
+            "question": "Tundra regions have cold climates and limited vegetation.",
+            "answer": "Tundra regions have cold climates and limited vegetation."
+        },
+        {
+            "id": 43,
+            "topic": "general",
+            "question": "Biomes are large ecological regions.",
+            "answer": "Biomes are large ecological regions."
+        },
+        {
+            "id": 44,
+            "topic": "general",
+            "question": "A habitat is the natural home of an organism.",
+            "answer": "A habitat is the natural home of an organism."
+        },
+        {
+            "id": 45,
+            "topic": "general",
+            "question": "A species is a group of similar organisms.",
+            "answer": "A species is a group of similar organisms."
+        },
+        {
+            "id": 46,
+            "topic": "general",
+            "question": "An ecosystem includes organisms and their environment.",
+            "answer": "An ecosystem includes organisms and their environment."
+        },
+        {
+            "id": 47,
+            "topic": "general",
+            "question": "Natural resources come from Earth.",
+            "answer": "Natural resources come from Earth."
+        },
+        {
+            "id": 48,
+            "topic": "general",
+            "question": "Minerals are naturally occurring substances.",
+            "answer": "Minerals are naturally occurring substances."
+        },
+        {
+            "id": 49,
+            "topic": "general",
+            "question": "Fossil fuels include coal, oil, and natural gas.",
+            "answer": "Fossil fuels include coal, oil, and natural gas."
+        },
+        {
+            "id": 50,
+            "topic": "general",
+            "question": "Coal formed from ancient plant material.",
+            "answer": "Coal formed from ancient plant material."
+        },
+        {
+            "id": 51,
+            "topic": "general",
+            "question": "Oil formed from ancient organic remains.",
+            "answer": "Oil formed from ancient organic remains."
+        },
+        {
+            "id": 52,
+            "topic": "general",
+            "question": "Natural gas is mainly methane.",
+            "answer": "Natural gas is mainly methane."
+        },
+        {
+            "id": 53,
+            "topic": "general",
+            "question": "Renewable resources can be naturally replaced.",
+            "answer": "Renewable resources can be naturally replaced."
+        },
+        {
+            "id": 54,
+            "topic": "general",
+            "question": "Forests help regulate Earth's climate.",
+            "answer": "Forests help regulate Earth's climate."
+        },
+        {
+            "id": 55,
+            "topic": "general",
+            "question": "Trees absorb carbon dioxide.",
+            "answer": "Trees absorb carbon dioxide."
+        },
+        {
+            "id": 56,
+            "topic": "general",
+            "question": "Oxygen is released during photosynthesis.",
+            "answer": "Oxygen is released during photosynthesis."
+        },
+        {
+            "id": 57,
+            "topic": "general",
+            "question": "Deforestation removes forests.",
+            "answer": "Deforestation removes forests."
+        },
+        {
+            "id": 58,
+            "topic": "general",
+            "question": "Desertification turns land into desert-like conditions.",
+            "answer": "Desertification turns land into desert-like conditions."
+        },
+        {
+            "id": 59,
+            "topic": "general",
+            "question": "Climate change affects global temperatures.",
+            "answer": "Climate change affects global temperatures."
+        },
+        {
+            "id": 60,
+            "topic": "general",
+            "question": "Greenhouse gases trap heat in Earth's atmosphere.",
+            "answer": "Greenhouse gases trap heat in Earth's atmosphere."
+        },
+        {
+            "id": 61,
+            "topic": "general",
+            "question": "Carbon dioxide is a greenhouse gas.",
+            "answer": "Carbon dioxide is a greenhouse gas."
+        },
+        {
+            "id": 62,
+            "topic": "general",
+            "question": "Methane is a powerful greenhouse gas.",
+            "answer": "Methane is a powerful greenhouse gas."
+        },
+        {
+            "id": 63,
+            "topic": "general",
+            "question": "The ozone layer protects Earth from harmful radiation.",
+            "answer": "The ozone layer protects Earth from harmful radiation."
+        },
+        {
+            "id": 64,
+            "topic": "general",
+            "question": "The atmosphere has multiple layers.",
+            "answer": "The atmosphere has multiple layers."
+        },
+        {
+            "id": 65,
+            "topic": "general",
+            "question": "The troposphere contains most weather.",
+            "answer": "The troposphere contains most weather."
+        },
+        {
+            "id": 66,
+            "topic": "general",
+            "question": "The stratosphere contains the ozone layer.",
+            "answer": "The stratosphere contains the ozone layer."
+        },
+        {
+            "id": 67,
+            "topic": "general",
+            "question": "The mesosphere burns many meteors.",
+            "answer": "The mesosphere burns many meteors."
+        },
+        {
+            "id": 68,
+            "topic": "general",
+            "question": "The thermosphere contains many satellites.",
+            "answer": "The thermosphere contains many satellites."
+        },
+        {
+            "id": 69,
+            "topic": "general",
+            "question": "The exosphere is the outermost atmospheric layer.",
+            "answer": "The exosphere is the outermost atmospheric layer."
+        },
+        {
+            "id": 70,
+            "topic": "general",
+            "question": "Air pressure decreases with altitude.",
+            "answer": "Air pressure decreases with altitude."
+        },
+        {
+            "id": 71,
+            "topic": "general",
+            "question": "Temperature changes with altitude.",
+            "answer": "Temperature changes with altitude."
+        },
+        {
+            "id": 72,
+            "topic": "general",
+            "question": "Weather describes short-term atmospheric conditions.",
+            "answer": "Weather describes short-term atmospheric conditions."
+        },
+        {
+            "id": 73,
+            "topic": "general",
+            "question": "Climate describes long-term weather patterns.",
+            "answer": "Climate describes long-term weather patterns."
+        },
+        {
+            "id": 74,
+            "topic": "general",
+            "question": "Meteorology studies weather.",
+            "answer": "Meteorology studies weather."
+        },
+        {
+            "id": 75,
+            "topic": "general",
+            "question": "Climatology studies climate.",
+            "answer": "Climatology studies climate."
+        },
+        {
+            "id": 76,
+            "topic": "general",
+            "question": "A thermometer measures temperature.",
+            "answer": "A thermometer measures temperature."
+        },
+        {
+            "id": 77,
+            "topic": "general",
+            "question": "A barometer measures air pressure.",
+            "answer": "A barometer measures air pressure."
+        },
+        {
+            "id": 78,
+            "topic": "general",
+            "question": "A rain gauge measures rainfall.",
+            "answer": "A rain gauge measures rainfall."
+        },
+        {
+            "id": 79,
+            "topic": "general",
+            "question": "An anemometer measures wind speed.",
+            "answer": "An anemometer measures wind speed."
+        },
+        {
+            "id": 80,
+            "topic": "general",
+            "question": "A weather radar detects precipitation.",
+            "answer": "A weather radar detects precipitation."
+        },
+        {
+            "id": 81,
+            "topic": "general",
+            "question": "Satellites help monitor Earth's weather.",
+            "answer": "Satellites help monitor Earth's weather."
+        },
+        {
+            "id": 82,
+            "topic": "general",
+            "question": "Seasons occur because Earth is tilted on its axis.",
+            "answer": "Seasons occur because Earth is tilted on its axis."
+        },
+        {
+            "id": 83,
+            "topic": "general",
+            "question": "Earth takes about 365 days to orbit the Sun.",
+            "answer": "Earth takes about 365 days to orbit the Sun."
+        },
+        {
+            "id": 84,
+            "topic": "general",
+            "question": "Earth takes about 24 hours to rotate once.",
+            "answer": "Earth takes about 24 hours to rotate once."
+        },
+        {
+            "id": 85,
+            "topic": "general",
+            "question": "The Northern and Southern Hemispheres have opposite seasons.",
+            "answer": "The Northern and Southern Hemispheres have opposite seasons."
+        },
+        {
+            "id": 86,
+            "topic": "general",
+            "question": "A solstice marks the longest or shortest day of the year.",
+            "answer": "A solstice marks the longest or shortest day of the year."
+        },
+        {
+            "id": 87,
+            "topic": "general",
+            "question": "An equinox occurs when day and night are nearly equal.",
+            "answer": "An equinox occurs when day and night are nearly equal."
+        },
+        {
+            "id": 88,
+            "topic": "general",
+            "question": "The North Pole is located in the Arctic.",
+            "answer": "The North Pole is located in the Arctic."
+        },
+        {
+            "id": 89,
+            "topic": "general",
+            "question": "The South Pole is located in Antarctica.",
+            "answer": "The South Pole is located in Antarctica."
+        },
+        {
+            "id": 90,
+            "topic": "general",
+            "question": "Mount Everest is the highest mountain above sea level.",
+            "answer": "Mount Everest is the highest mountain above sea level."
+        },
+        {
+            "id": 91,
+            "topic": "general",
+            "question": "The Mariana Trench is the deepest known ocean trench.",
+            "answer": "The Mariana Trench is the deepest known ocean trench."
+        },
+        {
+            "id": 92,
+            "topic": "general",
+            "question": "The Dead Sea is one of the lowest land areas on Earth.",
+            "answer": "The Dead Sea is one of the lowest land areas on Earth."
+        },
+        {
+            "id": 93,
+            "topic": "general",
+            "question": "Rocks are made of minerals.",
+            "answer": "Rocks are made of minerals."
+        },
+        {
+            "id": 94,
+            "topic": "general",
+            "question": "Igneous rocks form from cooled magma.",
+            "answer": "Igneous rocks form from cooled magma."
+        },
+        {
+            "id": 95,
+            "topic": "general",
+            "question": "Sedimentary rocks form from deposited materials.",
+            "answer": "Sedimentary rocks form from deposited materials."
+        },
+        {
+            "id": 96,
+            "topic": "general",
+            "question": "Metamorphic rocks form from changed rocks.",
+            "answer": "Metamorphic rocks form from changed rocks."
+        },
+        {
+            "id": 97,
+            "topic": "general",
+            "question": "The rock cycle describes how rocks change.",
+            "answer": "The rock cycle describes how rocks change."
+        },
+        {
+            "id": 98,
+            "topic": "general",
+            "question": "Fossils preserve evidence of ancient life.",
+            "answer": "Fossils preserve evidence of ancient life."
+        },
+        {
+            "id": 99,
+            "topic": "general",
+            "question": "Geology studies Earth's structure and history.",
+            "answer": "Geology studies Earth's structure and history."
+        },
+        {
+            "id": 100,
+            "topic": "general",
+            "question": "Earth science studies processes affecting Earth.",
+            "answer": "Earth science studies processes affecting Earth."
+        },
+        {
+            "id": 101,
+            "topic": "general",
+            "question": "Matter exists as solids, liquids, gases, and plasma.",
+            "answer": "Matter exists as solids, liquids, gases, and plasma."
+        },
+        {
+            "id": 102,
+            "topic": "general",
+            "question": "Plasma is a state of matter with charged particles.",
+            "answer": "Plasma is a state of matter with charged particles."
+        },
+        {
+            "id": 103,
+            "topic": "general",
+            "question": "Mass measures the amount of matter in an object.",
+            "answer": "Mass measures the amount of matter in an object."
+        },
+        {
+            "id": 104,
+            "topic": "general",
+            "question": "Volume measures the space occupied by matter.",
+            "answer": "Volume measures the space occupied by matter."
+        },
+        {
+            "id": 105,
+            "topic": "general",
+            "question": "Density is mass divided by volume.",
+            "answer": "Density is mass divided by volume."
+        },
+        {
+            "id": 106,
+            "topic": "general",
+            "question": "Atoms contain protons, neutrons, and electrons.",
+            "answer": "Atoms contain protons, neutrons, and electrons."
+        },
+        {
+            "id": 107,
+            "topic": "general",
+            "question": "Protons have positive electric charge.",
+            "answer": "Protons have positive electric charge."
+        },
+        {
+            "id": 108,
+            "topic": "general",
+            "question": "Electrons have negative electric charge.",
+            "answer": "Electrons have negative electric charge."
+        },
+        {
+            "id": 109,
+            "topic": "general",
+            "question": "Neutrons have no electric charge.",
+            "answer": "Neutrons have no electric charge."
+        },
+        {
+            "id": 110,
+            "topic": "general",
+            "question": "The nucleus is the center of an atom.",
+            "answer": "The nucleus is the center of an atom."
+        },
+        {
+            "id": 111,
+            "topic": "general",
+            "question": "Atomic number represents the number of protons.",
+            "answer": "Atomic number represents the number of protons."
+        },
+        {
+            "id": 112,
+            "topic": "general",
+            "question": "Isotopes have different numbers of neutrons.",
+            "answer": "Isotopes have different numbers of neutrons."
+        },
+        {
+            "id": 113,
+            "topic": "general",
+            "question": "Ions are atoms with electrical charges.",
+            "answer": "Ions are atoms with electrical charges."
+        },
+        {
+            "id": 114,
+            "topic": "general",
+            "question": "Chemical reactions rearrange atoms.",
+            "answer": "Chemical reactions rearrange atoms."
+        },
+        {
+            "id": 115,
+            "topic": "general",
+            "question": "Reactants are substances that undergo reactions.",
+            "answer": "Reactants are substances that undergo reactions."
+        },
+        {
+            "id": 116,
+            "topic": "general",
+            "question": "Products are substances created by reactions.",
+            "answer": "Products are substances created by reactions."
+        },
+        {
+            "id": 117,
+            "topic": "general",
+            "question": "Chemical bonds hold atoms together.",
+            "answer": "Chemical bonds hold atoms together."
+        },
+        {
+            "id": 118,
+            "topic": "general",
+            "question": "Covalent bonds involve shared electrons.",
+            "answer": "Covalent bonds involve shared electrons."
+        },
+        {
+            "id": 119,
+            "topic": "general",
+            "question": "Ionic bonds involve transferred electrons.",
+            "answer": "Ionic bonds involve transferred electrons."
+        },
+        {
+            "id": 120,
+            "topic": "general",
+            "question": "Metals usually conduct heat and electricity.",
+            "answer": "Metals usually conduct heat and electricity."
+        },
+        {
+            "id": 121,
+            "topic": "general",
+            "question": "Copper is a good electrical conductor.",
+            "answer": "Copper is a good electrical conductor."
+        },
+        {
+            "id": 122,
+            "topic": "general",
+            "question": "Aluminum is lightweight and conductive.",
+            "answer": "Aluminum is lightweight and conductive."
+        },
+        {
+            "id": 123,
+            "topic": "general",
+            "question": "Gold is a metal resistant to corrosion.",
+            "answer": "Gold is a metal resistant to corrosion."
+        },
+        {
+            "id": 124,
+            "topic": "general",
+            "question": "Iron is used to make steel.",
+            "answer": "Iron is used to make steel."
+        },
+        {
+            "id": 125,
+            "topic": "general",
+            "question": "Steel is an alloy of iron and carbon.",
+            "answer": "Steel is an alloy of iron and carbon."
+        },
+        {
+            "id": 126,
+            "topic": "general",
+            "question": "Rust forms when iron reacts with oxygen and water.",
+            "answer": "Rust forms when iron reacts with oxygen and water."
+        },
+        {
+            "id": 127,
+            "topic": "general",
+            "question": "Acids have a pH below 7.",
+            "answer": "Acids have a pH below 7."
+        },
+        {
+            "id": 128,
+            "topic": "general",
+            "question": "Bases have a pH above 7.",
+            "answer": "Bases have a pH above 7."
+        },
+        {
+            "id": 129,
+            "topic": "general",
+            "question": "A pH of 7 is neutral.",
+            "answer": "A pH of 7 is neutral."
+        },
+        {
+            "id": 130,
+            "topic": "general",
+            "question": "Water is a compound made of hydrogen and oxygen.",
+            "answer": "Water is a compound made of hydrogen and oxygen."
+        },
+        {
+            "id": 131,
+            "topic": "general",
+            "question": "Water is essential for life.",
+            "answer": "Water is essential for life."
+        },
+        {
+            "id": 132,
+            "topic": "general",
+            "question": "Ice is the solid form of water.",
+            "answer": "Ice is the solid form of water."
+        },
+        {
+            "id": 133,
+            "topic": "general",
+            "question": "Steam is water in gas form.",
+            "answer": "Steam is water in gas form."
+        },
+        {
+            "id": 134,
+            "topic": "general",
+            "question": "Boiling changes liquid into gas.",
+            "answer": "Boiling changes liquid into gas."
+        },
+        {
+            "id": 135,
+            "topic": "general",
+            "question": "Melting changes solid into liquid.",
+            "answer": "Melting changes solid into liquid."
+        },
+        {
+            "id": 136,
+            "topic": "general",
+            "question": "Freezing changes liquid into solid.",
+            "answer": "Freezing changes liquid into solid."
+        },
+        {
+            "id": 137,
+            "topic": "general",
+            "question": "Sublimation changes solid directly into gas.",
+            "answer": "Sublimation changes solid directly into gas."
+        },
+        {
+            "id": 138,
+            "topic": "general",
+            "question": "Energy cannot be created or destroyed.",
+            "answer": "Energy cannot be created or destroyed."
+        },
+        {
+            "id": 139,
+            "topic": "general",
+            "question": "Energy can change from one form to another.",
+            "answer": "Energy can change from one form to another."
+        },
+        {
+            "id": 140,
+            "topic": "general",
+            "question": "Heat is the transfer of thermal energy.",
+            "answer": "Heat is the transfer of thermal energy."
+        },
+        {
+            "id": 141,
+            "topic": "general",
+            "question": "Temperature measures average particle movement.",
+            "answer": "Temperature measures average particle movement."
+        },
+        {
+            "id": 142,
+            "topic": "general",
+            "question": "Conduction transfers heat through direct contact.",
+            "answer": "Conduction transfers heat through direct contact."
+        },
+        {
+            "id": 143,
+            "topic": "general",
+            "question": "Convection transfers heat through moving fluids.",
+            "answer": "Convection transfers heat through moving fluids."
+        },
+        {
+            "id": 144,
+            "topic": "general",
+            "question": "Radiation transfers energy through electromagnetic waves.",
+            "answer": "Radiation transfers energy through electromagnetic waves."
+        },
+        {
+            "id": 145,
+            "topic": "general",
+            "question": "Mechanical energy involves motion and position.",
+            "answer": "Mechanical energy involves motion and position."
+        },
+        {
+            "id": 146,
+            "topic": "general",
+            "question": "Chemical energy is stored in chemical bonds.",
+            "answer": "Chemical energy is stored in chemical bonds."
+        },
+        {
+            "id": 147,
+            "topic": "general",
+            "question": "Electrical energy comes from moving charges.",
+            "answer": "Electrical energy comes from moving charges."
+        },
+        {
+            "id": 148,
+            "topic": "general",
+            "question": "Nuclear energy comes from atomic reactions.",
+            "answer": "Nuclear energy comes from atomic reactions."
+        },
+        {
+            "id": 149,
+            "topic": "general",
+            "question": "Gravity is a force between masses.",
+            "answer": "Gravity is a force between masses."
+        },
+        {
+            "id": 150,
+            "topic": "general",
+            "question": "Friction opposes motion.",
+            "answer": "Friction opposes motion."
+        },
+        {
+            "id": 151,
+            "topic": "general",
+            "question": "Force can change an object's movement.",
+            "answer": "Force can change an object's movement."
+        },
+        {
+            "id": 152,
+            "topic": "general",
+            "question": "Acceleration is a change in velocity.",
+            "answer": "Acceleration is a change in velocity."
+        },
+        {
+            "id": 153,
+            "topic": "general",
+            "question": "Velocity includes speed and direction.",
+            "answer": "Velocity includes speed and direction."
+        },
+        {
+            "id": 154,
+            "topic": "general",
+            "question": "Speed measures distance traveled over time.",
+            "answer": "Speed measures distance traveled over time."
+        },
+        {
+            "id": 155,
+            "topic": "general",
+            "question": "Newton described laws of motion.",
+            "answer": "Newton described laws of motion."
+        },
+        {
+            "id": 156,
+            "topic": "general",
+            "question": "Newton's first law is the law of inertia.",
+            "answer": "Newton's first law is the law of inertia."
+        },
+        {
+            "id": 157,
+            "topic": "general",
+            "question": "Newton's second law relates force, mass, and acceleration.",
+            "answer": "Newton's second law relates force, mass, and acceleration."
+        },
+        {
+            "id": 158,
+            "topic": "general",
+            "question": "Newton's third law describes action and reaction.",
+            "answer": "Newton's third law describes action and reaction."
+        },
+        {
+            "id": 159,
+            "topic": "general",
+            "question": "Momentum depends on mass and velocity.",
+            "answer": "Momentum depends on mass and velocity."
+        },
+        {
+            "id": 160,
+            "topic": "general",
+            "question": "Work is done when force moves an object.",
+            "answer": "Work is done when force moves an object."
+        },
+        {
+            "id": 161,
+            "topic": "general",
+            "question": "Power measures how quickly work is done.",
+            "answer": "Power measures how quickly work is done."
+        },
+        {
+            "id": 162,
+            "topic": "general",
+            "question": "Simple machines make work easier.",
+            "answer": "Simple machines make work easier."
+        },
+        {
+            "id": 163,
+            "topic": "general",
+            "question": "Levers use a pivot point.",
+            "answer": "Levers use a pivot point."
+        },
+        {
+            "id": 164,
+            "topic": "general",
+            "question": "Pulleys use wheels and ropes.",
+            "answer": "Pulleys use wheels and ropes."
+        },
+        {
+            "id": 165,
+            "topic": "general",
+            "question": "Inclined planes reduce required force.",
+            "answer": "Inclined planes reduce required force."
+        },
+        {
+            "id": 166,
+            "topic": "general",
+            "question": "Wheels and axles help movement.",
+            "answer": "Wheels and axles help movement."
+        },
+        {
+            "id": 167,
+            "topic": "general",
+            "question": "Screws are inclined planes wrapped around a cylinder.",
+            "answer": "Screws are inclined planes wrapped around a cylinder."
+        },
+        {
+            "id": 168,
+            "topic": "general",
+            "question": "Sound is produced by vibrations.",
+            "answer": "Sound is produced by vibrations."
+        },
+        {
+            "id": 169,
+            "topic": "general",
+            "question": "Sound requires a medium to travel.",
+            "answer": "Sound requires a medium to travel."
+        },
+        {
+            "id": 170,
+            "topic": "general",
+            "question": "Sound cannot travel through a vacuum.",
+            "answer": "Sound cannot travel through a vacuum."
+        },
+        {
+            "id": 171,
+            "topic": "general",
+            "question": "Frequency determines sound pitch.",
+            "answer": "Frequency determines sound pitch."
+        },
+        {
+            "id": 172,
+            "topic": "general",
+            "question": "Amplitude affects sound volume.",
+            "answer": "Amplitude affects sound volume."
+        },
+        {
+            "id": 173,
+            "topic": "general",
+            "question": "Ultrasound uses very high frequency sound waves.",
+            "answer": "Ultrasound uses very high frequency sound waves."
+        },
+        {
+            "id": 174,
+            "topic": "general",
+            "question": "Light is a form of electromagnetic energy.",
+            "answer": "Light is a form of electromagnetic energy."
+        },
+        {
+            "id": 175,
+            "topic": "general",
+            "question": "Visible light is a small part of the electromagnetic spectrum.",
+            "answer": "Visible light is a small part of the electromagnetic spectrum."
+        },
+        {
+            "id": 176,
+            "topic": "general",
+            "question": "Radio waves have long wavelengths.",
+            "answer": "Radio waves have long wavelengths."
+        },
+        {
+            "id": 177,
+            "topic": "general",
+            "question": "Microwaves are used in communication and heating.",
+            "answer": "Microwaves are used in communication and heating."
+        },
+        {
+            "id": 178,
+            "topic": "general",
+            "question": "Infrared radiation is associated with heat.",
+            "answer": "Infrared radiation is associated with heat."
+        },
+        {
+            "id": 179,
+            "topic": "general",
+            "question": "Ultraviolet radiation comes from the Sun.",
+            "answer": "Ultraviolet radiation comes from the Sun."
+        },
+        {
+            "id": 180,
+            "topic": "general",
+            "question": "X-rays can pass through soft tissues.",
+            "answer": "X-rays can pass through soft tissues."
+        },
+        {
+            "id": 181,
+            "topic": "general",
+            "question": "Gamma rays have very high energy.",
+            "answer": "Gamma rays have very high energy."
+        },
+        {
+            "id": 182,
+            "topic": "general",
+            "question": "Electric fields surround charged objects.",
+            "answer": "Electric fields surround charged objects."
+        },
+        {
+            "id": 183,
+            "topic": "general",
+            "question": "Magnetic fields surround magnets.",
+            "answer": "Magnetic fields surround magnets."
+        },
+        {
+            "id": 184,
+            "topic": "general",
+            "question": "Electromagnets use electricity to create magnetism.",
+            "answer": "Electromagnets use electricity to create magnetism."
+        },
+        {
+            "id": 185,
+            "topic": "general",
+            "question": "Generators convert mechanical energy into electrical energy.",
+            "answer": "Generators convert mechanical energy into electrical energy."
+        },
+        {
+            "id": 186,
+            "topic": "general",
+            "question": "Motors convert electrical energy into motion.",
+            "answer": "Motors convert electrical energy into motion."
+        },
+        {
+            "id": 187,
+            "topic": "general",
+            "question": "Transformers change electrical voltage.",
+            "answer": "Transformers change electrical voltage."
+        },
+        {
+            "id": 188,
+            "topic": "general",
+            "question": "Batteries store chemical energy.",
+            "answer": "Batteries store chemical energy."
+        },
+        {
+            "id": 189,
+            "topic": "general",
+            "question": "Solar cells convert sunlight into electricity.",
+            "answer": "Solar cells convert sunlight into electricity."
+        },
+        {
+            "id": 190,
+            "topic": "general",
+            "question": "Photosynthesis converts light energy into chemical energy.",
+            "answer": "Photosynthesis converts light energy into chemical energy."
+        },
+        {
+            "id": 191,
+            "topic": "general",
+            "question": "Respiration releases energy from food.",
+            "answer": "Respiration releases energy from food."
+        },
+        {
+            "id": 192,
+            "topic": "general",
+            "question": "Plants need sunlight, water, and carbon dioxide.",
+            "answer": "Plants need sunlight, water, and carbon dioxide."
+        },
+        {
+            "id": 193,
+            "topic": "general",
+            "question": "Animals need oxygen and nutrients.",
+            "answer": "Animals need oxygen and nutrients."
+        },
+        {
+            "id": 194,
+            "topic": "general",
+            "question": "Cells are the basic units of living things.",
+            "answer": "Cells are the basic units of living things."
+        },
+        {
+            "id": 195,
+            "topic": "general",
+            "question": "Cell membranes control what enters and leaves cells.",
+            "answer": "Cell membranes control what enters and leaves cells."
+        },
+        {
+            "id": 196,
+            "topic": "general",
+            "question": "The nucleus contains genetic information.",
+            "answer": "The nucleus contains genetic information."
+        },
+        {
+            "id": 197,
+            "topic": "general",
+            "question": "Cytoplasm fills the inside of cells.",
+            "answer": "Cytoplasm fills the inside of cells."
+        },
+        {
+            "id": 198,
+            "topic": "general",
+            "question": "Mitochondria produce cellular energy.",
+            "answer": "Mitochondria produce cellular energy."
+        },
+        {
+            "id": 199,
+            "topic": "general",
+            "question": "Ribosomes build proteins.",
+            "answer": "Ribosomes build proteins."
+        },
+        {
+            "id": 200,
+            "topic": "general",
+            "question": "Plant cells have cell walls.",
+            "answer": "Plant cells have cell walls."
+        },
+        {
+            "id": 201,
+            "topic": "general",
+            "question": "Plant cells contain chloroplasts.",
+            "answer": "Plant cells contain chloroplasts."
+        },
+        {
+            "id": 202,
+            "topic": "general",
+            "question": "Animal cells do not have chloroplasts.",
+            "answer": "Animal cells do not have chloroplasts."
+        },
+        {
+            "id": 203,
+            "topic": "general",
+            "question": "DNA contains instructions for life.",
+            "answer": "DNA contains instructions for life."
+        },
+        {
+            "id": 204,
+            "topic": "general",
+            "question": "Genes are sections of DNA.",
+            "answer": "Genes are sections of DNA."
+        },
+        {
+            "id": 205,
+            "topic": "general",
+            "question": "Chromosomes carry genes.",
+            "answer": "Chromosomes carry genes."
+        },
+        {
+            "id": 206,
+            "topic": "general",
+            "question": "Genetics studies inherited traits.",
+            "answer": "Genetics studies inherited traits."
+        },
+        {
+            "id": 207,
+            "topic": "general",
+            "question": "Mutations are changes in DNA.",
+            "answer": "Mutations are changes in DNA."
+        },
+        {
+            "id": 208,
+            "topic": "general",
+            "question": "Some mutations can create variation.",
+            "answer": "Some mutations can create variation."
+        },
+        {
+            "id": 209,
+            "topic": "general",
+            "question": "Evolution occurs over many generations.",
+            "answer": "Evolution occurs over many generations."
+        },
+        {
+            "id": 210,
+            "topic": "general",
+            "question": "Natural selection favors helpful adaptations.",
+            "answer": "Natural selection favors helpful adaptations."
+        },
+        {
+            "id": 211,
+            "topic": "general",
+            "question": "Organisms compete for resources.",
+            "answer": "Organisms compete for resources."
+        },
+        {
+            "id": 212,
+            "topic": "general",
+            "question": "Populations contain members of the same species.",
+            "answer": "Populations contain members of the same species."
+        },
+        {
+            "id": 213,
+            "topic": "general",
+            "question": "Communities contain multiple species.",
+            "answer": "Communities contain multiple species."
+        },
+        {
+            "id": 214,
+            "topic": "general",
+            "question": "Ecology studies relationships between organisms.",
+            "answer": "Ecology studies relationships between organisms."
+        },
+        {
+            "id": 215,
+            "topic": "general",
+            "question": "Food webs show connected food chains.",
+            "answer": "Food webs show connected food chains."
+        },
+        {
+            "id": 216,
+            "topic": "general",
+            "question": "Producers make their own food.",
+            "answer": "Producers make their own food."
+        },
+        {
+            "id": 217,
+            "topic": "general",
+            "question": "Consumers obtain energy by eating organisms.",
+            "answer": "Consumers obtain energy by eating organisms."
+        },
+        {
+            "id": 218,
+            "topic": "general",
+            "question": "Decomposers break down dead material.",
+            "answer": "Decomposers break down dead material."
+        },
+        {
+            "id": 219,
+            "topic": "general",
+            "question": "Bacteria can be useful in ecosystems.",
+            "answer": "Bacteria can be useful in ecosystems."
+        },
+        {
+            "id": 220,
+            "topic": "general",
+            "question": "Some bacteria cause diseases.",
+            "answer": "Some bacteria cause diseases."
+        },
+        {
+            "id": 221,
+            "topic": "general",
+            "question": "Viruses need host cells to reproduce.",
+            "answer": "Viruses need host cells to reproduce."
+        },
+        {
+            "id": 222,
+            "topic": "general",
+            "question": "Vaccines help the immune system recognize pathogens.",
+            "answer": "Vaccines help the immune system recognize pathogens."
+        },
+        {
+            "id": 223,
+            "topic": "general",
+            "question": "The universe contains all space, matter, and energy.",
+            "answer": "The universe contains all space, matter, and energy."
+        },
+        {
+            "id": 224,
+            "topic": "general",
+            "question": "The Big Bang theory explains the early expansion of the universe.",
+            "answer": "The Big Bang theory explains the early expansion of the universe."
+        },
+        {
+            "id": 225,
+            "topic": "general",
+            "question": "The universe is approximately 13.8 billion years old.",
+            "answer": "The universe is approximately 13.8 billion years old."
+        },
+        {
+            "id": 226,
+            "topic": "general",
+            "question": "The observable universe contains billions of galaxies.",
+            "answer": "The observable universe contains billions of galaxies."
+        },
+        {
+            "id": 227,
+            "topic": "general",
+            "question": "A galaxy is a large collection of stars, gas, and dust.",
+            "answer": "A galaxy is a large collection of stars, gas, and dust."
+        },
+        {
+            "id": 228,
+            "topic": "general",
+            "question": "The Milky Way is the galaxy containing our Solar System.",
+            "answer": "The Milky Way is the galaxy containing our Solar System."
+        },
+        {
+            "id": 229,
+            "topic": "general",
+            "question": "The Solar System is located in the Orion Arm of the Milky Way.",
+            "answer": "The Solar System is located in the Orion Arm of the Milky Way."
+        },
+        {
+            "id": 230,
+            "topic": "general",
+            "question": "Stars form inside clouds of gas and dust called nebulae.",
+            "answer": "Stars form inside clouds of gas and dust called nebulae."
+        },
+        {
+            "id": 231,
+            "topic": "general",
+            "question": "Gravity causes clouds of gas to collapse and form stars.",
+            "answer": "Gravity causes clouds of gas to collapse and form stars."
+        },
+        {
+            "id": 232,
+            "topic": "general",
+            "question": "The Sun is a medium-sized star called a yellow dwarf.",
+            "answer": "The Sun is a medium-sized star called a yellow dwarf."
+        },
+        {
+            "id": 233,
+            "topic": "general",
+            "question": "The Sun produces energy through nuclear fusion.",
+            "answer": "The Sun produces energy through nuclear fusion."
+        },
+        {
+            "id": 234,
+            "topic": "general",
+            "question": "Nuclear fusion combines hydrogen atoms into helium.",
+            "answer": "Nuclear fusion combines hydrogen atoms into helium."
+        },
+        {
+            "id": 235,
+            "topic": "general",
+            "question": "The Sun provides light and heat for Earth.",
+            "answer": "The Sun provides light and heat for Earth."
+        },
+        {
+            "id": 236,
+            "topic": "general",
+            "question": "The Sun contains most of the mass in the Solar System.",
+            "answer": "The Sun contains most of the mass in the Solar System."
+        },
+        {
+            "id": 237,
+            "topic": "general",
+            "question": "Mercury is the smallest planet in the Solar System.",
+            "answer": "Mercury is the smallest planet in the Solar System."
+        },
+        {
+            "id": 238,
+            "topic": "general",
+            "question": "Mercury has a very thin atmosphere.",
+            "answer": "Mercury has a very thin atmosphere."
+        },
+        {
+            "id": 239,
+            "topic": "general",
+            "question": "Venus has a thick carbon dioxide atmosphere.",
+            "answer": "Venus has a thick carbon dioxide atmosphere."
+        },
+        {
+            "id": 240,
+            "topic": "general",
+            "question": "Venus has the hottest surface temperature of all planets.",
+            "answer": "Venus has the hottest surface temperature of all planets."
+        },
+        {
+            "id": 241,
+            "topic": "general",
+            "question": "Earth has liquid water on its surface.",
+            "answer": "Earth has liquid water on its surface."
+        },
+        {
+            "id": 242,
+            "topic": "general",
+            "question": "Mars has the largest volcano in the Solar System.",
+            "answer": "Mars has the largest volcano in the Solar System."
+        },
+        {
+            "id": 243,
+            "topic": "general",
+            "question": "Olympus Mons is a giant volcano on Mars.",
+            "answer": "Olympus Mons is a giant volcano on Mars."
+        },
+        {
+            "id": 244,
+            "topic": "general",
+            "question": "Jupiter is a gas giant planet.",
+            "answer": "Jupiter is a gas giant planet."
+        },
+        {
+            "id": 245,
+            "topic": "general",
+            "question": "Jupiter has a large storm called the Great Red Spot.",
+            "answer": "Jupiter has a large storm called the Great Red Spot."
+        },
+        {
+            "id": 246,
+            "topic": "general",
+            "question": "Saturn is famous for its ring system.",
+            "answer": "Saturn is famous for its ring system."
+        },
+        {
+            "id": 247,
+            "topic": "general",
+            "question": "Saturn's rings are made of ice and rock particles.",
+            "answer": "Saturn's rings are made of ice and rock particles."
+        },
+        {
+            "id": 248,
+            "topic": "general",
+            "question": "Uranus rotates on its side.",
+            "answer": "Uranus rotates on its side."
+        },
+        {
+            "id": 249,
+            "topic": "general",
+            "question": "Neptune has the strongest winds in the Solar System.",
+            "answer": "Neptune has the strongest winds in the Solar System."
+        },
+        {
+            "id": 250,
+            "topic": "general",
+            "question": "Dwarf planets are smaller planetary bodies.",
+            "answer": "Dwarf planets are smaller planetary bodies."
+        },
+        {
+            "id": 251,
+            "topic": "general",
+            "question": "Pluto is classified as a dwarf planet.",
+            "answer": "Pluto is classified as a dwarf planet."
+        },
+        {
+            "id": 252,
+            "topic": "general",
+            "question": "Asteroids are rocky objects orbiting the Sun.",
+            "answer": "Asteroids are rocky objects orbiting the Sun."
+        },
+        {
+            "id": 253,
+            "topic": "general",
+            "question": "The asteroid belt exists between Mars and Jupiter.",
+            "answer": "The asteroid belt exists between Mars and Jupiter."
+        },
+        {
+            "id": 254,
+            "topic": "general",
+            "question": "Comets contain ice, dust, and rock.",
+            "answer": "Comets contain ice, dust, and rock."
+        },
+        {
+            "id": 255,
+            "topic": "general",
+            "question": "A comet develops a tail near the Sun.",
+            "answer": "A comet develops a tail near the Sun."
+        },
+        {
+            "id": 256,
+            "topic": "general",
+            "question": "Meteoroids are small objects traveling through space.",
+            "answer": "Meteoroids are small objects traveling through space."
+        },
+        {
+            "id": 257,
+            "topic": "general",
+            "question": "Meteors are meteoroids burning in an atmosphere.",
+            "answer": "Meteors are meteoroids burning in an atmosphere."
+        },
+        {
+            "id": 258,
+            "topic": "general",
+            "question": "Meteorites are meteors that reach the ground.",
+            "answer": "Meteorites are meteors that reach the ground."
+        },
+        {
+            "id": 259,
+            "topic": "general",
+            "question": "The Moon is Earth's natural satellite.",
+            "answer": "The Moon is Earth's natural satellite."
+        },
+        {
+            "id": 260,
+            "topic": "general",
+            "question": "The Moon affects Earth's ocean tides.",
+            "answer": "The Moon affects Earth's ocean tides."
+        },
+        {
+            "id": 261,
+            "topic": "general",
+            "question": "The Moon has craters caused by impacts.",
+            "answer": "The Moon has craters caused by impacts."
+        },
+        {
+            "id": 262,
+            "topic": "general",
+            "question": "The Moon has almost no atmosphere.",
+            "answer": "The Moon has almost no atmosphere."
+        },
+        {
+            "id": 263,
+            "topic": "general",
+            "question": "Phases of the Moon occur because sunlight reflects differently.",
+            "answer": "Phases of the Moon occur because sunlight reflects differently."
+        },
+        {
+            "id": 264,
+            "topic": "general",
+            "question": "A solar eclipse occurs when the Moon blocks sunlight.",
+            "answer": "A solar eclipse occurs when the Moon blocks sunlight."
+        },
+        {
+            "id": 265,
+            "topic": "general",
+            "question": "A lunar eclipse occurs when Earth blocks sunlight from the Moon.",
+            "answer": "A lunar eclipse occurs when Earth blocks sunlight from the Moon."
+        },
+        {
+            "id": 266,
+            "topic": "general",
+            "question": "Gravity keeps planets in orbit.",
+            "answer": "Gravity keeps planets in orbit."
+        },
+        {
+            "id": 267,
+            "topic": "general",
+            "question": "An orbit is the curved path of an object around another object.",
+            "answer": "An orbit is the curved path of an object around another object."
+        },
+        {
+            "id": 268,
+            "topic": "general",
+            "question": "The speed of light is about 300,000 kilometers per second.",
+            "answer": "The speed of light is about 300,000 kilometers per second."
+        },
+        {
+            "id": 269,
+            "topic": "general",
+            "question": "Light takes about 8 minutes to travel from the Sun to Earth.",
+            "answer": "Light takes about 8 minutes to travel from the Sun to Earth."
+        },
+        {
+            "id": 270,
+            "topic": "general",
+            "question": "A light-year measures distance, not time.",
+            "answer": "A light-year measures distance, not time."
+        },
+        {
+            "id": 271,
+            "topic": "general",
+            "question": "A light-year is the distance light travels in one year.",
+            "answer": "A light-year is the distance light travels in one year."
+        },
+        {
+            "id": 272,
+            "topic": "general",
+            "question": "Black holes have extremely strong gravity.",
+            "answer": "Black holes have extremely strong gravity."
+        },
+        {
+            "id": 273,
+            "topic": "general",
+            "question": "A black hole can form after a massive star collapses.",
+            "answer": "A black hole can form after a massive star collapses."
+        },
+        {
+            "id": 274,
+            "topic": "general",
+            "question": "The event horizon is the boundary around a black hole.",
+            "answer": "The event horizon is the boundary around a black hole."
+        },
+        {
+            "id": 275,
+            "topic": "general",
+            "question": "Neutron stars are extremely dense stellar remnants.",
+            "answer": "Neutron stars are extremely dense stellar remnants."
+        },
+        {
+            "id": 276,
+            "topic": "general",
+            "question": "Pulsars are rotating neutron stars producing signals.",
+            "answer": "Pulsars are rotating neutron stars producing signals."
+        },
+        {
+            "id": 277,
+            "topic": "general",
+            "question": "Supernovas are powerful stellar explosions.",
+            "answer": "Supernovas are powerful stellar explosions."
+        },
+        {
+            "id": 278,
+            "topic": "general",
+            "question": "Stars have different sizes, temperatures, and colors.",
+            "answer": "Stars have different sizes, temperatures, and colors."
+        },
+        {
+            "id": 279,
+            "topic": "general",
+            "question": "Blue stars are usually hotter than red stars.",
+            "answer": "Blue stars are usually hotter than red stars."
+        },
+        {
+            "id": 280,
+            "topic": "general",
+            "question": "Stars produce elements through nuclear reactions.",
+            "answer": "Stars produce elements through nuclear reactions."
+        },
+        {
+            "id": 281,
+            "topic": "general",
+            "question": "Heavy elements form during star explosions.",
+            "answer": "Heavy elements form during star explosions."
+        },
+        {
+            "id": 282,
+            "topic": "general",
+            "question": "Galaxies can collide with each other.",
+            "answer": "Galaxies can collide with each other."
+        },
+        {
+            "id": 283,
+            "topic": "general",
+            "question": "The Andromeda Galaxy is near the Milky Way.",
+            "answer": "The Andromeda Galaxy is near the Milky Way."
+        },
+        {
+            "id": 284,
+            "topic": "general",
+            "question": "The James Webb Space Telescope studies distant objects.",
+            "answer": "The James Webb Space Telescope studies distant objects."
+        },
+        {
+            "id": 285,
+            "topic": "general",
+            "question": "The Hubble Space Telescope has observed deep space.",
+            "answer": "The Hubble Space Telescope has observed deep space."
+        },
+        {
+            "id": 286,
+            "topic": "general",
+            "question": "Space telescopes avoid Earth's atmospheric distortion.",
+            "answer": "Space telescopes avoid Earth's atmospheric distortion."
+        },
+        {
+            "id": 287,
+            "topic": "general",
+            "question": "Satellites are objects placed into orbit.",
+            "answer": "Satellites are objects placed into orbit."
+        },
+        {
+            "id": 288,
+            "topic": "general",
+            "question": "Artificial satellites help communication and navigation.",
+            "answer": "Artificial satellites help communication and navigation."
+        },
+        {
+            "id": 289,
+            "topic": "general",
+            "question": "GPS uses a network of satellites.",
+            "answer": "GPS uses a network of satellites."
+        },
+        {
+            "id": 290,
+            "topic": "general",
+            "question": "Weather satellites monitor Earth's atmosphere.",
+            "answer": "Weather satellites monitor Earth's atmosphere."
+        },
+        {
+            "id": 291,
+            "topic": "general",
+            "question": "Space stations are laboratories orbiting Earth.",
+            "answer": "Space stations are laboratories orbiting Earth."
+        },
+        {
+            "id": 292,
+            "topic": "general",
+            "question": "The International Space Station hosts astronauts.",
+            "answer": "The International Space Station hosts astronauts."
+        },
+        {
+            "id": 293,
+            "topic": "general",
+            "question": "Astronauts perform experiments in microgravity.",
+            "answer": "Astronauts perform experiments in microgravity."
+        },
+        {
+            "id": 294,
+            "topic": "general",
+            "question": "Microgravity causes objects to appear weightless.",
+            "answer": "Microgravity causes objects to appear weightless."
+        },
+        {
+            "id": 295,
+            "topic": "general",
+            "question": "Rockets use engines to create thrust.",
+            "answer": "Rockets use engines to create thrust."
+        },
+        {
+            "id": 296,
+            "topic": "general",
+            "question": "Thrust pushes rockets forward.",
+            "answer": "Thrust pushes rockets forward."
+        },
+        {
+            "id": 297,
+            "topic": "general",
+            "question": "Spacecraft require protection from extreme temperatures.",
+            "answer": "Spacecraft require protection from extreme temperatures."
+        },
+        {
+            "id": 298,
+            "topic": "general",
+            "question": "Space suits provide oxygen and pressure.",
+            "answer": "Space suits provide oxygen and pressure."
+        },
+        {
+            "id": 299,
+            "topic": "general",
+            "question": "Mars exploration studies whether life could have existed there.",
+            "answer": "Mars exploration studies whether life could have existed there."
+        },
+        {
+            "id": 300,
+            "topic": "general",
+            "question": "Rovers are robotic vehicles used on other planets.",
+            "answer": "Rovers are robotic vehicles used on other planets."
+        },
+        {
+            "id": 301,
+            "topic": "general",
+            "question": "NASA is a space exploration organization.",
+            "answer": "NASA is a space exploration organization."
+        },
+        {
+            "id": 302,
+            "topic": "general",
+            "question": "SpaceX develops rockets and spacecraft.",
+            "answer": "SpaceX develops rockets and spacecraft."
+        },
+        {
+            "id": 303,
+            "topic": "general",
+            "question": "Relativity explains how space and time are connected.",
+            "answer": "Relativity explains how space and time are connected."
+        },
+        {
+            "id": 304,
+            "topic": "general",
+            "question": "Einstein developed the theory of relativity.",
+            "answer": "Einstein developed the theory of relativity."
+        },
+        {
+            "id": 305,
+            "topic": "general",
+            "question": "Time moves differently at very high speeds.",
+            "answer": "Time moves differently at very high speeds."
+        },
+        {
+            "id": 306,
+            "topic": "general",
+            "question": "Gravity can bend the path of light.",
+            "answer": "Gravity can bend the path of light."
+        },
+        {
+            "id": 307,
+            "topic": "general",
+            "question": "Dark matter is invisible matter detected through gravity.",
+            "answer": "Dark matter is invisible matter detected through gravity."
+        },
+        {
+            "id": 308,
+            "topic": "general",
+            "question": "Dark energy may cause the expansion of the universe.",
+            "answer": "Dark energy may cause the expansion of the universe."
+        },
+        {
+            "id": 309,
+            "topic": "general",
+            "question": "Exoplanets are planets outside our Solar System.",
+            "answer": "Exoplanets are planets outside our Solar System."
+        },
+        {
+            "id": 310,
+            "topic": "general",
+            "question": "Scientists search for potentially habitable planets.",
+            "answer": "Scientists search for potentially habitable planets."
+        },
+        {
+            "id": 311,
+            "topic": "general",
+            "question": "The habitable zone is the region where liquid water may exist.",
+            "answer": "The habitable zone is the region where liquid water may exist."
+        },
+        {
+            "id": 312,
+            "topic": "general",
+            "question": "Astrobiology studies life beyond Earth.",
+            "answer": "Astrobiology studies life beyond Earth."
+        },
+        {
+            "id": 313,
+            "topic": "general",
+            "question": "Physics studies matter, energy, forces, and motion.",
+            "answer": "Physics studies matter, energy, forces, and motion."
+        },
+        {
+            "id": 314,
+            "topic": "general",
+            "question": "Quantum physics studies very small particles.",
+            "answer": "Quantum physics studies very small particles."
+        },
+        {
+            "id": 315,
+            "topic": "general",
+            "question": "Atoms can behave differently at quantum scales.",
+            "answer": "Atoms can behave differently at quantum scales."
+        },
+        {
+            "id": 316,
+            "topic": "general",
+            "question": "Photons are particles of light.",
+            "answer": "Photons are particles of light."
+        },
+        {
+            "id": 317,
+            "topic": "general",
+            "question": "Electrons can behave like waves and particles.",
+            "answer": "Electrons can behave like waves and particles."
+        },
+        {
+            "id": 318,
+            "topic": "general",
+            "question": "Quantum computers use quantum effects for calculations.",
+            "answer": "Quantum computers use quantum effects for calculations."
+        },
+        {
+            "id": 319,
+            "topic": "general",
+            "question": "Energy exists in many forms.",
+            "answer": "Energy exists in many forms."
+        },
+        {
+            "id": 320,
+            "topic": "general",
+            "question": "The conservation of energy is a fundamental physics law.",
+            "answer": "The conservation of energy is a fundamental physics law."
+        },
+        {
+            "id": 321,
+            "topic": "general",
+            "question": "Computers process information using electronic components.",
+            "answer": "Computers process information using electronic components."
+        },
+        {
+            "id": 322,
+            "topic": "general",
+            "question": "A computer system has hardware and software.",
+            "answer": "A computer system has hardware and software."
+        },
+        {
+            "id": 323,
+            "topic": "general",
+            "question": "Hardware includes physical computer parts.",
+            "answer": "Hardware includes physical computer parts."
+        },
+        {
+            "id": 324,
+            "topic": "general",
+            "question": "Software includes programs and instructions.",
+            "answer": "Software includes programs and instructions."
+        },
+        {
+            "id": 325,
+            "topic": "general",
+            "question": "Firmware is software stored inside hardware devices.",
+            "answer": "Firmware is software stored inside hardware devices."
+        },
+        {
+            "id": 326,
+            "topic": "general",
+            "question": "The CPU is called the brain of a computer.",
+            "answer": "The CPU is called the brain of a computer."
+        },
+        {
+            "id": 327,
+            "topic": "general",
+            "question": "The CPU executes instructions from programs.",
+            "answer": "The CPU executes instructions from programs."
+        },
+        {
+            "id": 328,
+            "topic": "general",
+            "question": "A processor contains multiple cores.",
+            "answer": "A processor contains multiple cores."
+        },
+        {
+            "id": 329,
+            "topic": "general",
+            "question": "Multiple cores allow better multitasking.",
+            "answer": "Multiple cores allow better multitasking."
+        },
+        {
+            "id": 330,
+            "topic": "general",
+            "question": "Threads allow processors to handle tasks efficiently.",
+            "answer": "Threads allow processors to handle tasks efficiently."
+        },
+        {
+            "id": 331,
+            "topic": "general",
+            "question": "Clock speed is measured in gigahertz.",
+            "answer": "Clock speed is measured in gigahertz."
+        },
+        {
+            "id": 332,
+            "topic": "general",
+            "question": "A higher clock speed can improve processing speed.",
+            "answer": "A higher clock speed can improve processing speed."
+        },
+        {
+            "id": 333,
+            "topic": "general",
+            "question": "The GPU specializes in graphics processing.",
+            "answer": "The GPU specializes in graphics processing."
+        },
+        {
+            "id": 334,
+            "topic": "general",
+            "question": "GPUs are also used for artificial intelligence calculations.",
+            "answer": "GPUs are also used for artificial intelligence calculations."
+        },
+        {
+            "id": 335,
+            "topic": "general",
+            "question": "RAM stores data temporarily while programs run.",
+            "answer": "RAM stores data temporarily while programs run."
+        },
+        {
+            "id": 336,
+            "topic": "general",
+            "question": "More RAM allows more applications to run together.",
+            "answer": "More RAM allows more applications to run together."
+        },
+        {
+            "id": 337,
+            "topic": "general",
+            "question": "ROM stores permanent instructions.",
+            "answer": "ROM stores permanent instructions."
+        },
+        {
+            "id": 338,
+            "topic": "general",
+            "question": "Cache memory is faster than RAM.",
+            "answer": "Cache memory is faster than RAM."
+        },
+        {
+            "id": 339,
+            "topic": "general",
+            "question": "L1 cache is the fastest CPU cache.",
+            "answer": "L1 cache is the fastest CPU cache."
+        },
+        {
+            "id": 340,
+            "topic": "general",
+            "question": "Motherboards connect computer components together.",
+            "answer": "Motherboards connect computer components together."
+        },
+        {
+            "id": 341,
+            "topic": "general",
+            "question": "Chipsets control communication between components.",
+            "answer": "Chipsets control communication between components."
+        },
+        {
+            "id": 342,
+            "topic": "general",
+            "question": "A power supply converts electricity for computer parts.",
+            "answer": "A power supply converts electricity for computer parts."
+        },
+        {
+            "id": 343,
+            "topic": "general",
+            "question": "Cooling systems prevent overheating.",
+            "answer": "Cooling systems prevent overheating."
+        },
+        {
+            "id": 344,
+            "topic": "general",
+            "question": "Fans remove heat from computer components.",
+            "answer": "Fans remove heat from computer components."
+        },
+        {
+            "id": 345,
+            "topic": "general",
+            "question": "Liquid cooling uses liquid to transfer heat.",
+            "answer": "Liquid cooling uses liquid to transfer heat."
+        },
+        {
+            "id": 346,
+            "topic": "general",
+            "question": "Thermal paste improves heat transfer from chips.",
+            "answer": "Thermal paste improves heat transfer from chips."
+        },
+        {
+            "id": 347,
+            "topic": "general",
+            "question": "A graphics card contains a GPU and memory.",
+            "answer": "A graphics card contains a GPU and memory."
+        },
+        {
+            "id": 348,
+            "topic": "general",
+            "question": "VRAM stores graphics data.",
+            "answer": "VRAM stores graphics data."
+        },
+        {
+            "id": 349,
+            "topic": "general",
+            "question": "Integrated graphics are built into processors.",
+            "answer": "Integrated graphics are built into processors."
+        },
+        {
+            "id": 350,
+            "topic": "general",
+            "question": "Dedicated graphics cards provide higher performance.",
+            "answer": "Dedicated graphics cards provide higher performance."
+        },
+        {
+            "id": 351,
+            "topic": "general",
+            "question": "Storage devices keep data permanently.",
+            "answer": "Storage devices keep data permanently."
+        },
+        {
+            "id": 352,
+            "topic": "general",
+            "question": "HDDs store data using magnetic disks.",
+            "answer": "HDDs store data using magnetic disks."
+        },
+        {
+            "id": 353,
+            "topic": "general",
+            "question": "SSDs store data using flash memory.",
+            "answer": "SSDs store data using flash memory."
+        },
+        {
+            "id": 354,
+            "topic": "general",
+            "question": "NVMe SSDs connect using PCI Express.",
+            "answer": "NVMe SSDs connect using PCI Express."
+        },
+        {
+            "id": 355,
+            "topic": "general",
+            "question": "SSD storage is faster than traditional hard drives.",
+            "answer": "SSD storage is faster than traditional hard drives."
+        },
+        {
+            "id": 356,
+            "topic": "general",
+            "question": "A file contains digital information.",
+            "answer": "A file contains digital information."
+        },
+        {
+            "id": 357,
+            "topic": "general",
+            "question": "A folder organizes files.",
+            "answer": "A folder organizes files."
+        },
+        {
+            "id": 358,
+            "topic": "general",
+            "question": "A directory stores file locations.",
+            "answer": "A directory stores file locations."
+        },
+        {
+            "id": 359,
+            "topic": "general",
+            "question": "An operating system manages computer resources.",
+            "answer": "An operating system manages computer resources."
+        },
+        {
+            "id": 360,
+            "topic": "general",
+            "question": "Windows is developed by Microsoft.",
+            "answer": "Windows is developed by Microsoft."
+        },
+        {
+            "id": 361,
+            "topic": "general",
+            "question": "Linux is an open-source operating system.",
+            "answer": "Linux is an open-source operating system."
+        },
+        {
+            "id": 362,
+            "topic": "general",
+            "question": "macOS is developed by Apple.",
+            "answer": "macOS is developed by Apple."
+        },
+        {
+            "id": 363,
+            "topic": "general",
+            "question": "Android is based on Linux.",
+            "answer": "Android is based on Linux."
+        },
+        {
+            "id": 364,
+            "topic": "general",
+            "question": "iOS is Apple's mobile operating system.",
+            "answer": "iOS is Apple's mobile operating system."
+        },
+        {
+            "id": 365,
+            "topic": "general",
+            "question": "Drivers allow hardware to communicate with software.",
+            "answer": "Drivers allow hardware to communicate with software."
+        },
+        {
+            "id": 366,
+            "topic": "general",
+            "question": "Applications are programs designed for users.",
+            "answer": "Applications are programs designed for users."
+        },
+        {
+            "id": 367,
+            "topic": "general",
+            "question": "A user interface allows interaction with software.",
+            "answer": "A user interface allows interaction with software."
+        },
+        {
+            "id": 368,
+            "topic": "general",
+            "question": "A graphical user interface uses windows and icons.",
+            "answer": "A graphical user interface uses windows and icons."
+        },
+        {
+            "id": 369,
+            "topic": "general",
+            "question": "The command line allows text-based control.",
+            "answer": "The command line allows text-based control."
+        },
+        {
+            "id": 370,
+            "topic": "general",
+            "question": "Terminals execute commands.",
+            "answer": "Terminals execute commands."
+        },
+        {
+            "id": 371,
+            "topic": "general",
+            "question": "PowerShell is a Windows command shell.",
+            "answer": "PowerShell is a Windows command shell."
+        },
+        {
+            "id": 372,
+            "topic": "general",
+            "question": "The internet connects billions of devices.",
+            "answer": "The internet connects billions of devices."
+        },
+        {
+            "id": 373,
+            "topic": "general",
+            "question": "Networks allow computers to communicate.",
+            "answer": "Networks allow computers to communicate."
+        },
+        {
+            "id": 374,
+            "topic": "general",
+            "question": "A LAN connects devices in a small area.",
+            "answer": "A LAN connects devices in a small area."
+        },
+        {
+            "id": 375,
+            "topic": "general",
+            "question": "A WAN connects networks over large distances.",
+            "answer": "A WAN connects networks over large distances."
+        },
+        {
+            "id": 376,
+            "topic": "general",
+            "question": "Wi-Fi uses wireless radio communication.",
+            "answer": "Wi-Fi uses wireless radio communication."
+        },
+        {
+            "id": 377,
+            "topic": "general",
+            "question": "Ethernet uses physical cables.",
+            "answer": "Ethernet uses physical cables."
+        },
+        {
+            "id": 378,
+            "topic": "general",
+            "question": "Routers forward data between networks.",
+            "answer": "Routers forward data between networks."
+        },
+        {
+            "id": 379,
+            "topic": "general",
+            "question": "Switches connect devices inside networks.",
+            "answer": "Switches connect devices inside networks."
+        },
+        {
+            "id": 380,
+            "topic": "general",
+            "question": "A modem connects to internet service providers.",
+            "answer": "A modem connects to internet service providers."
+        },
+        {
+            "id": 381,
+            "topic": "general",
+            "question": "IP addresses identify devices on networks.",
+            "answer": "IP addresses identify devices on networks."
+        },
+        {
+            "id": 382,
+            "topic": "general",
+            "question": "IPv4 uses 32-bit addresses.",
+            "answer": "IPv4 uses 32-bit addresses."
+        },
+        {
+            "id": 383,
+            "topic": "general",
+            "question": "IPv6 uses 128-bit addresses.",
+            "answer": "IPv6 uses 128-bit addresses."
+        },
+        {
+            "id": 384,
+            "topic": "general",
+            "question": "MAC addresses identify network hardware.",
+            "answer": "MAC addresses identify network hardware."
+        },
+        {
+            "id": 385,
+            "topic": "general",
+            "question": "DNS converts domain names into IP addresses.",
+            "answer": "DNS converts domain names into IP addresses."
+        },
+        {
+            "id": 386,
+            "topic": "general",
+            "question": "A server provides services to other computers.",
+            "answer": "A server provides services to other computers."
+        },
+        {
+            "id": 387,
+            "topic": "general",
+            "question": "A client requests services from servers.",
+            "answer": "A client requests services from servers."
+        },
+        {
+            "id": 388,
+            "topic": "general",
+            "question": "Cloud computing uses remote servers.",
+            "answer": "Cloud computing uses remote servers."
+        },
+        {
+            "id": 389,
+            "topic": "general",
+            "question": "Data centers store and process information.",
+            "answer": "Data centers store and process information."
+        },
+        {
+            "id": 390,
+            "topic": "general",
+            "question": "APIs allow software systems to communicate.",
+            "answer": "APIs allow software systems to communicate."
+        },
+        {
+            "id": 391,
+            "topic": "general",
+            "question": "A database stores organized information.",
+            "answer": "A database stores organized information."
+        },
+        {
+            "id": 392,
+            "topic": "general",
+            "question": "SQL is used to manage databases.",
+            "answer": "SQL is used to manage databases."
+        },
+        {
+            "id": 393,
+            "topic": "general",
+            "question": "Artificial Intelligence allows machines to perform intelligent tasks.",
+            "answer": "Artificial Intelligence allows machines to perform intelligent tasks."
+        },
+        {
+            "id": 394,
+            "topic": "general",
+            "question": "AI systems learn patterns from data.",
+            "answer": "AI systems learn patterns from data."
+        },
+        {
+            "id": 395,
+            "topic": "general",
+            "question": "Machine learning is a branch of AI.",
+            "answer": "Machine learning is a branch of AI."
+        },
+        {
+            "id": 396,
+            "topic": "general",
+            "question": "Deep learning uses artificial neural networks.",
+            "answer": "Deep learning uses artificial neural networks."
+        },
+        {
+            "id": 397,
+            "topic": "general",
+            "question": "Neural networks are inspired by biological brains.",
+            "answer": "Neural networks are inspired by biological brains."
+        },
+        {
+            "id": 398,
+            "topic": "general",
+            "question": "AI models contain parameters learned from training data.",
+            "answer": "AI models contain parameters learned from training data."
+        },
+        {
+            "id": 399,
+            "topic": "general",
+            "question": "Training improves an AI model's abilities.",
+            "answer": "Training improves an AI model's abilities."
+        },
+        {
+            "id": 400,
+            "topic": "general",
+            "question": "Inference is using a trained model to produce results.",
+            "answer": "Inference is using a trained model to produce results."
+        },
+        {
+            "id": 401,
+            "topic": "general",
+            "question": "Large language models understand and generate text.",
+            "answer": "Large language models understand and generate text."
+        },
+        {
+            "id": 402,
+            "topic": "general",
+            "question": "Natural language processing helps computers understand language.",
+            "answer": "Natural language processing helps computers understand language."
+        },
+        {
+            "id": 403,
+            "topic": "general",
+            "question": "Computer vision allows machines to understand images.",
+            "answer": "Computer vision allows machines to understand images."
+        },
+        {
+            "id": 404,
+            "topic": "general",
+            "question": "Speech recognition converts audio into text.",
+            "answer": "Speech recognition converts audio into text."
+        },
+        {
+            "id": 405,
+            "topic": "general",
+            "question": "Text-to-speech converts text into spoken language.",
+            "answer": "Text-to-speech converts text into spoken language."
+        },
+        {
+            "id": 406,
+            "topic": "general",
+            "question": "Generative AI creates new content.",
+            "answer": "Generative AI creates new content."
+        },
+        {
+            "id": 407,
+            "topic": "general",
+            "question": "AI can generate text, images, audio, and video.",
+            "answer": "AI can generate text, images, audio, and video."
+        },
+        {
+            "id": 408,
+            "topic": "general",
+            "question": "Reinforcement learning uses rewards and penalties.",
+            "answer": "Reinforcement learning uses rewards and penalties."
+        },
+        {
+            "id": 409,
+            "topic": "general",
+            "question": "Robotics combines AI with mechanical systems.",
+            "answer": "Robotics combines AI with mechanical systems."
+        },
+        {
+            "id": 410,
+            "topic": "general",
+            "question": "AI assistants help users complete tasks.",
+            "answer": "AI assistants help users complete tasks."
+        },
+        {
+            "id": 411,
+            "topic": "general",
+            "question": "AI requires powerful processors for training.",
+            "answer": "AI requires powerful processors for training."
+        },
+        {
+            "id": 412,
+            "topic": "general",
+            "question": "GPUs accelerate AI model training.",
+            "answer": "GPUs accelerate AI model training."
+        },
+        {
+            "id": 413,
+            "topic": "general",
+            "question": "Data quality affects AI performance.",
+            "answer": "Data quality affects AI performance."
+        },
+        {
+            "id": 414,
+            "topic": "general",
+            "question": "Biased data can create biased AI results.",
+            "answer": "Biased data can create biased AI results."
+        },
+        {
+            "id": 415,
+            "topic": "general",
+            "question": "AI safety studies responsible AI development.",
+            "answer": "AI safety studies responsible AI development."
+        },
+        {
+            "id": 416,
+            "topic": "general",
+            "question": "Programming means creating instructions for computers.",
+            "answer": "Programming means creating instructions for computers."
+        },
+        {
+            "id": 417,
+            "topic": "general",
+            "question": "Code is written using programming languages.",
+            "answer": "Code is written using programming languages."
+        },
+        {
+            "id": 418,
+            "topic": "general",
+            "question": "Python is popular for AI and automation.",
+            "answer": "Python is popular for AI and automation."
+        },
+        {
+            "id": 419,
+            "topic": "general",
+            "question": "JavaScript is used for web development.",
+            "answer": "JavaScript is used for web development."
+        },
+        {
+            "id": 420,
+            "topic": "general",
+            "question": "Java is used for applications and Android development.",
+            "answer": "Java is used for applications and Android development."
+        },
+        {
+            "id": 421,
+            "topic": "general",
+            "question": "C is a low-level programming language.",
+            "answer": "C is a low-level programming language."
+        },
+        {
+            "id": 422,
+            "topic": "general",
+            "question": "C++ is used for high-performance software.",
+            "answer": "C++ is used for high-performance software."
+        },
+        {
+            "id": 423,
+            "topic": "general",
+            "question": "C# is commonly used with Unity.",
+            "answer": "C# is commonly used with Unity."
+        },
+        {
+            "id": 424,
+            "topic": "general",
+            "question": "HTML creates webpage structure.",
+            "answer": "HTML creates webpage structure."
+        },
+        {
+            "id": 425,
+            "topic": "general",
+            "question": "CSS controls webpage design.",
+            "answer": "CSS controls webpage design."
+        },
+        {
+            "id": 426,
+            "topic": "general",
+            "question": "JavaScript adds interaction to websites.",
+            "answer": "JavaScript adds interaction to websites."
+        },
+        {
+            "id": 427,
+            "topic": "general",
+            "question": "Variables store information in programs.",
+            "answer": "Variables store information in programs."
+        },
+        {
+            "id": 428,
+            "topic": "general",
+            "question": "Constants store values that do not change.",
+            "answer": "Constants store values that do not change."
+        },
+        {
+            "id": 429,
+            "topic": "general",
+            "question": "Data types define different kinds of values.",
+            "answer": "Data types define different kinds of values."
+        },
+        {
+            "id": 430,
+            "topic": "general",
+            "question": "Strings store text.",
+            "answer": "Strings store text."
+        },
+        {
+            "id": 431,
+            "topic": "general",
+            "question": "Numbers store numerical values.",
+            "answer": "Numbers store numerical values."
+        },
+        {
+            "id": 432,
+            "topic": "general",
+            "question": "Booleans store true or false values.",
+            "answer": "Booleans store true or false values."
+        },
+        {
+            "id": 433,
+            "topic": "general",
+            "question": "Arrays store multiple values.",
+            "answer": "Arrays store multiple values."
+        },
+        {
+            "id": 434,
+            "topic": "general",
+            "question": "Objects store related information.",
+            "answer": "Objects store related information."
+        },
+        {
+            "id": 435,
+            "topic": "general",
+            "question": "Functions contain reusable code.",
+            "answer": "Functions contain reusable code."
+        },
+        {
+            "id": 436,
+            "topic": "general",
+            "question": "Loops repeat instructions.",
+            "answer": "Loops repeat instructions."
+        },
+        {
+            "id": 437,
+            "topic": "general",
+            "question": "Conditions allow programs to make decisions.",
+            "answer": "Conditions allow programs to make decisions."
+        },
+        {
+            "id": 438,
+            "topic": "general",
+            "question": "Algorithms are step-by-step problem solutions.",
+            "answer": "Algorithms are step-by-step problem solutions."
+        },
+        {
+            "id": 439,
+            "topic": "general",
+            "question": "Flowcharts represent program logic visually.",
+            "answer": "Flowcharts represent program logic visually."
+        },
+        {
+            "id": 440,
+            "topic": "general",
+            "question": "Debugging means finding and fixing errors.",
+            "answer": "Debugging means finding and fixing errors."
+        },
+        {
+            "id": 441,
+            "topic": "general",
+            "question": "Bugs are mistakes in software.",
+            "answer": "Bugs are mistakes in software."
+        },
+        {
+            "id": 442,
+            "topic": "general",
+            "question": "Libraries provide reusable programming tools.",
+            "answer": "Libraries provide reusable programming tools."
+        },
+        {
+            "id": 443,
+            "topic": "general",
+            "question": "Frameworks help developers build applications.",
+            "answer": "Frameworks help developers build applications."
+        },
+        {
+            "id": 444,
+            "topic": "general",
+            "question": "Git tracks changes in code.",
+            "answer": "Git tracks changes in code."
+        },
+        {
+            "id": 445,
+            "topic": "general",
+            "question": "GitHub hosts code repositories online.",
+            "answer": "GitHub hosts code repositories online."
+        },
+        {
+            "id": 446,
+            "topic": "general",
+            "question": "Software development involves designing and building programs.",
+            "answer": "Software development involves designing and building programs."
+        },
+        {
+            "id": 447,
+            "topic": "general",
+            "question": "History studies events from the past.",
+            "answer": "History studies events from the past."
+        },
+        {
+            "id": 448,
+            "topic": "general",
+            "question": "Archaeology studies ancient objects and civilizations.",
+            "answer": "Archaeology studies ancient objects and civilizations."
+        },
+        {
+            "id": 449,
+            "topic": "general",
+            "question": "Ancient Egyptians built pyramids.",
+            "answer": "Ancient Egyptians built pyramids."
+        },
+        {
+            "id": 450,
+            "topic": "general",
+            "question": "The Nile River supported ancient Egypt.",
+            "answer": "The Nile River supported ancient Egypt."
+        },
+        {
+            "id": 451,
+            "topic": "general",
+            "question": "Ancient Greece influenced philosophy and democracy.",
+            "answer": "Ancient Greece influenced philosophy and democracy."
+        },
+        {
+            "id": 452,
+            "topic": "general",
+            "question": "Rome built a large empire.",
+            "answer": "Rome built a large empire."
+        },
+        {
+            "id": 453,
+            "topic": "general",
+            "question": "The Roman Empire developed roads and laws.",
+            "answer": "The Roman Empire developed roads and laws."
+        },
+        {
+            "id": 454,
+            "topic": "general",
+            "question": "Ancient India contributed to mathematics and science.",
+            "answer": "Ancient India contributed to mathematics and science."
+        },
+        {
+            "id": 455,
+            "topic": "general",
+            "question": "The concept of zero was developed in ancient India.",
+            "answer": "The concept of zero was developed in ancient India."
+        },
+        {
+            "id": 456,
+            "topic": "general",
+            "question": "Ancient China invented many technologies.",
+            "answer": "Ancient China invented many technologies."
+        },
+        {
+            "id": 457,
+            "topic": "general",
+            "question": "Paper was invented in China.",
+            "answer": "Paper was invented in China."
+        },
+        {
+            "id": 458,
+            "topic": "general",
+            "question": "The compass helped navigation.",
+            "answer": "The compass helped navigation."
+        },
+        {
+            "id": 459,
+            "topic": "general",
+            "question": "The printing press changed communication.",
+            "answer": "The printing press changed communication."
+        },
+        {
+            "id": 460,
+            "topic": "general",
+            "question": "The Renaissance encouraged art and science.",
+            "answer": "The Renaissance encouraged art and science."
+        },
+        {
+            "id": 461,
+            "topic": "general",
+            "question": "The Industrial Revolution changed manufacturing.",
+            "answer": "The Industrial Revolution changed manufacturing."
+        },
+        {
+            "id": 462,
+            "topic": "general",
+            "question": "Steam engines powered early industries.",
+            "answer": "Steam engines powered early industries."
+        },
+        {
+            "id": 463,
+            "topic": "general",
+            "question": "Electricity transformed modern life.",
+            "answer": "Electricity transformed modern life."
+        },
+        {
+            "id": 464,
+            "topic": "general",
+            "question": "The telephone changed communication.",
+            "answer": "The telephone changed communication."
+        },
+        {
+            "id": 465,
+            "topic": "general",
+            "question": "The automobile changed transportation.",
+            "answer": "The automobile changed transportation."
+        },
+        {
+            "id": 466,
+            "topic": "general",
+            "question": "Airplanes made global travel possible.",
+            "answer": "Airplanes made global travel possible."
+        },
+        {
+            "id": 467,
+            "topic": "general",
+            "question": "The internet changed information sharing.",
+            "answer": "The internet changed information sharing."
+        },
+        {
+            "id": 468,
+            "topic": "general",
+            "question": "Computers transformed society.",
+            "answer": "Computers transformed society."
+        },
+        {
+            "id": 469,
+            "topic": "general",
+            "question": "Space exploration expanded human knowledge.",
+            "answer": "Space exploration expanded human knowledge."
+        },
+        {
+            "id": 470,
+            "topic": "general",
+            "question": "The first humans landed on the Moon in 1969.",
+            "answer": "The first humans landed on the Moon in 1969."
+        },
+        {
+            "id": 471,
+            "topic": "general",
+            "question": "Civilizations develop languages and cultures.",
+            "answer": "Civilizations develop languages and cultures."
+        },
+        {
+            "id": 472,
+            "topic": "general",
+            "question": "Governments organize societies.",
+            "answer": "Governments organize societies."
+        },
+        {
+            "id": 473,
+            "topic": "general",
+            "question": "Laws create rules for communities.",
+            "answer": "Laws create rules for communities."
+        },
+        {
+            "id": 474,
+            "topic": "general",
+            "question": "Economies involve production and trade.",
+            "answer": "Economies involve production and trade."
+        },
+        {
+            "id": 475,
+            "topic": "general",
+            "question": "Trade connects countries.",
+            "answer": "Trade connects countries."
+        },
+        {
+            "id": 476,
+            "topic": "general",
+            "question": "Currency is used for exchange.",
+            "answer": "Currency is used for exchange."
+        },
+        {
+            "id": 477,
+            "topic": "general",
+            "question": "Education spreads knowledge.",
+            "answer": "Education spreads knowledge."
+        },
+        {
+            "id": 478,
+            "topic": "general",
+            "question": "Libraries preserve information.",
+            "answer": "Libraries preserve information."
+        },
+        {
+            "id": 479,
+            "topic": "general",
+            "question": "Museums protect historical objects.",
+            "answer": "Museums protect historical objects."
+        },
+        {
+            "id": 480,
+            "topic": "general",
+            "question": "Art reflects human creativity.",
+            "answer": "Art reflects human creativity."
+        },
+        {
+            "id": 481,
+            "topic": "general",
+            "question": "Music exists in every culture.",
+            "answer": "Music exists in every culture."
+        },
+        {
+            "id": 482,
+            "topic": "general",
+            "question": "Languages change over time.",
+            "answer": "Languages change over time."
+        },
+        {
+            "id": 483,
+            "topic": "general",
+            "question": "Writing allowed knowledge storage.",
+            "answer": "Writing allowed knowledge storage."
+        },
+        {
+            "id": 484,
+            "topic": "general",
+            "question": "Inventions improve human life.",
+            "answer": "Inventions improve human life."
+        },
+        {
+            "id": 485,
+            "topic": "general",
+            "question": "Scientists discover new information.",
+            "answer": "Scientists discover new information."
+        },
+        {
+            "id": 486,
+            "topic": "general",
+            "question": "Exploration helps humans understand the world.",
+            "answer": "Exploration helps humans understand the world."
+        },
+        {
+            "id": 487,
+            "topic": "general",
+            "question": "Animals are living organisms.",
+            "answer": "Animals are living organisms."
+        },
+        {
+            "id": 488,
+            "topic": "general",
+            "question": "Mammals usually have hair and produce milk.",
+            "answer": "Mammals usually have hair and produce milk."
+        },
+        {
+            "id": 489,
+            "topic": "general",
+            "question": "Birds have feathers and lay eggs.",
+            "answer": "Birds have feathers and lay eggs."
+        },
+        {
+            "id": 490,
+            "topic": "general",
+            "question": "Fish breathe using gills.",
+            "answer": "Fish breathe using gills."
+        },
+        {
+            "id": 491,
+            "topic": "general",
+            "question": "Reptiles are cold-blooded animals.",
+            "answer": "Reptiles are cold-blooded animals."
+        },
+        {
+            "id": 492,
+            "topic": "general",
+            "question": "Amphibians live on land and water.",
+            "answer": "Amphibians live on land and water."
+        },
+        {
+            "id": 493,
+            "topic": "general",
+            "question": "Insects have six legs.",
+            "answer": "Insects have six legs."
+        },
+        {
+            "id": 494,
+            "topic": "general",
+            "question": "Spiders have eight legs.",
+            "answer": "Spiders have eight legs."
+        },
+        {
+            "id": 495,
+            "topic": "general",
+            "question": "Octopuses have eight arms.",
+            "answer": "Octopuses have eight arms."
+        },
+        {
+            "id": 496,
+            "topic": "general",
+            "question": "Whales are the largest animals on Earth.",
+            "answer": "Whales are the largest animals on Earth."
+        },
+        {
+            "id": 497,
+            "topic": "general",
+            "question": "Elephants are the largest land animals.",
+            "answer": "Elephants are the largest land animals."
+        },
+        {
+            "id": 498,
+            "topic": "general",
+            "question": "Cheetahs are among the fastest land animals.",
+            "answer": "Cheetahs are among the fastest land animals."
+        },
+        {
+            "id": 499,
+            "topic": "general",
+            "question": "Eagles have excellent eyesight.",
+            "answer": "Eagles have excellent eyesight."
+        },
+        {
+            "id": 500,
+            "topic": "general",
+            "question": "Dolphins are intelligent marine mammals.",
+            "answer": "Dolphins are intelligent marine mammals."
+        },
+        {
+            "id": 501,
+            "topic": "general",
+            "question": "Penguins are birds that cannot fly.",
+            "answer": "Penguins are birds that cannot fly."
+        },
+        {
+            "id": 502,
+            "topic": "general",
+            "question": "Bees help plants reproduce through pollination.",
+            "answer": "Bees help plants reproduce through pollination."
+        },
+        {
+            "id": 503,
+            "topic": "general",
+            "question": "Ants live in organized colonies.",
+            "answer": "Ants live in organized colonies."
+        },
+        {
+            "id": 504,
+            "topic": "general",
+            "question": "Butterflies undergo metamorphosis.",
+            "answer": "Butterflies undergo metamorphosis."
+        },
+        {
+            "id": 505,
+            "topic": "general",
+            "question": "Frogs begin life as tadpoles.",
+            "answer": "Frogs begin life as tadpoles."
+        },
+        {
+            "id": 506,
+            "topic": "general",
+            "question": "Sharks have existed for millions of years.",
+            "answer": "Sharks have existed for millions of years."
+        },
+        {
+            "id": 507,
+            "topic": "general",
+            "question": "Coral reefs support ocean life.",
+            "answer": "Coral reefs support ocean life."
+        },
+        {
+            "id": 508,
+            "topic": "general",
+            "question": "Forests provide habitats for animals.",
+            "answer": "Forests provide habitats for animals."
+        },
+        {
+            "id": 509,
+            "topic": "general",
+            "question": "Trees absorb carbon dioxide.",
+            "answer": "Trees absorb carbon dioxide."
+        },
+        {
+            "id": 510,
+            "topic": "general",
+            "question": "Plants release oxygen through photosynthesis.",
+            "answer": "Plants release oxygen through photosynthesis."
+        },
+        {
+            "id": 511,
+            "topic": "general",
+            "question": "Roots absorb water and nutrients.",
+            "answer": "Roots absorb water and nutrients."
+        },
+        {
+            "id": 512,
+            "topic": "general",
+            "question": "Leaves capture sunlight.",
+            "answer": "Leaves capture sunlight."
+        },
+        {
+            "id": 513,
+            "topic": "general",
+            "question": "Flowers help plant reproduction.",
+            "answer": "Flowers help plant reproduction."
+        },
+        {
+            "id": 514,
+            "topic": "general",
+            "question": "Seeds contain future plants.",
+            "answer": "Seeds contain future plants."
+        },
+        {
+            "id": 515,
+            "topic": "general",
+            "question": "Fungi recycle nutrients in ecosystems.",
+            "answer": "Fungi recycle nutrients in ecosystems."
+        },
+        {
+            "id": 516,
+            "topic": "general",
+            "question": "Bacteria exist almost everywhere.",
+            "answer": "Bacteria exist almost everywhere."
+        },
+        {
+            "id": 517,
+            "topic": "general",
+            "question": "Some bacteria are helpful.",
+            "answer": "Some bacteria are helpful."
+        },
+        {
+            "id": 518,
+            "topic": "general",
+            "question": "Some microorganisms cause disease.",
+            "answer": "Some microorganisms cause disease."
+        },
+        {
+            "id": 519,
+            "topic": "general",
+            "question": "Ecosystems depend on balance.",
+            "answer": "Ecosystems depend on balance."
+        },
+        {
+            "id": 520,
+            "topic": "general",
+            "question": "Predators control populations.",
+            "answer": "Predators control populations."
+        },
+        {
+            "id": 521,
+            "topic": "general",
+            "question": "Herbivores eat plants.",
+            "answer": "Herbivores eat plants."
+        },
+        {
+            "id": 522,
+            "topic": "general",
+            "question": "Carnivores eat animals.",
+            "answer": "Carnivores eat animals."
+        },
+        {
+            "id": 523,
+            "topic": "general",
+            "question": "Omnivores eat both plants and animals.",
+            "answer": "Omnivores eat both plants and animals."
+        },
+        {
+            "id": 524,
+            "topic": "general",
+            "question": "Migration helps animals survive.",
+            "answer": "Migration helps animals survive."
+        },
+        {
+            "id": 525,
+            "topic": "general",
+            "question": "Hibernation helps animals survive cold periods.",
+            "answer": "Hibernation helps animals survive cold periods."
+        },
+        {
+            "id": 526,
+            "topic": "general",
+            "question": "Adaptation helps organisms survive environments.",
+            "answer": "Adaptation helps organisms survive environments."
+        },
+        {
+            "id": 527,
+            "topic": "general",
+            "question": "Humans are complex biological organisms.",
+            "answer": "Humans are complex biological organisms."
+        },
+        {
+            "id": 528,
+            "topic": "general",
+            "question": "The human body contains trillions of cells.",
+            "answer": "The human body contains trillions of cells."
+        },
+        {
+            "id": 529,
+            "topic": "general",
+            "question": "The brain controls thoughts and actions.",
+            "answer": "The brain controls thoughts and actions."
+        },
+        {
+            "id": 530,
+            "topic": "general",
+            "question": "The nervous system sends signals.",
+            "answer": "The nervous system sends signals."
+        },
+        {
+            "id": 531,
+            "topic": "general",
+            "question": "The spinal cord connects the brain and body.",
+            "answer": "The spinal cord connects the brain and body."
+        },
+        {
+            "id": 532,
+            "topic": "general",
+            "question": "The heart pumps blood.",
+            "answer": "The heart pumps blood."
+        },
+        {
+            "id": 533,
+            "topic": "general",
+            "question": "Blood carries oxygen and nutrients.",
+            "answer": "Blood carries oxygen and nutrients."
+        },
+        {
+            "id": 534,
+            "topic": "general",
+            "question": "Red blood cells carry oxygen.",
+            "answer": "Red blood cells carry oxygen."
+        },
+        {
+            "id": 535,
+            "topic": "general",
+            "question": "White blood cells fight infections.",
+            "answer": "White blood cells fight infections."
+        },
+        {
+            "id": 536,
+            "topic": "general",
+            "question": "Platelets help blood clot.",
+            "answer": "Platelets help blood clot."
+        },
+        {
+            "id": 537,
+            "topic": "general",
+            "question": "The lungs exchange oxygen and carbon dioxide.",
+            "answer": "The lungs exchange oxygen and carbon dioxide."
+        },
+        {
+            "id": 538,
+            "topic": "general",
+            "question": "The digestive system breaks down food.",
+            "answer": "The digestive system breaks down food."
+        },
+        {
+            "id": 539,
+            "topic": "general",
+            "question": "The stomach helps digest food.",
+            "answer": "The stomach helps digest food."
+        },
+        {
+            "id": 540,
+            "topic": "general",
+            "question": "The liver performs many important functions.",
+            "answer": "The liver performs many important functions."
+        },
+        {
+            "id": 541,
+            "topic": "general",
+            "question": "The kidneys filter blood.",
+            "answer": "The kidneys filter blood."
+        },
+        {
+            "id": 542,
+            "topic": "general",
+            "question": "Bones support the body.",
+            "answer": "Bones support the body."
+        },
+        {
+            "id": 543,
+            "topic": "general",
+            "question": "Muscles create movement.",
+            "answer": "Muscles create movement."
+        },
+        {
+            "id": 544,
+            "topic": "general",
+            "question": "Joints allow movement between bones.",
+            "answer": "Joints allow movement between bones."
+        },
+        {
+            "id": 545,
+            "topic": "general",
+            "question": "Skin protects the body.",
+            "answer": "Skin protects the body."
+        },
+        {
+            "id": 546,
+            "topic": "general",
+            "question": "The immune system protects against diseases.",
+            "answer": "The immune system protects against diseases."
+        },
+        {
+            "id": 547,
+            "topic": "general",
+            "question": "Vaccines train the immune system.",
+            "answer": "Vaccines train the immune system."
+        },
+        {
+            "id": 548,
+            "topic": "general",
+            "question": "Doctors diagnose and treat illnesses.",
+            "answer": "Doctors diagnose and treat illnesses."
+        },
+        {
+            "id": 549,
+            "topic": "general",
+            "question": "Medicine uses science to improve health.",
+            "answer": "Medicine uses science to improve health."
+        },
+        {
+            "id": 550,
+            "topic": "general",
+            "question": "Surgery treats some medical conditions.",
+            "answer": "Surgery treats some medical conditions."
+        },
+        {
+            "id": 551,
+            "topic": "general",
+            "question": "Nutrition provides energy and materials.",
+            "answer": "Nutrition provides energy and materials."
+        },
+        {
+            "id": 552,
+            "topic": "general",
+            "question": "Vitamins support body functions.",
+            "answer": "Vitamins support body functions."
+        },
+        {
+            "id": 553,
+            "topic": "general",
+            "question": "Exercise improves fitness.",
+            "answer": "Exercise improves fitness."
+        },
+        {
+            "id": 554,
+            "topic": "general",
+            "question": "Sleep helps recovery.",
+            "answer": "Sleep helps recovery."
+        },
+        {
+            "id": 555,
+            "topic": "general",
+            "question": "Mental health affects thoughts and emotions.",
+            "answer": "Mental health affects thoughts and emotions."
+        },
+        {
+            "id": 556,
+            "topic": "general",
+            "question": "Healthy habits improve quality of life.",
+            "answer": "Healthy habits improve quality of life."
+        },
+        {
+            "id": 557,
+            "topic": "general",
+            "question": "Learning increases knowledge and abilities.",
+            "answer": "Learning increases knowledge and abilities."
+        },
+        {
+            "id": 558,
+            "topic": "general",
+            "question": "Practice improves skills.",
+            "answer": "Practice improves skills."
+        },
+        {
+            "id": 559,
+            "topic": "general",
+            "question": "Critical thinking helps solve problems.",
+            "answer": "Critical thinking helps solve problems."
+        },
+        {
+            "id": 560,
+            "topic": "general",
+            "question": "Creativity produces new ideas.",
+            "answer": "Creativity produces new ideas."
+        },
+        {
+            "id": 561,
+            "topic": "general",
+            "question": "Communication shares information.",
+            "answer": "Communication shares information."
+        },
+        {
+            "id": 562,
+            "topic": "general",
+            "question": "Teamwork combines people's strengths.",
+            "answer": "Teamwork combines people's strengths."
+        },
+        {
+            "id": 563,
+            "topic": "general",
+            "question": "Leadership guides groups.",
+            "answer": "Leadership guides groups."
+        },
+        {
+            "id": 564,
+            "topic": "general",
+            "question": "Time management improves productivity.",
+            "answer": "Time management improves productivity."
+        },
+        {
+            "id": 565,
+            "topic": "general",
+            "question": "Reading develops understanding.",
+            "answer": "Reading develops understanding."
+        },
+        {
+            "id": 566,
+            "topic": "general",
+            "question": "Writing helps express ideas.",
+            "answer": "Writing helps express ideas."
+        },
+        {
+            "id": 567,
+            "topic": "general",
+            "question": "Mathematics studies patterns and relationships.",
+            "answer": "Mathematics studies patterns and relationships."
+        },
+        {
+            "id": 568,
+            "topic": "general",
+            "question": "Logic studies reasoning.",
+            "answer": "Logic studies reasoning."
+        },
+        {
+            "id": 569,
+            "topic": "general",
+            "question": "Philosophy explores ideas about existence and knowledge.",
+            "answer": "Philosophy explores ideas about existence and knowledge."
+        },
+        {
+            "id": 570,
+            "topic": "general",
+            "question": "Psychology studies behavior and the mind.",
+            "answer": "Psychology studies behavior and the mind."
+        },
+        {
+            "id": 571,
+            "topic": "general",
+            "question": "Economics studies resources and decisions.",
+            "answer": "Economics studies resources and decisions."
+        },
+        {
+            "id": 572,
+            "topic": "general",
+            "question": "Sociology studies societies.",
+            "answer": "Sociology studies societies."
+        },
+        {
+            "id": 573,
+            "topic": "general",
+            "question": "Geography studies places and environments.",
+            "answer": "Geography studies places and environments."
+        },
+        {
+            "id": 574,
+            "topic": "general",
+            "question": "Law creates systems of rules.",
+            "answer": "Law creates systems of rules."
+        },
+        {
+            "id": 575,
+            "topic": "general",
+            "question": "Ethics studies right and wrong actions.",
+            "answer": "Ethics studies right and wrong actions."
+        },
+        {
+            "id": 576,
+            "topic": "general",
+            "question": "Curiosity drives discovery.",
+            "answer": "Curiosity drives discovery."
+        },
+        {
+            "id": 577,
+            "topic": "general",
+            "question": "Octopuses have three hearts.",
+            "answer": "Octopuses have three hearts."
+        },
+        {
+            "id": 578,
+            "topic": "general",
+            "question": "Honey can remain edible for thousands of years.",
+            "answer": "Honey can remain edible for thousands of years."
+        },
+        {
+            "id": 579,
+            "topic": "general",
+            "question": "Lightning can be hotter than the Sun's surface.",
+            "answer": "Lightning can be hotter than the Sun's surface."
+        },
+        {
+            "id": 580,
+            "topic": "general",
+            "question": "Bananas are scientifically classified as berries.",
+            "answer": "Bananas are scientifically classified as berries."
+        },
+        {
+            "id": 581,
+            "topic": "general",
+            "question": "Strawberries are not true botanical berries.",
+            "answer": "Strawberries are not true botanical berries."
+        },
+        {
+            "id": 582,
+            "topic": "general",
+            "question": "A day on Venus is longer than its year.",
+            "answer": "A day on Venus is longer than its year."
+        },
+        {
+            "id": 583,
+            "topic": "general",
+            "question": "Saturn could float in water because of low density.",
+            "answer": "Saturn could float in water because of low density."
+        },
+        {
+            "id": 584,
+            "topic": "general",
+            "question": "The human eye can distinguish millions of colors.",
+            "answer": "The human eye can distinguish millions of colors."
+        },
+        {
+            "id": 585,
+            "topic": "general",
+            "question": "Some trees live for thousands of years.",
+            "answer": "Some trees live for thousands of years."
+        },
+        {
+            "id": 586,
+            "topic": "general",
+            "question": "Antarctica is the coldest continent.",
+            "answer": "Antarctica is the coldest continent."
+        },
+        {
+            "id": 587,
+            "topic": "general",
+            "question": "The Eiffel Tower expands in heat.",
+            "answer": "The Eiffel Tower expands in heat."
+        },
+        {
+            "id": 588,
+            "topic": "general",
+            "question": "Sound cannot travel through empty space.",
+            "answer": "Sound cannot travel through empty space."
+        },
+        {
+            "id": 589,
+            "topic": "general",
+            "question": "The Moon has almost no atmosphere.",
+            "answer": "The Moon has almost no atmosphere."
+        },
+        {
+            "id": 590,
+            "topic": "general",
+            "question": "Diamonds are made of carbon.",
+            "answer": "Diamonds are made of carbon."
+        },
+        {
+            "id": 591,
+            "topic": "general",
+            "question": "Water expands when it freezes.",
+            "answer": "Water expands when it freezes."
+        },
+        {
+            "id": 592,
+            "topic": "general",
+            "question": "The brain uses a large amount of energy.",
+            "answer": "The brain uses a large amount of energy."
+        },
+        {
+            "id": 593,
+            "topic": "general",
+            "question": "Some animals can regenerate body parts.",
+            "answer": "Some animals can regenerate body parts."
+        },
+        {
+            "id": 594,
+            "topic": "general",
+            "question": "Computers were once room-sized machines.",
+            "answer": "Computers were once room-sized machines."
+        },
+        {
+            "id": 595,
+            "topic": "general",
+            "question": "Technology changes rapidly over time.",
+            "answer": "Technology changes rapidly over time."
+        },
+        {
+            "id": 596,
+            "topic": "general",
+            "question": "Asking questions is one of the fastest ways to learn.",
+            "answer": "Asking questions is one of the fastest ways to learn."
+        },
+        {
+            "id": 597,
+            "topic": "general",
+            "question": "The internet connects billions of devices worldwide.",
+            "answer": "The internet connects billions of devices worldwide."
+        },
+        {
+            "id": 598,
+            "topic": "general",
+            "question": "Artificial satellites help humans study Earth and space.",
+            "answer": "Artificial satellites help humans study Earth and space."
+        },
+        {
+            "id": 599,
+            "topic": "general",
+            "question": "Machine learning improves by learning patterns from data.",
+            "answer": "Machine learning improves by learning patterns from data."
+        },
+        {
+            "id": 600,
+            "topic": "general",
+            "question": "Robots can perform tasks automatically using programmed instructions.",
+            "answer": "Robots can perform tasks automatically using programmed instructions."
+        }
+    ]
+}

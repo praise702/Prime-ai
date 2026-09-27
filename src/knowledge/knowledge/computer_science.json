@@ -1,0 +1,1261 @@
+{
+  "category": "Computer Science",
+  "facts": [
+    {
+      "id": 289,
+      "topic": "computer_science",
+      "question": "GPS uses a network of satellites.",
+      "answer": "GPS uses a network of satellites.",
+      "keywords": [
+        "gps",
+        "uses",
+        "network",
+        "satellites"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 322,
+      "topic": "computer_science",
+      "question": "A computer system has hardware and software.",
+      "answer": "A computer system has hardware and software.",
+      "keywords": [
+        "computer",
+        "system",
+        "hardware",
+        "software"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 323,
+      "topic": "computer_science",
+      "question": "Hardware includes physical computer parts.",
+      "answer": "Hardware includes physical computer parts.",
+      "keywords": [
+        "hardware",
+        "includes",
+        "physical",
+        "computer",
+        "parts"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 324,
+      "topic": "computer_science",
+      "question": "Software includes programs and instructions.",
+      "answer": "Software includes programs and instructions.",
+      "keywords": [
+        "software",
+        "includes",
+        "programs",
+        "instructions"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 325,
+      "topic": "computer_science",
+      "question": "Firmware is software stored inside hardware devices.",
+      "answer": "Firmware is software stored inside hardware devices.",
+      "keywords": [
+        "firmware",
+        "software",
+        "stored",
+        "inside",
+        "hardware",
+        "devices"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 326,
+      "topic": "computer_science",
+      "question": "The CPU is called the brain of a computer.",
+      "answer": "The CPU is called the brain of a computer.",
+      "keywords": [
+        "cpu",
+        "called",
+        "brain",
+        "computer"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 327,
+      "topic": "computer_science",
+      "question": "The CPU executes instructions from programs.",
+      "answer": "The CPU executes instructions from programs.",
+      "keywords": [
+        "cpu",
+        "executes",
+        "instructions",
+        "programs"
+      ],
+      "importance": 9
+    },
+    {
+      "id": 328,
+      "topic": "computer_science",
+      "question": "A processor contains multiple cores.",
+      "answer": "A processor contains multiple cores.",
+      "keywords": [
+        "processor",
+        "contains",
+        "multiple",
+        "cores"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 329,
+      "topic": "computer_science",
+      "question": "Multiple cores allow better multitasking.",
+      "answer": "Multiple cores allow better multitasking.",
+      "keywords": [
+        "multiple",
+        "cores",
+        "allow",
+        "better",
+        "multitasking"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 330,
+      "topic": "computer_science",
+      "question": "Threads allow processors to handle tasks efficiently.",
+      "answer": "Threads allow processors to handle tasks efficiently.",
+      "keywords": [
+        "threads",
+        "allow",
+        "processors",
+        "handle",
+        "tasks",
+        "efficiently"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 331,
+      "topic": "computer_science",
+      "question": "Clock speed is measured in gigahertz.",
+      "answer": "Clock speed is measured in gigahertz.",
+      "keywords": [
+        "clock",
+        "speed",
+        "measured",
+        "gigahertz"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 332,
+      "topic": "computer_science",
+      "question": "A higher clock speed can improve processing speed.",
+      "answer": "A higher clock speed can improve processing speed.",
+      "keywords": [
+        "higher",
+        "clock",
+        "speed",
+        "improve",
+        "processing"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 333,
+      "topic": "computer_science",
+      "question": "The GPU specializes in graphics processing.",
+      "answer": "The GPU specializes in graphics processing.",
+      "keywords": [
+        "gpu",
+        "specializes",
+        "graphics",
+        "processing"
+      ],
+      "importance": 7
+    },
+    {
+      "id": 335,
+      "topic": "computer_science",
+      "question": "RAM stores data temporarily while programs run.",
+      "answer": "RAM stores data temporarily while programs run.",
+      "keywords": [
+        "ram",
+        "stores",
+        "data",
+        "temporarily",
+        "while",
+        "programs"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 336,
+      "topic": "computer_science",
+      "question": "More RAM allows more applications to run together.",
+      "answer": "More RAM allows more applications to run together.",
+      "keywords": [
+        "ram",
+        "allows",
+        "applications",
+        "run",
+        "together"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 337,
+      "topic": "computer_science",
+      "question": "ROM stores permanent instructions.",
+      "answer": "ROM stores permanent instructions.",
+      "keywords": [
+        "rom",
+        "stores",
+        "permanent",
+        "instructions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 338,
+      "topic": "computer_science",
+      "question": "Cache memory is faster than RAM.",
+      "answer": "Cache memory is faster than RAM.",
+      "keywords": [
+        "cache",
+        "memory",
+        "faster",
+        "ram"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 339,
+      "topic": "computer_science",
+      "question": "L1 cache is the fastest CPU cache.",
+      "answer": "L1 cache is the fastest CPU cache.",
+      "keywords": [
+        "cache",
+        "fastest",
+        "cpu"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 340,
+      "topic": "computer_science",
+      "question": "Motherboards connect computer components together.",
+      "answer": "Motherboards connect computer components together.",
+      "keywords": [
+        "motherboards",
+        "connect",
+        "computer",
+        "components",
+        "together"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 341,
+      "topic": "computer_science",
+      "question": "Chipsets control communication between components.",
+      "answer": "Chipsets control communication between components.",
+      "keywords": [
+        "chipsets",
+        "control",
+        "communication",
+        "components"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 343,
+      "topic": "computer_science",
+      "question": "Cooling systems prevent overheating.",
+      "answer": "Cooling systems prevent overheating.",
+      "keywords": [
+        "cooling",
+        "systems",
+        "prevent",
+        "overheating"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 345,
+      "topic": "computer_science",
+      "question": "Liquid cooling uses liquid to transfer heat.",
+      "answer": "Liquid cooling uses liquid to transfer heat.",
+      "keywords": [
+        "liquid",
+        "cooling",
+        "uses",
+        "transfer",
+        "heat"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 346,
+      "topic": "computer_science",
+      "question": "Thermal paste improves heat transfer from chips.",
+      "answer": "Thermal paste improves heat transfer from chips.",
+      "keywords": [
+        "thermal",
+        "paste",
+        "improves",
+        "heat",
+        "transfer",
+        "chips"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 347,
+      "topic": "computer_science",
+      "question": "A graphics card contains a GPU and memory.",
+      "answer": "A graphics card contains a GPU and memory.",
+      "keywords": [
+        "graphics",
+        "card",
+        "contains",
+        "gpu",
+        "memory"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 348,
+      "topic": "computer_science",
+      "question": "VRAM stores graphics data.",
+      "answer": "VRAM stores graphics data.",
+      "keywords": [
+        "vram",
+        "stores",
+        "graphics",
+        "data"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 349,
+      "topic": "computer_science",
+      "question": "Integrated graphics are built into processors.",
+      "answer": "Integrated graphics are built into processors.",
+      "keywords": [
+        "integrated",
+        "graphics",
+        "built",
+        "processors"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 350,
+      "topic": "computer_science",
+      "question": "Dedicated graphics cards provide higher performance.",
+      "answer": "Dedicated graphics cards provide higher performance.",
+      "keywords": [
+        "dedicated",
+        "graphics",
+        "cards",
+        "provide",
+        "higher",
+        "performance"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 351,
+      "topic": "computer_science",
+      "question": "Storage devices keep data permanently.",
+      "answer": "Storage devices keep data permanently.",
+      "keywords": [
+        "storage",
+        "devices",
+        "keep",
+        "data",
+        "permanently"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 353,
+      "topic": "computer_science",
+      "question": "SSDs store data using flash memory.",
+      "answer": "SSDs store data using flash memory.",
+      "keywords": [
+        "flash memory",
+        "ssds",
+        "store",
+        "data",
+        "using",
+        "flash"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 354,
+      "topic": "computer_science",
+      "question": "NVMe SSDs connect using PCI Express.",
+      "answer": "NVMe SSDs connect using PCI Express.",
+      "keywords": [
+        "nvme",
+        "ssds",
+        "connect",
+        "using",
+        "pci",
+        "express"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 355,
+      "topic": "computer_science",
+      "question": "SSD storage is faster than traditional hard drives.",
+      "answer": "SSD storage is faster than traditional hard drives.",
+      "keywords": [
+        "ssd",
+        "storage",
+        "faster",
+        "traditional",
+        "hard",
+        "drives"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 356,
+      "topic": "computer_science",
+      "question": "A file contains digital information.",
+      "answer": "A file contains digital information.",
+      "keywords": [
+        "file",
+        "contains",
+        "digital",
+        "information"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 357,
+      "topic": "computer_science",
+      "question": "A folder organizes files.",
+      "answer": "A folder organizes files.",
+      "keywords": [
+        "folder",
+        "organizes",
+        "files"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 358,
+      "topic": "computer_science",
+      "question": "A directory stores file locations.",
+      "answer": "A directory stores file locations.",
+      "keywords": [
+        "directory",
+        "stores",
+        "file",
+        "locations"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 359,
+      "topic": "computer_science",
+      "question": "An operating system manages computer resources.",
+      "answer": "An operating system manages computer resources.",
+      "keywords": [
+        "operating system",
+        "operating",
+        "system",
+        "manages",
+        "computer",
+        "resources"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 360,
+      "topic": "computer_science",
+      "question": "Windows is developed by Microsoft.",
+      "answer": "Windows is developed by Microsoft.",
+      "keywords": [
+        "windows",
+        "developed",
+        "microsoft"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 361,
+      "topic": "computer_science",
+      "question": "Linux is an open-source operating system.",
+      "answer": "Linux is an open-source operating system.",
+      "keywords": [
+        "operating system",
+        "linux",
+        "open-source",
+        "operating",
+        "system"
+      ],
+      "importance": 10
+    },
+    {
+      "id": 362,
+      "topic": "computer_science",
+      "question": "macOS is developed by Apple.",
+      "answer": "macOS is developed by Apple.",
+      "keywords": [
+        "macos",
+        "developed",
+        "apple"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 363,
+      "topic": "computer_science",
+      "question": "Android is based on Linux.",
+      "answer": "Android is based on Linux.",
+      "keywords": [
+        "android",
+        "based",
+        "linux"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 364,
+      "topic": "computer_science",
+      "question": "iOS is Apple's mobile operating system.",
+      "answer": "iOS is Apple's mobile operating system.",
+      "keywords": [
+        "operating system",
+        "ios",
+        "apples",
+        "mobile",
+        "operating",
+        "system"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 365,
+      "topic": "computer_science",
+      "question": "Drivers allow hardware to communicate with software.",
+      "answer": "Drivers allow hardware to communicate with software.",
+      "keywords": [
+        "drivers",
+        "allow",
+        "hardware",
+        "communicate",
+        "software"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 366,
+      "topic": "computer_science",
+      "question": "Applications are programs designed for users.",
+      "answer": "Applications are programs designed for users.",
+      "keywords": [
+        "applications",
+        "programs",
+        "designed",
+        "users"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 367,
+      "topic": "computer_science",
+      "question": "A user interface allows interaction with software.",
+      "answer": "A user interface allows interaction with software.",
+      "keywords": [
+        "user",
+        "interface",
+        "allows",
+        "interaction",
+        "software"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 368,
+      "topic": "computer_science",
+      "question": "A graphical user interface uses windows and icons.",
+      "answer": "A graphical user interface uses windows and icons.",
+      "keywords": [
+        "graphical",
+        "user",
+        "interface",
+        "uses",
+        "windows",
+        "icons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 369,
+      "topic": "computer_science",
+      "question": "The command line allows text-based control.",
+      "answer": "The command line allows text-based control.",
+      "keywords": [
+        "command",
+        "line",
+        "allows",
+        "text-based",
+        "control"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 370,
+      "topic": "computer_science",
+      "question": "Terminals execute commands.",
+      "answer": "Terminals execute commands.",
+      "keywords": [
+        "terminals",
+        "execute",
+        "commands"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 371,
+      "topic": "computer_science",
+      "question": "PowerShell is a Windows command shell.",
+      "answer": "PowerShell is a Windows command shell.",
+      "keywords": [
+        "powershell",
+        "windows",
+        "command",
+        "shell"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 373,
+      "topic": "computer_science",
+      "question": "Networks allow computers to communicate.",
+      "answer": "Networks allow computers to communicate.",
+      "keywords": [
+        "networks",
+        "allow",
+        "computers",
+        "communicate"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 374,
+      "topic": "computer_science",
+      "question": "A LAN connects devices in a small area.",
+      "answer": "A LAN connects devices in a small area.",
+      "keywords": [
+        "lan",
+        "connects",
+        "devices",
+        "small",
+        "area"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 375,
+      "topic": "computer_science",
+      "question": "A WAN connects networks over large distances.",
+      "answer": "A WAN connects networks over large distances.",
+      "keywords": [
+        "wan",
+        "connects",
+        "networks",
+        "large",
+        "distances"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 377,
+      "topic": "computer_science",
+      "question": "Ethernet uses physical cables.",
+      "answer": "Ethernet uses physical cables.",
+      "keywords": [
+        "ethernet",
+        "uses",
+        "physical",
+        "cables"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 378,
+      "topic": "computer_science",
+      "question": "Routers forward data between networks.",
+      "answer": "Routers forward data between networks.",
+      "keywords": [
+        "routers",
+        "forward",
+        "data",
+        "networks"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 379,
+      "topic": "computer_science",
+      "question": "Switches connect devices inside networks.",
+      "answer": "Switches connect devices inside networks.",
+      "keywords": [
+        "switches",
+        "connect",
+        "devices",
+        "inside",
+        "networks"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 381,
+      "topic": "computer_science",
+      "question": "IP addresses identify devices on networks.",
+      "answer": "IP addresses identify devices on networks.",
+      "keywords": [
+        "addresses",
+        "identify",
+        "devices",
+        "networks"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 382,
+      "topic": "computer_science",
+      "question": "IPv4 uses 32-bit addresses.",
+      "answer": "IPv4 uses 32-bit addresses.",
+      "keywords": [
+        "ipv4",
+        "uses",
+        "32-bit",
+        "addresses"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 383,
+      "topic": "computer_science",
+      "question": "IPv6 uses 128-bit addresses.",
+      "answer": "IPv6 uses 128-bit addresses.",
+      "keywords": [
+        "ipv6",
+        "uses",
+        "128-bit",
+        "addresses"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 384,
+      "topic": "computer_science",
+      "question": "MAC addresses identify network hardware.",
+      "answer": "MAC addresses identify network hardware.",
+      "keywords": [
+        "mac",
+        "addresses",
+        "identify",
+        "network",
+        "hardware"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 385,
+      "topic": "computer_science",
+      "question": "DNS converts domain names into IP addresses.",
+      "answer": "DNS converts domain names into IP addresses.",
+      "keywords": [
+        "dns",
+        "converts",
+        "domain",
+        "names",
+        "addresses"
+      ],
+      "importance": 9
+    },
+    {
+      "id": 386,
+      "topic": "computer_science",
+      "question": "A server provides services to other computers.",
+      "answer": "A server provides services to other computers.",
+      "keywords": [
+        "server",
+        "provides",
+        "services",
+        "computers"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 387,
+      "topic": "computer_science",
+      "question": "A client requests services from servers.",
+      "answer": "A client requests services from servers.",
+      "keywords": [
+        "client",
+        "requests",
+        "services",
+        "servers"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 388,
+      "topic": "computer_science",
+      "question": "Cloud computing uses remote servers.",
+      "answer": "Cloud computing uses remote servers.",
+      "keywords": [
+        "cloud",
+        "computing",
+        "uses",
+        "remote",
+        "servers"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 389,
+      "topic": "computer_science",
+      "question": "Data centers store and process information.",
+      "answer": "Data centers store and process information.",
+      "keywords": [
+        "data center",
+        "data",
+        "centers",
+        "store",
+        "process",
+        "information"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 390,
+      "topic": "computer_science",
+      "question": "APIs allow software systems to communicate.",
+      "answer": "APIs allow software systems to communicate.",
+      "keywords": [
+        "apis",
+        "allow",
+        "software",
+        "systems",
+        "communicate"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 391,
+      "topic": "computer_science",
+      "question": "A database stores organized information.",
+      "answer": "A database stores organized information.",
+      "keywords": [
+        "database",
+        "stores",
+        "organized",
+        "information"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 392,
+      "topic": "computer_science",
+      "question": "SQL is used to manage databases.",
+      "answer": "SQL is used to manage databases.",
+      "keywords": [
+        "sql",
+        "used",
+        "manage",
+        "databases"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 416,
+      "topic": "computer_science",
+      "question": "Programming means creating instructions for computers.",
+      "answer": "Programming means creating instructions for computers.",
+      "keywords": [
+        "programming",
+        "means",
+        "creating",
+        "instructions",
+        "computers"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 417,
+      "topic": "computer_science",
+      "question": "Code is written using programming languages.",
+      "answer": "Code is written using programming languages.",
+      "keywords": [
+        "code",
+        "written",
+        "using",
+        "programming",
+        "languages"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 419,
+      "topic": "computer_science",
+      "question": "JavaScript is used for web development.",
+      "answer": "JavaScript is used for web development.",
+      "keywords": [
+        "web development",
+        "javascript",
+        "used",
+        "web",
+        "development"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 420,
+      "topic": "computer_science",
+      "question": "Java is used for applications and Android development.",
+      "answer": "Java is used for applications and Android development.",
+      "keywords": [
+        "java",
+        "used",
+        "applications",
+        "android",
+        "development"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 421,
+      "topic": "computer_science",
+      "question": "C is a low-level programming language.",
+      "answer": "C is a low-level programming language.",
+      "keywords": [
+        "low-level",
+        "programming",
+        "language"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 422,
+      "topic": "computer_science",
+      "question": "C++ is used for high-performance software.",
+      "answer": "C++ is used for high-performance software.",
+      "keywords": [
+        "used",
+        "high-performance",
+        "software"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 424,
+      "topic": "computer_science",
+      "question": "HTML creates webpage structure.",
+      "answer": "HTML creates webpage structure.",
+      "keywords": [
+        "html",
+        "creates",
+        "webpage",
+        "structure"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 425,
+      "topic": "computer_science",
+      "question": "CSS controls webpage design.",
+      "answer": "CSS controls webpage design.",
+      "keywords": [
+        "css",
+        "controls",
+        "webpage",
+        "design"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 426,
+      "topic": "computer_science",
+      "question": "JavaScript adds interaction to websites.",
+      "answer": "JavaScript adds interaction to websites.",
+      "keywords": [
+        "javascript",
+        "adds",
+        "interaction",
+        "websites"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 427,
+      "topic": "computer_science",
+      "question": "Variables store information in programs.",
+      "answer": "Variables store information in programs.",
+      "keywords": [
+        "variables",
+        "store",
+        "information",
+        "programs"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 428,
+      "topic": "computer_science",
+      "question": "Constants store values that do not change.",
+      "answer": "Constants store values that do not change.",
+      "keywords": [
+        "constants",
+        "store",
+        "values",
+        "change"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 429,
+      "topic": "computer_science",
+      "question": "Data types define different kinds of values.",
+      "answer": "Data types define different kinds of values.",
+      "keywords": [
+        "data",
+        "types",
+        "define",
+        "different",
+        "kinds",
+        "values"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 430,
+      "topic": "computer_science",
+      "question": "Strings store text.",
+      "answer": "Strings store text.",
+      "keywords": [
+        "strings",
+        "store",
+        "text"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 432,
+      "topic": "computer_science",
+      "question": "Booleans store true or false values.",
+      "answer": "Booleans store true or false values.",
+      "keywords": [
+        "booleans",
+        "store",
+        "true",
+        "false",
+        "values"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 433,
+      "topic": "computer_science",
+      "question": "Arrays store multiple values.",
+      "answer": "Arrays store multiple values.",
+      "keywords": [
+        "arrays",
+        "store",
+        "multiple",
+        "values"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 435,
+      "topic": "computer_science",
+      "question": "Functions contain reusable code.",
+      "answer": "Functions contain reusable code.",
+      "keywords": [
+        "functions",
+        "contain",
+        "reusable",
+        "code"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 436,
+      "topic": "computer_science",
+      "question": "Loops repeat instructions.",
+      "answer": "Loops repeat instructions.",
+      "keywords": [
+        "loops",
+        "repeat",
+        "instructions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 438,
+      "topic": "computer_science",
+      "question": "Algorithms are step-by-step problem solutions.",
+      "answer": "Algorithms are step-by-step problem solutions.",
+      "keywords": [
+        "algorithms",
+        "step-by-step",
+        "problem",
+        "solutions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 439,
+      "topic": "computer_science",
+      "question": "Flowcharts represent program logic visually.",
+      "answer": "Flowcharts represent program logic visually.",
+      "keywords": [
+        "flowcharts",
+        "represent",
+        "program",
+        "logic",
+        "visually"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 440,
+      "topic": "computer_science",
+      "question": "Debugging means finding and fixing errors.",
+      "answer": "Debugging means finding and fixing errors.",
+      "keywords": [
+        "debugging",
+        "means",
+        "finding",
+        "fixing",
+        "errors"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 441,
+      "topic": "computer_science",
+      "question": "Bugs are mistakes in software.",
+      "answer": "Bugs are mistakes in software.",
+      "keywords": [
+        "bugs",
+        "mistakes",
+        "software"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 442,
+      "topic": "computer_science",
+      "question": "Libraries provide reusable programming tools.",
+      "answer": "Libraries provide reusable programming tools.",
+      "keywords": [
+        "libraries",
+        "provide",
+        "reusable",
+        "programming",
+        "tools"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 443,
+      "topic": "computer_science",
+      "question": "Frameworks help developers build applications.",
+      "answer": "Frameworks help developers build applications.",
+      "keywords": [
+        "frameworks",
+        "help",
+        "developers",
+        "build",
+        "applications"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 444,
+      "topic": "computer_science",
+      "question": "Git tracks changes in code.",
+      "answer": "Git tracks changes in code.",
+      "keywords": [
+        "git",
+        "tracks",
+        "changes",
+        "code"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 445,
+      "topic": "computer_science",
+      "question": "GitHub hosts code repositories online.",
+      "answer": "GitHub hosts code repositories online.",
+      "keywords": [
+        "github",
+        "hosts",
+        "code",
+        "repositories",
+        "online"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 446,
+      "topic": "computer_science",
+      "question": "Software development involves designing and building programs.",
+      "answer": "Software development involves designing and building programs.",
+      "keywords": [
+        "software",
+        "development",
+        "involves",
+        "designing",
+        "building",
+        "programs"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 540,
+      "topic": "computer_science",
+      "question": "The liver performs many important functions.",
+      "answer": "The liver performs many important functions.",
+      "keywords": [
+        "liver",
+        "performs",
+        "many",
+        "important",
+        "functions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 552,
+      "topic": "computer_science",
+      "question": "Vitamins support body functions.",
+      "answer": "Vitamins support body functions.",
+      "keywords": [
+        "vitamins",
+        "support",
+        "body",
+        "functions"
+      ],
+      "importance": 5
+    }
+  ]
+}

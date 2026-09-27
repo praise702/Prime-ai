@@ -1,0 +1,379 @@
+{
+  "category": "Geography",
+  "facts": [
+    {
+      "id": 10,
+      "topic": "geography",
+      "question": "Continents move over millions of years.",
+      "answer": "Continents move over millions of years.",
+      "keywords": [
+        "continents",
+        "move",
+        "millions",
+        "years"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 12,
+      "topic": "geography",
+      "question": "The Pacific Ocean is the largest ocean.",
+      "answer": "The Pacific Ocean is the largest ocean.",
+      "keywords": [
+        "pacific",
+        "ocean",
+        "largest"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 13,
+      "topic": "geography",
+      "question": "The Atlantic Ocean separates the Americas from Europe and Africa.",
+      "answer": "The Atlantic Ocean separates the Americas from Europe and Africa.",
+      "keywords": [
+        "atlantic",
+        "ocean",
+        "separates",
+        "americas",
+        "europe",
+        "africa"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 14,
+      "topic": "geography",
+      "question": "The Indian Ocean is the third largest ocean.",
+      "answer": "The Indian Ocean is the third largest ocean.",
+      "keywords": [
+        "indian",
+        "ocean",
+        "third",
+        "largest"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 15,
+      "topic": "geography",
+      "question": "The Southern Ocean surrounds Antarctica.",
+      "answer": "The Southern Ocean surrounds Antarctica.",
+      "keywords": [
+        "southern",
+        "ocean",
+        "surrounds",
+        "antarctica"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 16,
+      "topic": "geography",
+      "question": "The Arctic Ocean is the smallest ocean.",
+      "answer": "The Arctic Ocean is the smallest ocean.",
+      "keywords": [
+        "arctic",
+        "ocean",
+        "smallest"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 17,
+      "topic": "geography",
+      "question": "A peninsula is land surrounded by water on three sides.",
+      "answer": "A peninsula is land surrounded by water on three sides.",
+      "keywords": [
+        "peninsula",
+        "land",
+        "surrounded",
+        "water",
+        "three",
+        "sides"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 18,
+      "topic": "geography",
+      "question": "An island is land surrounded by water.",
+      "answer": "An island is land surrounded by water.",
+      "keywords": [
+        "island",
+        "land",
+        "surrounded",
+        "water"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 19,
+      "topic": "geography",
+      "question": "An archipelago is a group of islands.",
+      "answer": "An archipelago is a group of islands.",
+      "keywords": [
+        "archipelago",
+        "group",
+        "islands"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 20,
+      "topic": "geography",
+      "question": "A valley is low land between mountains.",
+      "answer": "A valley is low land between mountains.",
+      "keywords": [
+        "valley",
+        "low",
+        "land",
+        "mountains"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 21,
+      "topic": "geography",
+      "question": "A plateau is a high flat area of land.",
+      "answer": "A plateau is a high flat area of land.",
+      "keywords": [
+        "plateau",
+        "high",
+        "flat",
+        "area",
+        "land"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 22,
+      "topic": "geography",
+      "question": "A canyon is a deep valley with steep sides.",
+      "answer": "A canyon is a deep valley with steep sides.",
+      "keywords": [
+        "canyon",
+        "deep",
+        "valley",
+        "steep",
+        "sides"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 32,
+      "topic": "geography",
+      "question": "Rivers usually flow toward oceans or lakes.",
+      "answer": "Rivers usually flow toward oceans or lakes.",
+      "keywords": [
+        "rivers",
+        "usually",
+        "flow",
+        "toward",
+        "oceans",
+        "lakes"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 37,
+      "topic": "geography",
+      "question": "The Amazon rainforest is the largest tropical rainforest.",
+      "answer": "The Amazon rainforest is the largest tropical rainforest.",
+      "keywords": [
+        "amazon",
+        "rainforest",
+        "largest",
+        "tropical"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 38,
+      "topic": "geography",
+      "question": "The Sahara is the largest hot desert.",
+      "answer": "The Sahara is the largest hot desert.",
+      "keywords": [
+        "sahara",
+        "largest",
+        "hot",
+        "desert"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 39,
+      "topic": "geography",
+      "question": "Deserts can be hot or cold.",
+      "answer": "Deserts can be hot or cold.",
+      "keywords": [
+        "deserts",
+        "hot",
+        "cold"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 40,
+      "topic": "geography",
+      "question": "Oases provide water in deserts.",
+      "answer": "Oases provide water in deserts.",
+      "keywords": [
+        "oases",
+        "provide",
+        "water",
+        "deserts"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 58,
+      "topic": "geography",
+      "question": "Desertification turns land into desert-like conditions.",
+      "answer": "Desertification turns land into desert-like conditions.",
+      "keywords": [
+        "desertification",
+        "turns",
+        "land",
+        "desert-like",
+        "conditions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 85,
+      "topic": "geography",
+      "question": "The Northern and Southern Hemispheres have opposite seasons.",
+      "answer": "The Northern and Southern Hemispheres have opposite seasons.",
+      "keywords": [
+        "northern",
+        "southern",
+        "hemispheres",
+        "opposite",
+        "seasons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 88,
+      "topic": "geography",
+      "question": "The North Pole is located in the Arctic.",
+      "answer": "The North Pole is located in the Arctic.",
+      "keywords": [
+        "north",
+        "pole",
+        "located",
+        "arctic"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 89,
+      "topic": "geography",
+      "question": "The South Pole is located in Antarctica.",
+      "answer": "The South Pole is located in Antarctica.",
+      "keywords": [
+        "south",
+        "pole",
+        "located",
+        "antarctica"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 90,
+      "topic": "geography",
+      "question": "Mount Everest is the highest mountain above sea level.",
+      "answer": "Mount Everest is the highest mountain above sea level.",
+      "keywords": [
+        "mount everest",
+        "mount",
+        "everest",
+        "highest",
+        "mountain",
+        "sea"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 91,
+      "topic": "geography",
+      "question": "The Mariana Trench is the deepest known ocean trench.",
+      "answer": "The Mariana Trench is the deepest known ocean trench.",
+      "keywords": [
+        "mariana",
+        "trench",
+        "deepest",
+        "known",
+        "ocean"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 92,
+      "topic": "geography",
+      "question": "The Dead Sea is one of the lowest land areas on Earth.",
+      "answer": "The Dead Sea is one of the lowest land areas on Earth.",
+      "keywords": [
+        "dead",
+        "sea",
+        "one",
+        "lowest",
+        "land",
+        "areas"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 450,
+      "topic": "geography",
+      "question": "The Nile River supported ancient Egypt.",
+      "answer": "The Nile River supported ancient Egypt.",
+      "keywords": [
+        "nile",
+        "river",
+        "supported",
+        "ancient",
+        "egypt"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 475,
+      "topic": "geography",
+      "question": "Trade connects countries.",
+      "answer": "Trade connects countries.",
+      "keywords": [
+        "trade",
+        "connects",
+        "countries"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 573,
+      "topic": "geography",
+      "question": "Geography studies places and environments.",
+      "answer": "Geography studies places and environments.",
+      "keywords": [
+        "geography",
+        "studies",
+        "places",
+        "environments"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 586,
+      "topic": "geography",
+      "question": "Antarctica is the coldest continent.",
+      "answer": "Antarctica is the coldest continent.",
+      "keywords": [
+        "antarctica",
+        "coldest",
+        "continent"
+      ],
+      "importance": 5
+    }
+  ]
+}

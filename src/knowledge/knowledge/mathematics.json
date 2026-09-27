@@ -1,0 +1,32 @@
+{
+  "category": "Mathematics",
+  "facts": [
+    {
+      "id": 454,
+      "topic": "mathematics",
+      "question": "Ancient India contributed to mathematics and science.",
+      "answer": "Ancient India contributed to mathematics and science.",
+      "keywords": [
+        "ancient",
+        "india",
+        "contributed",
+        "mathematics",
+        "science"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 567,
+      "topic": "mathematics",
+      "question": "Mathematics studies patterns and relationships.",
+      "answer": "Mathematics studies patterns and relationships.",
+      "keywords": [
+        "mathematics",
+        "studies",
+        "patterns",
+        "relationships"
+      ],
+      "importance": 5
+    }
+  ]
+}

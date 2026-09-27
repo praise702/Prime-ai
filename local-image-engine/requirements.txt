@@ -1,0 +1,8 @@
+# Install a suitable PyTorch build for your hardware first when needed:
+# https://pytorch.org/get-started/locally/
+diffusers>=0.35,<1
+accelerate>=1.0
+transformers>=4.45
+safetensors>=0.4
+Pillow>=10
+sentencepiece>=0.2

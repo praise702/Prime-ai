@@ -1,0 +1,1010 @@
+{
+  "category": "Physics",
+  "facts": [
+    {
+      "id": 103,
+      "topic": "physics",
+      "question": "Mass measures the amount of matter in an object.",
+      "answer": "Mass measures the amount of matter in an object.",
+      "keywords": [
+        "mass",
+        "measures",
+        "amount",
+        "matter",
+        "object"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 104,
+      "topic": "physics",
+      "question": "Volume measures the space occupied by matter.",
+      "answer": "Volume measures the space occupied by matter.",
+      "keywords": [
+        "volume",
+        "measures",
+        "space",
+        "occupied",
+        "matter"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 105,
+      "topic": "physics",
+      "question": "Density is mass divided by volume.",
+      "answer": "Density is mass divided by volume.",
+      "keywords": [
+        "density",
+        "mass",
+        "divided",
+        "volume"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 120,
+      "topic": "physics",
+      "question": "Metals usually conduct heat and electricity.",
+      "answer": "Metals usually conduct heat and electricity.",
+      "keywords": [
+        "metals",
+        "usually",
+        "conduct",
+        "heat",
+        "electricity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 134,
+      "topic": "physics",
+      "question": "Boiling changes liquid into gas.",
+      "answer": "Boiling changes liquid into gas.",
+      "keywords": [
+        "boiling",
+        "changes",
+        "liquid",
+        "gas"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 135,
+      "topic": "physics",
+      "question": "Melting changes solid into liquid.",
+      "answer": "Melting changes solid into liquid.",
+      "keywords": [
+        "melting",
+        "changes",
+        "solid",
+        "liquid"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 136,
+      "topic": "physics",
+      "question": "Freezing changes liquid into solid.",
+      "answer": "Freezing changes liquid into solid.",
+      "keywords": [
+        "freezing",
+        "changes",
+        "liquid",
+        "solid"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 137,
+      "topic": "physics",
+      "question": "Sublimation changes solid directly into gas.",
+      "answer": "Sublimation changes solid directly into gas.",
+      "keywords": [
+        "sublimation",
+        "changes",
+        "solid",
+        "directly",
+        "gas"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 138,
+      "topic": "physics",
+      "question": "Energy cannot be created or destroyed.",
+      "answer": "Energy cannot be created or destroyed.",
+      "keywords": [
+        "energy",
+        "cannot",
+        "created",
+        "destroyed"
+      ],
+      "importance": 10
+    },
+    {
+      "id": 139,
+      "topic": "physics",
+      "question": "Energy can change from one form to another.",
+      "answer": "Energy can change from one form to another.",
+      "keywords": [
+        "energy",
+        "change",
+        "one",
+        "form",
+        "another"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 140,
+      "topic": "physics",
+      "question": "Heat is the transfer of thermal energy.",
+      "answer": "Heat is the transfer of thermal energy.",
+      "keywords": [
+        "heat",
+        "transfer",
+        "thermal",
+        "energy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 142,
+      "topic": "physics",
+      "question": "Conduction transfers heat through direct contact.",
+      "answer": "Conduction transfers heat through direct contact.",
+      "keywords": [
+        "conduction",
+        "transfers",
+        "heat",
+        "direct",
+        "contact"
+      ],
+      "importance": 8
+    },
+    {
+      "id": 143,
+      "topic": "physics",
+      "question": "Convection transfers heat through moving fluids.",
+      "answer": "Convection transfers heat through moving fluids.",
+      "keywords": [
+        "convection",
+        "transfers",
+        "heat",
+        "moving",
+        "fluids"
+      ],
+      "importance": 8
+    },
+    {
+      "id": 144,
+      "topic": "physics",
+      "question": "Radiation transfers energy through electromagnetic waves.",
+      "answer": "Radiation transfers energy through electromagnetic waves.",
+      "keywords": [
+        "radiation",
+        "transfers",
+        "energy",
+        "electromagnetic",
+        "waves"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 145,
+      "topic": "physics",
+      "question": "Mechanical energy involves motion and position.",
+      "answer": "Mechanical energy involves motion and position.",
+      "keywords": [
+        "mechanical",
+        "energy",
+        "involves",
+        "motion",
+        "position"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 147,
+      "topic": "physics",
+      "question": "Electrical energy comes from moving charges.",
+      "answer": "Electrical energy comes from moving charges.",
+      "keywords": [
+        "electrical",
+        "energy",
+        "comes",
+        "moving",
+        "charges"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 149,
+      "topic": "physics",
+      "question": "Gravity is a force between masses.",
+      "answer": "Gravity is a force between masses.",
+      "keywords": [
+        "gravity",
+        "force",
+        "masses"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 150,
+      "topic": "physics",
+      "question": "Friction opposes motion.",
+      "answer": "Friction opposes motion.",
+      "keywords": [
+        "friction",
+        "opposes",
+        "motion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 151,
+      "topic": "physics",
+      "question": "Force can change an object's movement.",
+      "answer": "Force can change an object's movement.",
+      "keywords": [
+        "force",
+        "change",
+        "objects",
+        "movement"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 152,
+      "topic": "physics",
+      "question": "Acceleration is a change in velocity.",
+      "answer": "Acceleration is a change in velocity.",
+      "keywords": [
+        "acceleration",
+        "change",
+        "velocity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 153,
+      "topic": "physics",
+      "question": "Velocity includes speed and direction.",
+      "answer": "Velocity includes speed and direction.",
+      "keywords": [
+        "velocity",
+        "includes",
+        "speed",
+        "direction"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 154,
+      "topic": "physics",
+      "question": "Speed measures distance traveled over time.",
+      "answer": "Speed measures distance traveled over time.",
+      "keywords": [
+        "speed",
+        "measures",
+        "distance",
+        "traveled",
+        "time"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 155,
+      "topic": "physics",
+      "question": "Newton described laws of motion.",
+      "answer": "Newton described laws of motion.",
+      "keywords": [
+        "newton",
+        "described",
+        "laws",
+        "motion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 156,
+      "topic": "physics",
+      "question": "Newton's first law is the law of inertia.",
+      "answer": "Newton's first law is the law of inertia.",
+      "keywords": [
+        "newtons",
+        "first",
+        "law",
+        "inertia"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 157,
+      "topic": "physics",
+      "question": "Newton's second law relates force, mass, and acceleration.",
+      "answer": "Newton's second law relates force, mass, and acceleration.",
+      "keywords": [
+        "newtons",
+        "second",
+        "law",
+        "relates",
+        "force",
+        "mass"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 158,
+      "topic": "physics",
+      "question": "Newton's third law describes action and reaction.",
+      "answer": "Newton's third law describes action and reaction.",
+      "keywords": [
+        "newtons",
+        "third",
+        "law",
+        "describes",
+        "action",
+        "reaction"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 159,
+      "topic": "physics",
+      "question": "Momentum depends on mass and velocity.",
+      "answer": "Momentum depends on mass and velocity.",
+      "keywords": [
+        "momentum",
+        "depends",
+        "mass",
+        "velocity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 160,
+      "topic": "physics",
+      "question": "Work is done when force moves an object.",
+      "answer": "Work is done when force moves an object.",
+      "keywords": [
+        "work",
+        "done",
+        "force",
+        "moves",
+        "object"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 161,
+      "topic": "physics",
+      "question": "Power measures how quickly work is done.",
+      "answer": "Power measures how quickly work is done.",
+      "keywords": [
+        "power",
+        "measures",
+        "quickly",
+        "work",
+        "done"
+      ],
+      "importance": 8
+    },
+    {
+      "id": 162,
+      "topic": "physics",
+      "question": "Simple machines make work easier.",
+      "answer": "Simple machines make work easier.",
+      "keywords": [
+        "simple",
+        "machines",
+        "make",
+        "work",
+        "easier"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 165,
+      "topic": "physics",
+      "question": "Inclined planes reduce required force.",
+      "answer": "Inclined planes reduce required force.",
+      "keywords": [
+        "inclined",
+        "planes",
+        "reduce",
+        "required",
+        "force"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 167,
+      "topic": "physics",
+      "question": "Screws are inclined planes wrapped around a cylinder.",
+      "answer": "Screws are inclined planes wrapped around a cylinder.",
+      "keywords": [
+        "screws",
+        "inclined",
+        "planes",
+        "wrapped",
+        "around",
+        "cylinder"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 168,
+      "topic": "physics",
+      "question": "Sound is produced by vibrations.",
+      "answer": "Sound is produced by vibrations.",
+      "keywords": [
+        "sound",
+        "produced",
+        "vibrations"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 169,
+      "topic": "physics",
+      "question": "Sound requires a medium to travel.",
+      "answer": "Sound requires a medium to travel.",
+      "keywords": [
+        "sound",
+        "requires",
+        "medium",
+        "travel"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 170,
+      "topic": "physics",
+      "question": "Sound cannot travel through a vacuum.",
+      "answer": "Sound cannot travel through a vacuum.",
+      "keywords": [
+        "sound",
+        "cannot",
+        "travel",
+        "vacuum"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 171,
+      "topic": "physics",
+      "question": "Frequency determines sound pitch.",
+      "answer": "Frequency determines sound pitch.",
+      "keywords": [
+        "frequency",
+        "determines",
+        "sound",
+        "pitch"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 172,
+      "topic": "physics",
+      "question": "Amplitude affects sound volume.",
+      "answer": "Amplitude affects sound volume.",
+      "keywords": [
+        "amplitude",
+        "affects",
+        "sound",
+        "volume"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 173,
+      "topic": "physics",
+      "question": "Ultrasound uses very high frequency sound waves.",
+      "answer": "Ultrasound uses very high frequency sound waves.",
+      "keywords": [
+        "ultrasound",
+        "uses",
+        "high",
+        "frequency",
+        "sound",
+        "waves"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 174,
+      "topic": "physics",
+      "question": "Light is a form of electromagnetic energy.",
+      "answer": "Light is a form of electromagnetic energy.",
+      "keywords": [
+        "light",
+        "form",
+        "electromagnetic",
+        "energy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 175,
+      "topic": "physics",
+      "question": "Visible light is a small part of the electromagnetic spectrum.",
+      "answer": "Visible light is a small part of the electromagnetic spectrum.",
+      "keywords": [
+        "visible",
+        "light",
+        "small",
+        "part",
+        "electromagnetic",
+        "spectrum"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 176,
+      "topic": "physics",
+      "question": "Radio waves have long wavelengths.",
+      "answer": "Radio waves have long wavelengths.",
+      "keywords": [
+        "radio",
+        "waves",
+        "long",
+        "wavelengths"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 177,
+      "topic": "physics",
+      "question": "Microwaves are used in communication and heating.",
+      "answer": "Microwaves are used in communication and heating.",
+      "keywords": [
+        "microwaves",
+        "used",
+        "communication",
+        "heating"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 178,
+      "topic": "physics",
+      "question": "Infrared radiation is associated with heat.",
+      "answer": "Infrared radiation is associated with heat.",
+      "keywords": [
+        "infrared",
+        "radiation",
+        "associated",
+        "heat"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 181,
+      "topic": "physics",
+      "question": "Gamma rays have very high energy.",
+      "answer": "Gamma rays have very high energy.",
+      "keywords": [
+        "gamma",
+        "rays",
+        "high",
+        "energy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 182,
+      "topic": "physics",
+      "question": "Electric fields surround charged objects.",
+      "answer": "Electric fields surround charged objects.",
+      "keywords": [
+        "electric",
+        "fields",
+        "surround",
+        "charged",
+        "objects"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 183,
+      "topic": "physics",
+      "question": "Magnetic fields surround magnets.",
+      "answer": "Magnetic fields surround magnets.",
+      "keywords": [
+        "magnetic",
+        "fields",
+        "surround",
+        "magnets"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 184,
+      "topic": "physics",
+      "question": "Electromagnets use electricity to create magnetism.",
+      "answer": "Electromagnets use electricity to create magnetism.",
+      "keywords": [
+        "electromagnets",
+        "use",
+        "electricity",
+        "create",
+        "magnetism"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 185,
+      "topic": "physics",
+      "question": "Generators convert mechanical energy into electrical energy.",
+      "answer": "Generators convert mechanical energy into electrical energy.",
+      "keywords": [
+        "generators",
+        "convert",
+        "mechanical",
+        "energy",
+        "electrical"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 186,
+      "topic": "physics",
+      "question": "Motors convert electrical energy into motion.",
+      "answer": "Motors convert electrical energy into motion.",
+      "keywords": [
+        "motors",
+        "convert",
+        "electrical",
+        "energy",
+        "motion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 187,
+      "topic": "physics",
+      "question": "Transformers change electrical voltage.",
+      "answer": "Transformers change electrical voltage.",
+      "keywords": [
+        "transformers",
+        "change",
+        "electrical",
+        "voltage"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 188,
+      "topic": "physics",
+      "question": "Batteries store chemical energy.",
+      "answer": "Batteries store chemical energy.",
+      "keywords": [
+        "batteries",
+        "store",
+        "chemical",
+        "energy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 223,
+      "topic": "physics",
+      "question": "The universe contains all space, matter, and energy.",
+      "answer": "The universe contains all space, matter, and energy.",
+      "keywords": [
+        "universe",
+        "contains",
+        "space",
+        "matter",
+        "energy"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 231,
+      "topic": "physics",
+      "question": "Gravity causes clouds of gas to collapse and form stars.",
+      "answer": "Gravity causes clouds of gas to collapse and form stars.",
+      "keywords": [
+        "gravity",
+        "causes",
+        "clouds",
+        "gas",
+        "collapse",
+        "form"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 268,
+      "topic": "physics",
+      "question": "The speed of light is about 300,000 kilometers per second.",
+      "answer": "The speed of light is about 300,000 kilometers per second.",
+      "keywords": [
+        "speed",
+        "light",
+        "300000",
+        "kilometers",
+        "per",
+        "second"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 295,
+      "topic": "physics",
+      "question": "Rockets use engines to create thrust.",
+      "answer": "Rockets use engines to create thrust.",
+      "keywords": [
+        "rockets",
+        "use",
+        "engines",
+        "create",
+        "thrust"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 296,
+      "topic": "physics",
+      "question": "Thrust pushes rockets forward.",
+      "answer": "Thrust pushes rockets forward.",
+      "keywords": [
+        "thrust",
+        "pushes",
+        "rockets",
+        "forward"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 303,
+      "topic": "physics",
+      "question": "Relativity explains how space and time are connected.",
+      "answer": "Relativity explains how space and time are connected.",
+      "keywords": [
+        "relativity",
+        "explains",
+        "space",
+        "time",
+        "connected"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 304,
+      "topic": "physics",
+      "question": "Einstein developed the theory of relativity.",
+      "answer": "Einstein developed the theory of relativity.",
+      "keywords": [
+        "einstein",
+        "developed",
+        "theory",
+        "relativity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 306,
+      "topic": "physics",
+      "question": "Gravity can bend the path of light.",
+      "answer": "Gravity can bend the path of light.",
+      "keywords": [
+        "gravity",
+        "bend",
+        "path",
+        "light"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 307,
+      "topic": "physics",
+      "question": "Dark matter is invisible matter detected through gravity.",
+      "answer": "Dark matter is invisible matter detected through gravity.",
+      "keywords": [
+        "dark",
+        "matter",
+        "invisible",
+        "detected",
+        "gravity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 308,
+      "topic": "physics",
+      "question": "Dark energy may cause the expansion of the universe.",
+      "answer": "Dark energy may cause the expansion of the universe.",
+      "keywords": [
+        "dark",
+        "energy",
+        "cause",
+        "expansion",
+        "universe"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 313,
+      "topic": "physics",
+      "question": "Physics studies matter, energy, forces, and motion.",
+      "answer": "Physics studies matter, energy, forces, and motion.",
+      "keywords": [
+        "physics",
+        "studies",
+        "matter",
+        "energy",
+        "forces",
+        "motion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 314,
+      "topic": "physics",
+      "question": "Quantum physics studies very small particles.",
+      "answer": "Quantum physics studies very small particles.",
+      "keywords": [
+        "quantum",
+        "physics",
+        "studies",
+        "small",
+        "particles"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 316,
+      "topic": "physics",
+      "question": "Photons are particles of light.",
+      "answer": "Photons are particles of light.",
+      "keywords": [
+        "photons",
+        "particles",
+        "light"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 318,
+      "topic": "physics",
+      "question": "Quantum computers use quantum effects for calculations.",
+      "answer": "Quantum computers use quantum effects for calculations.",
+      "keywords": [
+        "quantum",
+        "computers",
+        "use",
+        "effects",
+        "calculations"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 319,
+      "topic": "physics",
+      "question": "Energy exists in many forms.",
+      "answer": "Energy exists in many forms.",
+      "keywords": [
+        "energy",
+        "exists",
+        "many",
+        "forms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 320,
+      "topic": "physics",
+      "question": "The conservation of energy is a fundamental physics law.",
+      "answer": "The conservation of energy is a fundamental physics law.",
+      "keywords": [
+        "conservation",
+        "energy",
+        "fundamental",
+        "physics",
+        "law"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 342,
+      "topic": "physics",
+      "question": "A power supply converts electricity for computer parts.",
+      "answer": "A power supply converts electricity for computer parts.",
+      "keywords": [
+        "power",
+        "supply",
+        "converts",
+        "electricity",
+        "computer",
+        "parts"
+      ],
+      "importance": 9
+    },
+    {
+      "id": 352,
+      "topic": "physics",
+      "question": "HDDs store data using magnetic disks.",
+      "answer": "HDDs store data using magnetic disks.",
+      "keywords": [
+        "hdds",
+        "store",
+        "data",
+        "using",
+        "magnetic",
+        "disks"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 463,
+      "topic": "physics",
+      "question": "Electricity transformed modern life.",
+      "answer": "Electricity transformed modern life.",
+      "keywords": [
+        "electricity",
+        "transformed",
+        "modern",
+        "life"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 551,
+      "topic": "physics",
+      "question": "Nutrition provides energy and materials.",
+      "answer": "Nutrition provides energy and materials.",
+      "keywords": [
+        "nutrition",
+        "provides",
+        "energy",
+        "materials"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 587,
+      "topic": "physics",
+      "question": "The Eiffel Tower expands in heat.",
+      "answer": "The Eiffel Tower expands in heat.",
+      "keywords": [
+        "eiffel tower",
+        "eiffel",
+        "tower",
+        "expands",
+        "heat"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 588,
+      "topic": "physics",
+      "question": "Sound cannot travel through empty space.",
+      "answer": "Sound cannot travel through empty space.",
+      "keywords": [
+        "sound",
+        "cannot",
+        "travel",
+        "empty",
+        "space"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 591,
+      "topic": "physics",
+      "question": "Water expands when it freezes.",
+      "answer": "Water expands when it freezes.",
+      "keywords": [
+        "water",
+        "expands",
+        "freezes"
+      ],
+      "importance": 6
+    }
+  ]
+}

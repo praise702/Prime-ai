@@ -1,0 +1,1116 @@
+{
+  "category": "Astronomy",
+  "facts": [
+    {
+      "id": 1,
+      "topic": "astronomy",
+      "question": "Earth is the third planet from the Sun.",
+      "answer": "Earth is the third planet from the Sun.",
+      "keywords": [
+        "earth",
+        "third",
+        "planet",
+        "sun"
+      ],
+      "importance": 10
+    },
+    {
+      "id": 67,
+      "topic": "astronomy",
+      "question": "The mesosphere burns many meteors.",
+      "answer": "The mesosphere burns many meteors.",
+      "keywords": [
+        "mesosphere",
+        "burns",
+        "many",
+        "meteors"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 83,
+      "topic": "astronomy",
+      "question": "Earth takes about 365 days to orbit the Sun.",
+      "answer": "Earth takes about 365 days to orbit the Sun.",
+      "keywords": [
+        "earth",
+        "takes",
+        "365",
+        "days",
+        "orbit",
+        "sun"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 86,
+      "topic": "astronomy",
+      "question": "A solstice marks the longest or shortest day of the year.",
+      "answer": "A solstice marks the longest or shortest day of the year.",
+      "keywords": [
+        "solstice",
+        "marks",
+        "longest",
+        "shortest",
+        "day",
+        "year"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 87,
+      "topic": "astronomy",
+      "question": "An equinox occurs when day and night are nearly equal.",
+      "answer": "An equinox occurs when day and night are nearly equal.",
+      "keywords": [
+        "equinox",
+        "occurs",
+        "day",
+        "night",
+        "nearly",
+        "equal"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 179,
+      "topic": "astronomy",
+      "question": "Ultraviolet radiation comes from the Sun.",
+      "answer": "Ultraviolet radiation comes from the Sun.",
+      "keywords": [
+        "ultraviolet",
+        "radiation",
+        "comes",
+        "sun"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 224,
+      "topic": "astronomy",
+      "question": "The Big Bang theory explains the early expansion of the universe.",
+      "answer": "The Big Bang theory explains the early expansion of the universe.",
+      "keywords": [
+        "big",
+        "bang",
+        "theory",
+        "explains",
+        "early",
+        "expansion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 226,
+      "topic": "astronomy",
+      "question": "The observable universe contains billions of galaxies.",
+      "answer": "The observable universe contains billions of galaxies.",
+      "keywords": [
+        "observable",
+        "universe",
+        "contains",
+        "billions",
+        "galaxies"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 227,
+      "topic": "astronomy",
+      "question": "A galaxy is a large collection of stars, gas, and dust.",
+      "answer": "A galaxy is a large collection of stars, gas, and dust.",
+      "keywords": [
+        "galaxy",
+        "large",
+        "collection",
+        "stars",
+        "gas",
+        "dust"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 228,
+      "topic": "astronomy",
+      "question": "The Milky Way is the galaxy containing our Solar System.",
+      "answer": "The Milky Way is the galaxy containing our Solar System.",
+      "keywords": [
+        "solar system",
+        "milky way",
+        "milky",
+        "way",
+        "galaxy",
+        "containing"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 229,
+      "topic": "astronomy",
+      "question": "The Solar System is located in the Orion Arm of the Milky Way.",
+      "answer": "The Solar System is located in the Orion Arm of the Milky Way.",
+      "keywords": [
+        "solar system",
+        "milky way",
+        "solar",
+        "system",
+        "located",
+        "orion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 230,
+      "topic": "astronomy",
+      "question": "Stars form inside clouds of gas and dust called nebulae.",
+      "answer": "Stars form inside clouds of gas and dust called nebulae.",
+      "keywords": [
+        "stars",
+        "form",
+        "inside",
+        "clouds",
+        "gas",
+        "dust"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 232,
+      "topic": "astronomy",
+      "question": "The Sun is a medium-sized star called a yellow dwarf.",
+      "answer": "The Sun is a medium-sized star called a yellow dwarf.",
+      "keywords": [
+        "sun",
+        "medium-sized",
+        "star",
+        "called",
+        "yellow",
+        "dwarf"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 233,
+      "topic": "astronomy",
+      "question": "The Sun produces energy through nuclear fusion.",
+      "answer": "The Sun produces energy through nuclear fusion.",
+      "keywords": [
+        "sun",
+        "produces",
+        "energy",
+        "nuclear",
+        "fusion"
+      ],
+      "importance": 8
+    },
+    {
+      "id": 235,
+      "topic": "astronomy",
+      "question": "The Sun provides light and heat for Earth.",
+      "answer": "The Sun provides light and heat for Earth.",
+      "keywords": [
+        "sun",
+        "provides",
+        "light",
+        "heat",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 236,
+      "topic": "astronomy",
+      "question": "The Sun contains most of the mass in the Solar System.",
+      "answer": "The Sun contains most of the mass in the Solar System.",
+      "keywords": [
+        "solar system",
+        "sun",
+        "contains",
+        "mass",
+        "solar",
+        "system"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 237,
+      "topic": "astronomy",
+      "question": "Mercury is the smallest planet in the Solar System.",
+      "answer": "Mercury is the smallest planet in the Solar System.",
+      "keywords": [
+        "solar system",
+        "mercury",
+        "smallest",
+        "planet",
+        "solar",
+        "system"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 238,
+      "topic": "astronomy",
+      "question": "Mercury has a very thin atmosphere.",
+      "answer": "Mercury has a very thin atmosphere.",
+      "keywords": [
+        "mercury",
+        "thin",
+        "atmosphere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 239,
+      "topic": "astronomy",
+      "question": "Venus has a thick carbon dioxide atmosphere.",
+      "answer": "Venus has a thick carbon dioxide atmosphere.",
+      "keywords": [
+        "venus",
+        "thick",
+        "carbon",
+        "dioxide",
+        "atmosphere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 240,
+      "topic": "astronomy",
+      "question": "Venus has the hottest surface temperature of all planets.",
+      "answer": "Venus has the hottest surface temperature of all planets.",
+      "keywords": [
+        "venus",
+        "hottest",
+        "surface",
+        "temperature",
+        "planets"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 242,
+      "topic": "astronomy",
+      "question": "Mars has the largest volcano in the Solar System.",
+      "answer": "Mars has the largest volcano in the Solar System.",
+      "keywords": [
+        "solar system",
+        "mars",
+        "largest",
+        "volcano",
+        "solar",
+        "system"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 243,
+      "topic": "astronomy",
+      "question": "Olympus Mons is a giant volcano on Mars.",
+      "answer": "Olympus Mons is a giant volcano on Mars.",
+      "keywords": [
+        "olympus",
+        "mons",
+        "giant",
+        "volcano",
+        "mars"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 244,
+      "topic": "astronomy",
+      "question": "Jupiter is a gas giant planet.",
+      "answer": "Jupiter is a gas giant planet.",
+      "keywords": [
+        "jupiter",
+        "gas",
+        "giant",
+        "planet"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 245,
+      "topic": "astronomy",
+      "question": "Jupiter has a large storm called the Great Red Spot.",
+      "answer": "Jupiter has a large storm called the Great Red Spot.",
+      "keywords": [
+        "jupiter",
+        "large",
+        "storm",
+        "called",
+        "great",
+        "red"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 246,
+      "topic": "astronomy",
+      "question": "Saturn is famous for its ring system.",
+      "answer": "Saturn is famous for its ring system.",
+      "keywords": [
+        "saturn",
+        "famous",
+        "ring",
+        "system"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 247,
+      "topic": "astronomy",
+      "question": "Saturn's rings are made of ice and rock particles.",
+      "answer": "Saturn's rings are made of ice and rock particles.",
+      "keywords": [
+        "saturns",
+        "rings",
+        "made",
+        "ice",
+        "rock",
+        "particles"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 248,
+      "topic": "astronomy",
+      "question": "Uranus rotates on its side.",
+      "answer": "Uranus rotates on its side.",
+      "keywords": [
+        "uranus",
+        "rotates",
+        "side"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 249,
+      "topic": "astronomy",
+      "question": "Neptune has the strongest winds in the Solar System.",
+      "answer": "Neptune has the strongest winds in the Solar System.",
+      "keywords": [
+        "solar system",
+        "neptune",
+        "strongest",
+        "winds",
+        "solar",
+        "system"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 250,
+      "topic": "astronomy",
+      "question": "Dwarf planets are smaller planetary bodies.",
+      "answer": "Dwarf planets are smaller planetary bodies.",
+      "keywords": [
+        "dwarf",
+        "planets",
+        "smaller",
+        "planetary",
+        "bodies"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 251,
+      "topic": "astronomy",
+      "question": "Pluto is classified as a dwarf planet.",
+      "answer": "Pluto is classified as a dwarf planet.",
+      "keywords": [
+        "pluto",
+        "classified",
+        "dwarf",
+        "planet"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 252,
+      "topic": "astronomy",
+      "question": "Asteroids are rocky objects orbiting the Sun.",
+      "answer": "Asteroids are rocky objects orbiting the Sun.",
+      "keywords": [
+        "asteroids",
+        "rocky",
+        "objects",
+        "orbiting",
+        "sun"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 253,
+      "topic": "astronomy",
+      "question": "The asteroid belt exists between Mars and Jupiter.",
+      "answer": "The asteroid belt exists between Mars and Jupiter.",
+      "keywords": [
+        "asteroid",
+        "belt",
+        "exists",
+        "mars",
+        "jupiter"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 254,
+      "topic": "astronomy",
+      "question": "Comets contain ice, dust, and rock.",
+      "answer": "Comets contain ice, dust, and rock.",
+      "keywords": [
+        "comets",
+        "contain",
+        "ice",
+        "dust",
+        "rock"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 255,
+      "topic": "astronomy",
+      "question": "A comet develops a tail near the Sun.",
+      "answer": "A comet develops a tail near the Sun.",
+      "keywords": [
+        "comet",
+        "develops",
+        "tail",
+        "near",
+        "sun"
+      ],
+      "importance": 7
+    },
+    {
+      "id": 256,
+      "topic": "astronomy",
+      "question": "Meteoroids are small objects traveling through space.",
+      "answer": "Meteoroids are small objects traveling through space.",
+      "keywords": [
+        "meteoroids",
+        "small",
+        "objects",
+        "traveling",
+        "space"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 257,
+      "topic": "astronomy",
+      "question": "Meteors are meteoroids burning in an atmosphere.",
+      "answer": "Meteors are meteoroids burning in an atmosphere.",
+      "keywords": [
+        "meteors",
+        "meteoroids",
+        "burning",
+        "atmosphere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 258,
+      "topic": "astronomy",
+      "question": "Meteorites are meteors that reach the ground.",
+      "answer": "Meteorites are meteors that reach the ground.",
+      "keywords": [
+        "meteorites",
+        "meteors",
+        "reach",
+        "ground"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 259,
+      "topic": "astronomy",
+      "question": "The Moon is Earth's natural satellite.",
+      "answer": "The Moon is Earth's natural satellite.",
+      "keywords": [
+        "moon",
+        "earths",
+        "natural",
+        "satellite"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 260,
+      "topic": "astronomy",
+      "question": "The Moon affects Earth's ocean tides.",
+      "answer": "The Moon affects Earth's ocean tides.",
+      "keywords": [
+        "moon",
+        "affects",
+        "earths",
+        "ocean",
+        "tides"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 261,
+      "topic": "astronomy",
+      "question": "The Moon has craters caused by impacts.",
+      "answer": "The Moon has craters caused by impacts.",
+      "keywords": [
+        "moon",
+        "craters",
+        "caused",
+        "impacts"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 262,
+      "topic": "astronomy",
+      "question": "The Moon has almost no atmosphere.",
+      "answer": "The Moon has almost no atmosphere.",
+      "keywords": [
+        "moon",
+        "almost",
+        "atmosphere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 263,
+      "topic": "astronomy",
+      "question": "Phases of the Moon occur because sunlight reflects differently.",
+      "answer": "Phases of the Moon occur because sunlight reflects differently.",
+      "keywords": [
+        "phases",
+        "moon",
+        "occur",
+        "because",
+        "sunlight",
+        "reflects"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 264,
+      "topic": "astronomy",
+      "question": "A solar eclipse occurs when the Moon blocks sunlight.",
+      "answer": "A solar eclipse occurs when the Moon blocks sunlight.",
+      "keywords": [
+        "solar",
+        "eclipse",
+        "occurs",
+        "moon",
+        "blocks",
+        "sunlight"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 265,
+      "topic": "astronomy",
+      "question": "A lunar eclipse occurs when Earth blocks sunlight from the Moon.",
+      "answer": "A lunar eclipse occurs when Earth blocks sunlight from the Moon.",
+      "keywords": [
+        "lunar",
+        "eclipse",
+        "occurs",
+        "earth",
+        "blocks",
+        "sunlight"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 266,
+      "topic": "astronomy",
+      "question": "Gravity keeps planets in orbit.",
+      "answer": "Gravity keeps planets in orbit.",
+      "keywords": [
+        "gravity",
+        "keeps",
+        "planets",
+        "orbit"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 267,
+      "topic": "astronomy",
+      "question": "An orbit is the curved path of an object around another object.",
+      "answer": "An orbit is the curved path of an object around another object.",
+      "keywords": [
+        "orbit",
+        "curved",
+        "path",
+        "object",
+        "around",
+        "another"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 269,
+      "topic": "astronomy",
+      "question": "Light takes about 8 minutes to travel from the Sun to Earth.",
+      "answer": "Light takes about 8 minutes to travel from the Sun to Earth.",
+      "keywords": [
+        "light",
+        "takes",
+        "minutes",
+        "travel",
+        "sun",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 270,
+      "topic": "astronomy",
+      "question": "A light-year measures distance, not time.",
+      "answer": "A light-year measures distance, not time.",
+      "keywords": [
+        "light-year",
+        "measures",
+        "distance",
+        "time"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 271,
+      "topic": "astronomy",
+      "question": "A light-year is the distance light travels in one year.",
+      "answer": "A light-year is the distance light travels in one year.",
+      "keywords": [
+        "light-year",
+        "distance",
+        "light",
+        "travels",
+        "one",
+        "year"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 272,
+      "topic": "astronomy",
+      "question": "Black holes have extremely strong gravity.",
+      "answer": "Black holes have extremely strong gravity.",
+      "keywords": [
+        "black hole",
+        "black",
+        "holes",
+        "extremely",
+        "strong",
+        "gravity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 273,
+      "topic": "astronomy",
+      "question": "A black hole can form after a massive star collapses.",
+      "answer": "A black hole can form after a massive star collapses.",
+      "keywords": [
+        "black hole",
+        "black",
+        "hole",
+        "form",
+        "massive",
+        "star"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 274,
+      "topic": "astronomy",
+      "question": "The event horizon is the boundary around a black hole.",
+      "answer": "The event horizon is the boundary around a black hole.",
+      "keywords": [
+        "black hole",
+        "event",
+        "horizon",
+        "boundary",
+        "around",
+        "black"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 275,
+      "topic": "astronomy",
+      "question": "Neutron stars are extremely dense stellar remnants.",
+      "answer": "Neutron stars are extremely dense stellar remnants.",
+      "keywords": [
+        "neutron",
+        "stars",
+        "extremely",
+        "dense",
+        "stellar",
+        "remnants"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 276,
+      "topic": "astronomy",
+      "question": "Pulsars are rotating neutron stars producing signals.",
+      "answer": "Pulsars are rotating neutron stars producing signals.",
+      "keywords": [
+        "pulsars",
+        "rotating",
+        "neutron",
+        "stars",
+        "producing",
+        "signals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 277,
+      "topic": "astronomy",
+      "question": "Supernovas are powerful stellar explosions.",
+      "answer": "Supernovas are powerful stellar explosions.",
+      "keywords": [
+        "supernovas",
+        "powerful",
+        "stellar",
+        "explosions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 282,
+      "topic": "astronomy",
+      "question": "Galaxies can collide with each other.",
+      "answer": "Galaxies can collide with each other.",
+      "keywords": [
+        "galaxies",
+        "collide",
+        "astronomy"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 283,
+      "topic": "astronomy",
+      "question": "The Andromeda Galaxy is near the Milky Way.",
+      "answer": "The Andromeda Galaxy is near the Milky Way.",
+      "keywords": [
+        "milky way",
+        "andromeda",
+        "galaxy",
+        "near",
+        "milky",
+        "way"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 284,
+      "topic": "astronomy",
+      "question": "The James Webb Space Telescope studies distant objects.",
+      "answer": "The James Webb Space Telescope studies distant objects.",
+      "keywords": [
+        "james",
+        "webb",
+        "space",
+        "telescope",
+        "studies",
+        "distant"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 285,
+      "topic": "astronomy",
+      "question": "The Hubble Space Telescope has observed deep space.",
+      "answer": "The Hubble Space Telescope has observed deep space.",
+      "keywords": [
+        "hubble",
+        "space",
+        "telescope",
+        "observed",
+        "deep"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 286,
+      "topic": "astronomy",
+      "question": "Space telescopes avoid Earth's atmospheric distortion.",
+      "answer": "Space telescopes avoid Earth's atmospheric distortion.",
+      "keywords": [
+        "space",
+        "telescopes",
+        "avoid",
+        "earths",
+        "atmospheric",
+        "distortion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 287,
+      "topic": "astronomy",
+      "question": "Satellites are objects placed into orbit.",
+      "answer": "Satellites are objects placed into orbit.",
+      "keywords": [
+        "satellites",
+        "objects",
+        "placed",
+        "orbit"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 291,
+      "topic": "astronomy",
+      "question": "Space stations are laboratories orbiting Earth.",
+      "answer": "Space stations are laboratories orbiting Earth.",
+      "keywords": [
+        "space",
+        "stations",
+        "laboratories",
+        "orbiting",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 292,
+      "topic": "astronomy",
+      "question": "The International Space Station hosts astronauts.",
+      "answer": "The International Space Station hosts astronauts.",
+      "keywords": [
+        "international",
+        "space",
+        "station",
+        "hosts",
+        "astronauts"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 293,
+      "topic": "astronomy",
+      "question": "Astronauts perform experiments in microgravity.",
+      "answer": "Astronauts perform experiments in microgravity.",
+      "keywords": [
+        "astronauts",
+        "perform",
+        "experiments",
+        "microgravity"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 294,
+      "topic": "astronomy",
+      "question": "Microgravity causes objects to appear weightless.",
+      "answer": "Microgravity causes objects to appear weightless.",
+      "keywords": [
+        "microgravity",
+        "causes",
+        "objects",
+        "appear",
+        "weightless"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 297,
+      "topic": "astronomy",
+      "question": "Spacecraft require protection from extreme temperatures.",
+      "answer": "Spacecraft require protection from extreme temperatures.",
+      "keywords": [
+        "spacecraft",
+        "require",
+        "protection",
+        "extreme",
+        "temperatures"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 298,
+      "topic": "astronomy",
+      "question": "Space suits provide oxygen and pressure.",
+      "answer": "Space suits provide oxygen and pressure.",
+      "keywords": [
+        "space",
+        "suits",
+        "provide",
+        "oxygen",
+        "pressure"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 299,
+      "topic": "astronomy",
+      "question": "Mars exploration studies whether life could have existed there.",
+      "answer": "Mars exploration studies whether life could have existed there.",
+      "keywords": [
+        "mars",
+        "exploration",
+        "studies",
+        "whether",
+        "life",
+        "existed"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 301,
+      "topic": "astronomy",
+      "question": "NASA is a space exploration organization.",
+      "answer": "NASA is a space exploration organization.",
+      "keywords": [
+        "space exploration",
+        "nasa",
+        "space",
+        "exploration",
+        "organization"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 302,
+      "topic": "astronomy",
+      "question": "SpaceX develops rockets and spacecraft.",
+      "answer": "SpaceX develops rockets and spacecraft.",
+      "keywords": [
+        "spacex",
+        "develops",
+        "rockets",
+        "spacecraft"
+      ],
+      "importance": 7
+    },
+    {
+      "id": 309,
+      "topic": "astronomy",
+      "question": "Exoplanets are planets outside our Solar System.",
+      "answer": "Exoplanets are planets outside our Solar System.",
+      "keywords": [
+        "solar system",
+        "exoplanets",
+        "planets",
+        "outside",
+        "our",
+        "solar"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 311,
+      "topic": "astronomy",
+      "question": "The habitable zone is the region where liquid water may exist.",
+      "answer": "The habitable zone is the region where liquid water may exist.",
+      "keywords": [
+        "habitable",
+        "zone",
+        "region",
+        "liquid",
+        "water",
+        "exist"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 312,
+      "topic": "astronomy",
+      "question": "Astrobiology studies life beyond Earth.",
+      "answer": "Astrobiology studies life beyond Earth.",
+      "keywords": [
+        "astrobiology",
+        "studies",
+        "life",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 469,
+      "topic": "astronomy",
+      "question": "Space exploration expanded human knowledge.",
+      "answer": "Space exploration expanded human knowledge.",
+      "keywords": [
+        "space exploration",
+        "space",
+        "exploration",
+        "expanded",
+        "human",
+        "knowledge"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 470,
+      "topic": "astronomy",
+      "question": "The first humans landed on the Moon in 1969.",
+      "answer": "The first humans landed on the Moon in 1969.",
+      "keywords": [
+        "first",
+        "humans",
+        "landed",
+        "moon",
+        "1969"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 579,
+      "topic": "astronomy",
+      "question": "Lightning can be hotter than the Sun's surface.",
+      "answer": "Lightning can be hotter than the Sun's surface.",
+      "keywords": [
+        "lightning",
+        "hotter",
+        "suns",
+        "surface"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 582,
+      "topic": "astronomy",
+      "question": "A day on Venus is longer than its year.",
+      "answer": "A day on Venus is longer than its year.",
+      "keywords": [
+        "day",
+        "venus",
+        "longer",
+        "year"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 583,
+      "topic": "astronomy",
+      "question": "Saturn could float in water because of low density.",
+      "answer": "Saturn could float in water because of low density.",
+      "keywords": [
+        "saturn",
+        "float",
+        "water",
+        "because",
+        "low",
+        "density"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 589,
+      "topic": "astronomy",
+      "question": "The Moon has almost no atmosphere.",
+      "answer": "The Moon has almost no atmosphere.",
+      "keywords": [
+        "moon",
+        "almost",
+        "atmosphere"
+      ],
+      "importance": 5
+    }
+  ]
+}

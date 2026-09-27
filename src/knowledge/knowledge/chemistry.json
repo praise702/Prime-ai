@@ -1,0 +1,471 @@
+{
+  "category": "Chemistry",
+  "facts": [
+    {
+      "id": 101,
+      "topic": "chemistry",
+      "question": "Matter exists as solids, liquids, gases, and plasma.",
+      "answer": "Matter exists as solids, liquids, gases, and plasma.",
+      "keywords": [
+        "matter",
+        "exists",
+        "solids",
+        "liquids",
+        "gases",
+        "plasma"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 102,
+      "topic": "chemistry",
+      "question": "Plasma is a state of matter with charged particles.",
+      "answer": "Plasma is a state of matter with charged particles.",
+      "keywords": [
+        "state of matter",
+        "plasma",
+        "state",
+        "matter",
+        "charged",
+        "particles"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 106,
+      "topic": "chemistry",
+      "question": "Atoms contain protons, neutrons, and electrons.",
+      "answer": "Atoms contain protons, neutrons, and electrons.",
+      "keywords": [
+        "atoms",
+        "contain",
+        "protons",
+        "neutrons",
+        "electrons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 107,
+      "topic": "chemistry",
+      "question": "Protons have positive electric charge.",
+      "answer": "Protons have positive electric charge.",
+      "keywords": [
+        "protons",
+        "positive",
+        "electric",
+        "charge"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 108,
+      "topic": "chemistry",
+      "question": "Electrons have negative electric charge.",
+      "answer": "Electrons have negative electric charge.",
+      "keywords": [
+        "electrons",
+        "negative",
+        "electric",
+        "charge"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 109,
+      "topic": "chemistry",
+      "question": "Neutrons have no electric charge.",
+      "answer": "Neutrons have no electric charge.",
+      "keywords": [
+        "neutrons",
+        "electric",
+        "charge"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 110,
+      "topic": "chemistry",
+      "question": "The nucleus is the center of an atom.",
+      "answer": "The nucleus is the center of an atom.",
+      "keywords": [
+        "nucleus",
+        "center",
+        "atom"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 111,
+      "topic": "chemistry",
+      "question": "Atomic number represents the number of protons.",
+      "answer": "Atomic number represents the number of protons.",
+      "keywords": [
+        "atomic",
+        "number",
+        "represents",
+        "protons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 112,
+      "topic": "chemistry",
+      "question": "Isotopes have different numbers of neutrons.",
+      "answer": "Isotopes have different numbers of neutrons.",
+      "keywords": [
+        "isotopes",
+        "different",
+        "numbers",
+        "neutrons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 113,
+      "topic": "chemistry",
+      "question": "Ions are atoms with electrical charges.",
+      "answer": "Ions are atoms with electrical charges.",
+      "keywords": [
+        "ions",
+        "atoms",
+        "electrical",
+        "charges"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 114,
+      "topic": "chemistry",
+      "question": "Chemical reactions rearrange atoms.",
+      "answer": "Chemical reactions rearrange atoms.",
+      "keywords": [
+        "chemical reaction",
+        "chemical",
+        "reactions",
+        "rearrange",
+        "atoms"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 115,
+      "topic": "chemistry",
+      "question": "Reactants are substances that undergo reactions.",
+      "answer": "Reactants are substances that undergo reactions.",
+      "keywords": [
+        "reactants",
+        "substances",
+        "undergo",
+        "reactions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 116,
+      "topic": "chemistry",
+      "question": "Products are substances created by reactions.",
+      "answer": "Products are substances created by reactions.",
+      "keywords": [
+        "products",
+        "substances",
+        "created",
+        "reactions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 117,
+      "topic": "chemistry",
+      "question": "Chemical bonds hold atoms together.",
+      "answer": "Chemical bonds hold atoms together.",
+      "keywords": [
+        "chemical",
+        "bonds",
+        "hold",
+        "atoms",
+        "together"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 118,
+      "topic": "chemistry",
+      "question": "Covalent bonds involve shared electrons.",
+      "answer": "Covalent bonds involve shared electrons.",
+      "keywords": [
+        "covalent",
+        "bonds",
+        "involve",
+        "shared",
+        "electrons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 119,
+      "topic": "chemistry",
+      "question": "Ionic bonds involve transferred electrons.",
+      "answer": "Ionic bonds involve transferred electrons.",
+      "keywords": [
+        "ionic",
+        "bonds",
+        "involve",
+        "transferred",
+        "electrons"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 121,
+      "topic": "chemistry",
+      "question": "Copper is a good electrical conductor.",
+      "answer": "Copper is a good electrical conductor.",
+      "keywords": [
+        "copper",
+        "good",
+        "electrical",
+        "conductor"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 122,
+      "topic": "chemistry",
+      "question": "Aluminum is lightweight and conductive.",
+      "answer": "Aluminum is lightweight and conductive.",
+      "keywords": [
+        "aluminum",
+        "lightweight",
+        "conductive"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 123,
+      "topic": "chemistry",
+      "question": "Gold is a metal resistant to corrosion.",
+      "answer": "Gold is a metal resistant to corrosion.",
+      "keywords": [
+        "gold",
+        "metal",
+        "resistant",
+        "corrosion"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 124,
+      "topic": "chemistry",
+      "question": "Iron is used to make steel.",
+      "answer": "Iron is used to make steel.",
+      "keywords": [
+        "iron",
+        "used",
+        "make",
+        "steel"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 125,
+      "topic": "chemistry",
+      "question": "Steel is an alloy of iron and carbon.",
+      "answer": "Steel is an alloy of iron and carbon.",
+      "keywords": [
+        "steel",
+        "alloy",
+        "iron",
+        "carbon"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 126,
+      "topic": "chemistry",
+      "question": "Rust forms when iron reacts with oxygen and water.",
+      "answer": "Rust forms when iron reacts with oxygen and water.",
+      "keywords": [
+        "rust",
+        "forms",
+        "iron",
+        "reacts",
+        "oxygen",
+        "water"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 127,
+      "topic": "chemistry",
+      "question": "Acids have a pH below 7.",
+      "answer": "Acids have a pH below 7.",
+      "keywords": [
+        "acids",
+        "chemistry",
+        "fact"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 128,
+      "topic": "chemistry",
+      "question": "Bases have a pH above 7.",
+      "answer": "Bases have a pH above 7.",
+      "keywords": [
+        "bases",
+        "chemistry",
+        "fact"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 129,
+      "topic": "chemistry",
+      "question": "A pH of 7 is neutral.",
+      "answer": "A pH of 7 is neutral.",
+      "keywords": [
+        "neutral",
+        "chemistry",
+        "fact"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 130,
+      "topic": "chemistry",
+      "question": "Water is a compound made of hydrogen and oxygen.",
+      "answer": "Water is a compound made of hydrogen and oxygen.",
+      "keywords": [
+        "water",
+        "compound",
+        "made",
+        "hydrogen",
+        "oxygen"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 146,
+      "topic": "chemistry",
+      "question": "Chemical energy is stored in chemical bonds.",
+      "answer": "Chemical energy is stored in chemical bonds.",
+      "keywords": [
+        "chemical",
+        "energy",
+        "stored",
+        "bonds"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 148,
+      "topic": "chemistry",
+      "question": "Nuclear energy comes from atomic reactions.",
+      "answer": "Nuclear energy comes from atomic reactions.",
+      "keywords": [
+        "nuclear",
+        "energy",
+        "comes",
+        "atomic",
+        "reactions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 196,
+      "topic": "chemistry",
+      "question": "The nucleus contains genetic information.",
+      "answer": "The nucleus contains genetic information.",
+      "keywords": [
+        "nucleus",
+        "contains",
+        "genetic",
+        "information"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 234,
+      "topic": "chemistry",
+      "question": "Nuclear fusion combines hydrogen atoms into helium.",
+      "answer": "Nuclear fusion combines hydrogen atoms into helium.",
+      "keywords": [
+        "nuclear",
+        "fusion",
+        "combines",
+        "hydrogen",
+        "atoms",
+        "helium"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 280,
+      "topic": "chemistry",
+      "question": "Stars produce elements through nuclear reactions.",
+      "answer": "Stars produce elements through nuclear reactions.",
+      "keywords": [
+        "stars",
+        "produce",
+        "elements",
+        "nuclear",
+        "reactions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 281,
+      "topic": "chemistry",
+      "question": "Heavy elements form during star explosions.",
+      "answer": "Heavy elements form during star explosions.",
+      "keywords": [
+        "heavy",
+        "elements",
+        "form",
+        "star",
+        "explosions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 315,
+      "topic": "chemistry",
+      "question": "Atoms can behave differently at quantum scales.",
+      "answer": "Atoms can behave differently at quantum scales.",
+      "keywords": [
+        "atoms",
+        "behave",
+        "differently",
+        "quantum",
+        "scales"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 317,
+      "topic": "chemistry",
+      "question": "Electrons can behave like waves and particles.",
+      "answer": "Electrons can behave like waves and particles.",
+      "keywords": [
+        "electrons",
+        "behave",
+        "waves",
+        "particles"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 590,
+      "topic": "chemistry",
+      "question": "Diamonds are made of carbon.",
+      "answer": "Diamonds are made of carbon.",
+      "keywords": [
+        "diamonds",
+        "made",
+        "carbon"
+      ],
+      "importance": 5
+    }
+  ]
+}

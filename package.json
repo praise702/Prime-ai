@@ -1,0 +1,36 @@
+{
+  "name": "prime",
+  "version": "3.5.0",
+  "description": "Prime self-hosted AI engine",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node tests/primeSearchQualityRegression.test.js && node tests/visionRegression.test.js && node tests/imageManager.test.js && node tests/searchRegression.test.js && node tests/searchIntegration.test.js && node tests/queryUnderstandingRegression.test.js && node tests/coreSystems.test.js && node tests/securityRegression.test.js && node tests/imageSecurityRegression.test.js && node tests/globalSearchFallbackRegression.test.js && node tests/primeBehaviorRegression.test.js && node tests/primeIntelligenceStackRegression.test.js"
+  },
+  "keywords": [
+    "ai",
+    "prime"
+  ],
+  "author": "Praise",
+  "license": "MIT",
+  "dependencies": {
+    "an-array-of-english-words": "^2.0.0",
+    "axios": "^1.19.0",
+    "cors": "^2.8.6",
+    "dictionary-en": "^4.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "form-data": "^4.0.6",
+    "helmet": "^8.3.0",
+    "natural": "^8.1.1",
+    "uuid": "^14.0.1",
+    "winston": "^3.19.0",
+    "word-list-json": "^0.2.0",
+    "wordnet-db": "^3.1.14",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

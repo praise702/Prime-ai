@@ -1,0 +1,46 @@
+[
+    {
+        "input": "My favorite color is blue",
+        "output": "Prime processed your message."
+    },
+    {
+        "input": "My favorite color is blue",
+        "output": "Prime processed your message.",
+        "time": "2026-07-30T10:46:35.157Z"
+    },
+    {
+        "input": "I love artificial intelligence",
+        "output": "Prime processed your message using its own model.",
+        "time": "2026-07-30T10:51:33.250Z"
+    },
+    {
+        "input": "Hello Prime",
+        "output": "Prime processed your message using its own model.",
+        "time": "2026-07-30T10:54:29.155Z"
+    },
+    {
+        "input": "I like programming",
+        "output": "Prime processed your message using its own model.",
+        "time": "2026-07-30T10:54:44.157Z"
+    },
+    {
+        "input": "Hello Prime",
+        "output": "Prime processed your message using its own trained model.",
+        "time": "2026-07-30T11:00:23.968Z"
+    },
+    {
+        "input": "Save my brain",
+        "output": "Prime processed your message using its own trained model.",
+        "time": "2026-07-30T11:04:08.666Z"
+    },
+    {
+        "input": "What is Earth?",
+        "output": "Prime processed your message using its own trained model.",
+        "time": "2026-07-30T11:12:29.073Z"
+    },
+    {
+        "input": "What is artificial intelligence?",
+        "output": "Prime processed your message using its own trained model.",
+        "time": "2026-07-30T11:20:15.884Z"
+    }
+]

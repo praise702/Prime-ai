@@ -1,0 +1,6 @@
+const POSITIVE = /\b(happy|excited|great|awesome|proud|glad|love|yay|good|amazing|fun)\b/i;
+const NEGATIVE = /\b(sad|upset|hurt|lonely|alone|stressed|overwhelmed|angry|mad|frustrated|annoyed|worried|scared|afraid|nervous|tired|bored|bad day|rough day)\b/i;
+const HIGH_AROUSAL = /\b(angry|mad|furious|excited|panic|panicking|terrified|overwhelmed|frustrated)\b/i;
+function detectText(text){const t=String(text||"");if(HIGH_AROUSAL.test(t)) return {label:/angry|mad|furious/i.test(t)?"anger":"high-arousal",confidence:.75,source:"text"};if(NEGATIVE.test(t))return{label:"sadness-or-distress",confidence:.75,source:"text"};if(POSITIVE.test(t))return{label:"positive",confidence:.75,source:"text"};return{label:"neutral",confidence:.5,source:"text"};}
+function responseGuidance(emotion){switch(emotion?.label){case"sadness-or-distress":return"Acknowledge the feeling briefly, be warm and supportive, and do not overwhelm the user with generic advice.";case"anger":return"Stay calm, validate the frustration without escalating it, and focus on the user's goal.";case"positive":return"Match the user's positive energy naturally without sounding exaggerated.";default:return"Use a natural conversational tone.";}}
+module.exports={detectText,responseGuidance};

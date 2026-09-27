@@ -1,0 +1,696 @@
+{
+  "category": "Earth Science",
+  "facts": [
+    {
+      "id": 3,
+      "topic": "earth_science",
+      "question": "Earth has a solid surface called the crust.",
+      "answer": "Earth has a solid surface called the crust.",
+      "keywords": [
+        "earth",
+        "solid",
+        "surface",
+        "called",
+        "crust"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 4,
+      "topic": "earth_science",
+      "question": "Earth has several layers including crust, mantle, outer core, and inner core.",
+      "answer": "Earth has several layers including crust, mantle, outer core, and inner core.",
+      "keywords": [
+        "earth",
+        "several",
+        "layers",
+        "crust",
+        "mantle",
+        "outer"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 5,
+      "topic": "earth_science",
+      "question": "The mantle is made of hot semi-solid rock.",
+      "answer": "The mantle is made of hot semi-solid rock.",
+      "keywords": [
+        "mantle",
+        "made",
+        "hot",
+        "semi-solid",
+        "rock"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 6,
+      "topic": "earth_science",
+      "question": "The outer core is mostly liquid metal.",
+      "answer": "The outer core is mostly liquid metal.",
+      "keywords": [
+        "outer",
+        "core",
+        "mostly",
+        "liquid",
+        "metal"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 7,
+      "topic": "earth_science",
+      "question": "The inner core is extremely hot and solid.",
+      "answer": "The inner core is extremely hot and solid.",
+      "keywords": [
+        "inner",
+        "core",
+        "extremely",
+        "hot",
+        "solid"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 8,
+      "topic": "earth_science",
+      "question": "Tectonic plates move slowly across Earth's surface.",
+      "answer": "Tectonic plates move slowly across Earth's surface.",
+      "keywords": [
+        "tectonic",
+        "plates",
+        "move",
+        "slowly",
+        "earths",
+        "surface"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 9,
+      "topic": "earth_science",
+      "question": "Plate movement can cause earthquakes and volcanoes.",
+      "answer": "Plate movement can cause earthquakes and volcanoes.",
+      "keywords": [
+        "plate",
+        "movement",
+        "cause",
+        "earthquakes",
+        "volcanoes"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 23,
+      "topic": "earth_science",
+      "question": "A glacier is a large moving mass of ice.",
+      "answer": "A glacier is a large moving mass of ice.",
+      "keywords": [
+        "glacier",
+        "large",
+        "moving",
+        "mass",
+        "ice"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 24,
+      "topic": "earth_science",
+      "question": "Ice caps cover large polar regions.",
+      "answer": "Ice caps cover large polar regions.",
+      "keywords": [
+        "ice",
+        "caps",
+        "cover",
+        "large",
+        "polar",
+        "regions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 25,
+      "topic": "earth_science",
+      "question": "Permafrost is permanently frozen ground.",
+      "answer": "Permafrost is permanently frozen ground.",
+      "keywords": [
+        "permafrost",
+        "permanently",
+        "frozen",
+        "ground"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 26,
+      "topic": "earth_science",
+      "question": "The water cycle moves water around Earth.",
+      "answer": "The water cycle moves water around Earth.",
+      "keywords": [
+        "water cycle",
+        "water",
+        "cycle",
+        "moves",
+        "around",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 27,
+      "topic": "earth_science",
+      "question": "Evaporation changes liquid water into vapor.",
+      "answer": "Evaporation changes liquid water into vapor.",
+      "keywords": [
+        "evaporation",
+        "changes",
+        "liquid",
+        "water",
+        "vapor"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 28,
+      "topic": "earth_science",
+      "question": "Condensation forms clouds from water vapor.",
+      "answer": "Condensation forms clouds from water vapor.",
+      "keywords": [
+        "condensation",
+        "forms",
+        "clouds",
+        "water",
+        "vapor"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 29,
+      "topic": "earth_science",
+      "question": "Precipitation returns water to Earth.",
+      "answer": "Precipitation returns water to Earth.",
+      "keywords": [
+        "precipitation",
+        "returns",
+        "water",
+        "earth"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 30,
+      "topic": "earth_science",
+      "question": "Groundwater is water stored underground.",
+      "answer": "Groundwater is water stored underground.",
+      "keywords": [
+        "groundwater",
+        "water",
+        "stored",
+        "underground"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 31,
+      "topic": "earth_science",
+      "question": "Aquifers contain underground water.",
+      "answer": "Aquifers contain underground water.",
+      "keywords": [
+        "aquifers",
+        "contain",
+        "underground",
+        "water"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 33,
+      "topic": "earth_science",
+      "question": "Watersheds collect water from surrounding land.",
+      "answer": "Watersheds collect water from surrounding land.",
+      "keywords": [
+        "watersheds",
+        "collect",
+        "water",
+        "surrounding",
+        "land"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 41,
+      "topic": "earth_science",
+      "question": "Savannas contain grasslands with scattered trees.",
+      "answer": "Savannas contain grasslands with scattered trees.",
+      "keywords": [
+        "savannas",
+        "contain",
+        "grasslands",
+        "scattered",
+        "trees"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 48,
+      "topic": "earth_science",
+      "question": "Minerals are naturally occurring substances.",
+      "answer": "Minerals are naturally occurring substances.",
+      "keywords": [
+        "minerals",
+        "naturally",
+        "occurring",
+        "substances"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 52,
+      "topic": "earth_science",
+      "question": "Natural gas is mainly methane.",
+      "answer": "Natural gas is mainly methane.",
+      "keywords": [
+        "natural",
+        "gas",
+        "mainly",
+        "methane"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 55,
+      "topic": "earth_science",
+      "question": "Trees absorb carbon dioxide.",
+      "answer": "Trees absorb carbon dioxide.",
+      "keywords": [
+        "trees",
+        "absorb",
+        "carbon",
+        "dioxide"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 57,
+      "topic": "earth_science",
+      "question": "Deforestation removes forests.",
+      "answer": "Deforestation removes forests.",
+      "keywords": [
+        "deforestation",
+        "removes",
+        "forests"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 59,
+      "topic": "earth_science",
+      "question": "Climate change affects global temperatures.",
+      "answer": "Climate change affects global temperatures.",
+      "keywords": [
+        "climate",
+        "change",
+        "affects",
+        "global",
+        "temperatures"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 60,
+      "topic": "earth_science",
+      "question": "Greenhouse gases trap heat in Earth's atmosphere.",
+      "answer": "Greenhouse gases trap heat in Earth's atmosphere.",
+      "keywords": [
+        "greenhouse",
+        "gases",
+        "trap",
+        "heat",
+        "earths",
+        "atmosphere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 61,
+      "topic": "earth_science",
+      "question": "Carbon dioxide is a greenhouse gas.",
+      "answer": "Carbon dioxide is a greenhouse gas.",
+      "keywords": [
+        "carbon",
+        "dioxide",
+        "greenhouse",
+        "gas"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 62,
+      "topic": "earth_science",
+      "question": "Methane is a powerful greenhouse gas.",
+      "answer": "Methane is a powerful greenhouse gas.",
+      "keywords": [
+        "methane",
+        "powerful",
+        "greenhouse",
+        "gas"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 63,
+      "topic": "earth_science",
+      "question": "The ozone layer protects Earth from harmful radiation.",
+      "answer": "The ozone layer protects Earth from harmful radiation.",
+      "keywords": [
+        "ozone",
+        "layer",
+        "protects",
+        "earth",
+        "harmful",
+        "radiation"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 64,
+      "topic": "earth_science",
+      "question": "The atmosphere has multiple layers.",
+      "answer": "The atmosphere has multiple layers.",
+      "keywords": [
+        "atmosphere",
+        "multiple",
+        "layers"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 65,
+      "topic": "earth_science",
+      "question": "The troposphere contains most weather.",
+      "answer": "The troposphere contains most weather.",
+      "keywords": [
+        "troposphere",
+        "contains",
+        "weather"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 66,
+      "topic": "earth_science",
+      "question": "The stratosphere contains the ozone layer.",
+      "answer": "The stratosphere contains the ozone layer.",
+      "keywords": [
+        "stratosphere",
+        "contains",
+        "ozone",
+        "layer"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 68,
+      "topic": "earth_science",
+      "question": "The thermosphere contains many satellites.",
+      "answer": "The thermosphere contains many satellites.",
+      "keywords": [
+        "thermosphere",
+        "contains",
+        "many",
+        "satellites"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 69,
+      "topic": "earth_science",
+      "question": "The exosphere is the outermost atmospheric layer.",
+      "answer": "The exosphere is the outermost atmospheric layer.",
+      "keywords": [
+        "exosphere",
+        "outermost",
+        "atmospheric",
+        "layer"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 70,
+      "topic": "earth_science",
+      "question": "Air pressure decreases with altitude.",
+      "answer": "Air pressure decreases with altitude.",
+      "keywords": [
+        "air pressure",
+        "air",
+        "pressure",
+        "decreases",
+        "altitude"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 72,
+      "topic": "earth_science",
+      "question": "Weather describes short-term atmospheric conditions.",
+      "answer": "Weather describes short-term atmospheric conditions.",
+      "keywords": [
+        "weather",
+        "describes",
+        "short-term",
+        "atmospheric",
+        "conditions"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 74,
+      "topic": "earth_science",
+      "question": "Meteorology studies weather.",
+      "answer": "Meteorology studies weather.",
+      "keywords": [
+        "meteorology",
+        "studies",
+        "weather"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 75,
+      "topic": "earth_science",
+      "question": "Climatology studies climate.",
+      "answer": "Climatology studies climate.",
+      "keywords": [
+        "climatology",
+        "studies",
+        "climate"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 76,
+      "topic": "earth_science",
+      "question": "A thermometer measures temperature.",
+      "answer": "A thermometer measures temperature.",
+      "keywords": [
+        "thermometer",
+        "measures",
+        "temperature"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 77,
+      "topic": "earth_science",
+      "question": "A barometer measures air pressure.",
+      "answer": "A barometer measures air pressure.",
+      "keywords": [
+        "air pressure",
+        "barometer",
+        "measures",
+        "air",
+        "pressure"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 78,
+      "topic": "earth_science",
+      "question": "A rain gauge measures rainfall.",
+      "answer": "A rain gauge measures rainfall.",
+      "keywords": [
+        "rain",
+        "gauge",
+        "measures",
+        "rainfall"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 79,
+      "topic": "earth_science",
+      "question": "An anemometer measures wind speed.",
+      "answer": "An anemometer measures wind speed.",
+      "keywords": [
+        "anemometer",
+        "measures",
+        "wind",
+        "speed"
+      ],
+      "importance": 6
+    },
+    {
+      "id": 80,
+      "topic": "earth_science",
+      "question": "A weather radar detects precipitation.",
+      "answer": "A weather radar detects precipitation.",
+      "keywords": [
+        "weather",
+        "radar",
+        "detects",
+        "precipitation"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 93,
+      "topic": "earth_science",
+      "question": "Rocks are made of minerals.",
+      "answer": "Rocks are made of minerals.",
+      "keywords": [
+        "rocks",
+        "made",
+        "minerals"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 94,
+      "topic": "earth_science",
+      "question": "Igneous rocks form from cooled magma.",
+      "answer": "Igneous rocks form from cooled magma.",
+      "keywords": [
+        "igneous",
+        "rocks",
+        "form",
+        "cooled",
+        "magma"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 95,
+      "topic": "earth_science",
+      "question": "Sedimentary rocks form from deposited materials.",
+      "answer": "Sedimentary rocks form from deposited materials.",
+      "keywords": [
+        "sedimentary",
+        "rocks",
+        "form",
+        "deposited",
+        "materials"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 96,
+      "topic": "earth_science",
+      "question": "Metamorphic rocks form from changed rocks.",
+      "answer": "Metamorphic rocks form from changed rocks.",
+      "keywords": [
+        "metamorphic",
+        "rocks",
+        "form",
+        "changed"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 97,
+      "topic": "earth_science",
+      "question": "The rock cycle describes how rocks change.",
+      "answer": "The rock cycle describes how rocks change.",
+      "keywords": [
+        "rock cycle",
+        "rock",
+        "cycle",
+        "describes",
+        "rocks",
+        "change"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 99,
+      "topic": "earth_science",
+      "question": "Geology studies Earth's structure and history.",
+      "answer": "Geology studies Earth's structure and history.",
+      "keywords": [
+        "geology",
+        "studies",
+        "earths",
+        "structure",
+        "history"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 192,
+      "topic": "earth_science",
+      "question": "Plants need sunlight, water, and carbon dioxide.",
+      "answer": "Plants need sunlight, water, and carbon dioxide.",
+      "keywords": [
+        "plants",
+        "need",
+        "sunlight",
+        "water",
+        "carbon",
+        "dioxide"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 290,
+      "topic": "earth_science",
+      "question": "Weather satellites monitor Earth's atmosphere.",
+      "answer": "Weather satellites monitor Earth's atmosphere.",
+      "keywords": [
+        "weather",
+        "satellites",
+        "monitor",
+        "earths",
+        "atmosphere"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 509,
+      "topic": "earth_science",
+      "question": "Trees absorb carbon dioxide.",
+      "answer": "Trees absorb carbon dioxide.",
+      "keywords": [
+        "trees",
+        "absorb",
+        "carbon",
+        "dioxide"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 537,
+      "topic": "earth_science",
+      "question": "The lungs exchange oxygen and carbon dioxide.",
+      "answer": "The lungs exchange oxygen and carbon dioxide.",
+      "keywords": [
+        "lungs",
+        "exchange",
+        "oxygen",
+        "carbon",
+        "dioxide"
+      ],
+      "importance": 5
+    }
+  ]
+}

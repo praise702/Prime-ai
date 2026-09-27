@@ -1,0 +1,58 @@
+{
+  "category": "Engineering",
+  "facts": [
+    {
+      "id": 163,
+      "topic": "engineering",
+      "question": "Levers use a pivot point.",
+      "answer": "Levers use a pivot point.",
+      "keywords": [
+        "levers",
+        "use",
+        "pivot",
+        "point"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 164,
+      "topic": "engineering",
+      "question": "Pulleys use wheels and ropes.",
+      "answer": "Pulleys use wheels and ropes.",
+      "keywords": [
+        "pulleys",
+        "use",
+        "wheels",
+        "ropes"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 166,
+      "topic": "engineering",
+      "question": "Wheels and axles help movement.",
+      "answer": "Wheels and axles help movement.",
+      "keywords": [
+        "wheels",
+        "axles",
+        "help",
+        "movement"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 462,
+      "topic": "engineering",
+      "question": "Steam engines powered early industries.",
+      "answer": "Steam engines powered early industries.",
+      "keywords": [
+        "steam",
+        "engines",
+        "powered",
+        "early",
+        "industries"
+      ],
+      "importance": 5
+    }
+  ]
+}

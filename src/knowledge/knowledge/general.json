@@ -1,0 +1,51 @@
+[
+{
+"id":101,
+"topic":"Physics",
+"subject":"Gravity",
+"question":"What is gravity?",
+"answer":"Gravity is a force that attracts objects with mass toward each other. Earth's gravity keeps humans, objects, and the Moon connected to Earth.",
+"keywords":[
+"gravity",
+"force",
+"earth",
+"mass"
+],
+"importance":5,
+"source":"Prime Knowledge",
+"updated":"2026"
+},
+
+{
+"id":102,
+"topic":"Technology",
+"subject":"Computer",
+"question":"What is a computer?",
+"answer":"A computer is an electronic device that processes data, performs calculations, stores information, and runs programs.",
+"keywords":[
+"computer",
+"technology",
+"device"
+],
+"importance":5,
+"source":"Prime Knowledge",
+"updated":"2026"
+},
+
+{
+"id":103,
+"topic":"Technology",
+"subject":"Windows",
+"question":"Who developed Windows?",
+"answer":"Windows was developed by Microsoft.",
+"keywords":[
+"windows",
+"microsoft",
+"operating system"
+],
+"importance":5,
+"source":"Prime Knowledge",
+"updated":"2026"
+}
+
+]

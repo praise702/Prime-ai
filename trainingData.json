@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "topic": "technology",
+    "difficulty": "beginner",
+    "question": "Who developed Windows?",
+    "answer": "Windows was developed by Microsoft."
+  },
+  {
+    "id": 2,
+    "topic": "AI",
+    "difficulty": "beginner",
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence is a field of computer science that allows machines to perform tasks that normally require human intelligence."
+  },
+  {
+    "id": 3,
+    "topic": "programming",
+    "difficulty": "beginner",
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a programming language used to create interactive websites and applications."
+  },
+  {
+    "id": 4,
+    "topic": "conversation",
+    "difficulty": "beginner",
+    "question": "Hello",
+    "answer": "Hello! I am Prime. How can I help you today?"
+  }
+]

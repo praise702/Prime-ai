@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prime</title>
+<link rel="stylesheet" href="chat.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-head">
+            <div class="brand">Prime</div>
+            <button id="newChat" class="new-chat" type="button">＋ New chat</button>
+        </div>
+        <div class="history" id="history"></div>
+        <div class="account">
+            <span id="accountName"></span>
+            <button id="logout" type="button">Log out</button>
+        </div>
+    </aside>
+
+    <main class="main">
+        <header class="topbar">
+            <button id="menu" class="icon" type="button" aria-label="Open menu">☰</button>
+            <span class="top-title">Prime</span>
+        </header>
+
+        <section id="messages" class="messages" aria-live="polite"></section>
+
+        <form id="composer" class="composer" autocomplete="off">
+            <div id="attachmentMenu" class="attachment-menu" hidden>
+                <button id="chooseFiles" type="button">📎 Upload files</button>
+            </div>
+
+            <input
+                id="fileInput"
+                type="file"
+                hidden
+                multiple
+                accept="image/jpeg,image/png,image/gif,image/webp,text/plain,text/markdown,text/csv,application/json,application/pdf,application/xml,text/xml,.docx,.xlsx,.pptx"
+            >
+
+            <button id="plus" class="tool-button" type="button" aria-label="Add files">＋</button>
+
+            <div class="input-wrap">
+                <div id="attachments" class="attachments"></div>
+                <textarea
+                    id="messageInput"
+                    rows="1"
+                    maxlength="4000"
+                    placeholder="Message Prime…"
+                    aria-label="Message Prime"
+                ></textarea>
+            </div>
+
+            <button id="voice" class="tool-button" type="button" aria-label="Voice input" title="Voice input">🎙</button>
+            <button id="send" class="send-button" type="submit" aria-label="Send">↑</button>
+        </form>
+
+        <div class="hint">Prime can make mistakes. Check important information.</div>
+    </main>
+</div>
+
+<script type="module" src="chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "topic": "Artificial Intelligence",
+    "subject": "AI Fundamentals",
+    "question": "What is artificial intelligence?",
+    "answer": "Artificial Intelligence (AI) is a branch of computer science that creates systems capable of performing tasks that normally require human intelligence, such as learning, reasoning, problem solving, understanding language, and recognizing patterns.",
+    "keywords": [
+      "artificial intelligence",
+      "AI",
+      "machine intelligence",
+      "smart systems"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 2,
+    "topic": "Artificial Intelligence",
+    "subject": "Machine Learning",
+    "question": "What is machine learning?",
+    "answer": "Machine Learning is a field of artificial intelligence where computers learn from data and improve their performance without being explicitly programmed for every task.",
+    "keywords": [
+      "machine learning",
+      "ML",
+      "data",
+      "training"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 3,
+    "topic": "Artificial Intelligence",
+    "subject": "Deep Learning",
+    "question": "What is deep learning?",
+    "answer": "Deep Learning is a specialized area of machine learning that uses artificial neural networks with multiple layers to learn complex patterns from large amounts of data.",
+    "keywords": [
+      "deep learning",
+      "neural networks",
+      "AI models"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 4,
+    "topic": "Artificial Intelligence",
+    "subject": "Neural Networks",
+    "question": "What are neural networks?",
+    "answer": "Neural networks are computing systems inspired by the human brain that use connected nodes to process information, recognize patterns, and make predictions.",
+    "keywords": [
+      "neural network",
+      "nodes",
+      "brain",
+      "AI"
+    ],
+    "importance": 4,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 5,
+    "topic": "Artificial Intelligence",
+    "subject": "Generative AI",
+    "question": "What is generative AI?",
+    "answer": "Generative AI is a type of artificial intelligence that can create new content such as text, images, audio, video, and code by learning patterns from existing data.",
+    "keywords": [
+      "generative AI",
+      "large language models",
+      "content creation"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 6,
+    "topic": "Artificial Intelligence",
+    "subject": "Large Language Models",
+    "question": "What are large language models?",
+    "answer": "Large Language Models (LLMs) are AI models trained on massive amounts of text data to understand and generate human-like language.",
+    "keywords": [
+      "LLM",
+      "language model",
+      "AI chatbot"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 7,
+    "topic": "Artificial Intelligence",
+    "subject": "Computer Vision",
+    "question": "What is computer vision?",
+    "answer": "Computer vision is an AI field that allows computers to understand and analyze images, videos, and visual information.",
+    "keywords": [
+      "computer vision",
+      "images",
+      "vision AI"
+    ],
+    "importance": 4,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 8,
+    "topic": "Artificial Intelligence",
+    "subject": "Natural Language Processing",
+    "question": "What is natural language processing?",
+    "answer": "Natural Language Processing (NLP) is a branch of AI that enables computers to understand, interpret, and generate human language.",
+    "keywords": [
+      "NLP",
+      "language",
+      "text processing"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 9,
+    "topic": "Artificial Intelligence",
+    "subject": "AI Agents",
+    "question": "What are AI agents?",
+    "answer": "AI agents are intelligent systems that can observe information, make decisions, use tools, and perform actions to achieve goals.",
+    "keywords": [
+      "AI agents",
+      "autonomous AI",
+      "tools"
+    ],
+    "importance": 5,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  },
+  {
+    "id": 10,
+    "topic": "Artificial Intelligence",
+    "subject": "AI Safety",
+    "question": "What is AI safety?",
+    "answer": "AI safety is the field focused on making artificial intelligence systems reliable, secure, aligned with human goals, and safe to use.",
+    "keywords": [
+      "AI safety",
+      "alignment",
+      "security"
+    ],
+    "importance": 4,
+    "source": "Prime Knowledge",
+    "updated": "2026"
+  }
+]

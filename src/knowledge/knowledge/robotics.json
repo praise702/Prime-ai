@@ -1,0 +1,47 @@
+{
+  "category": "Robotics",
+  "facts": [
+    {
+      "id": 300,
+      "topic": "robotics",
+      "question": "Rovers are robotic vehicles used on other planets.",
+      "answer": "Rovers are robotic vehicles used on other planets.",
+      "keywords": [
+        "rovers",
+        "robotic",
+        "vehicles",
+        "used",
+        "planets"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 409,
+      "topic": "robotics",
+      "question": "Robotics combines AI with mechanical systems.",
+      "answer": "Robotics combines AI with mechanical systems.",
+      "keywords": [
+        "robotics",
+        "combines",
+        "mechanical",
+        "systems"
+      ],
+      "importance": 5
+    },
+    {
+      "id": 600,
+      "topic": "robotics",
+      "question": "Robots can perform tasks automatically using programmed instructions.",
+      "answer": "Robots can perform tasks automatically using programmed instructions.",
+      "keywords": [
+        "robots",
+        "perform",
+        "tasks",
+        "automatically",
+        "using",
+        "programmed"
+      ],
+      "importance": 5
+    }
+  ]
+}
