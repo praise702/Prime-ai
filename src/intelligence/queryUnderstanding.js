@@ -1,9 +1,3 @@
-const natural = require("natural");
-const dictionary = require("an-array-of-english-words");
-
-const words = new Set(dictionary.map(word => String(word).toLowerCase()));
-const spellcheck = new natural.Spellcheck([...words]);
-
 // Terms that are commonly treated as misspellings even though they are valid
 // names, acronyms, products, programming terms, or model/platform names.
 const PROTECTED_TERMS = new Set([
@@ -26,7 +20,7 @@ const COMMON_CORRECTIONS = Object.freeze({
     didnt: "did not", doesnt: "does not", dont: "do not", didnt: "did not", nite: "night",
     occured: "occurred", pleasse: "please", recieve: "receive", seperate: "separate", teh: "the",
     tommorow: "tomorrow", untill: "until", whre: "where", wich: "which", wierd: "weird",
-    whatt: "what", einsteinn: "einstein", devolop: "develop", developement: "development",
+    whatt: "what", einsteinn: "einstein", einstin: "einstein", einsteen: "einstein", devolop: "develop", developement: "development",
     calcuate: "calculate", explan: "explain", exmple: "example", becuase: "because", thier: "their",
     recieve: "receive", ocured: "occurred", knowlege: "knowledge", queston: "question",
     mesage: "message", langauge: "language", intellgence: "intelligence", responce: "response",
@@ -41,13 +35,13 @@ const PHRASE_CORRECTIONS = Object.freeze({
 });
 
 const CONTRACTIONS = [
-    [/\bwho['’]s\b/gi, "who is"], [ /\bwhat['’]s\b/gi, "what is"], [ /\bwhere['’]s\b/gi, "where is"],
-    [/\bwhen['’]s\b/gi, "when is"], [ /\bthat['’]s\b/gi, "that is"], [ /\bthere['’]s\b/gi, "there is"],
-    [/\bI['’]m\b/g, "I am"], [ /\bcan['’]t\b/gi, "cannot"], [ /\bwon['’]t\b/gi, "will not"],
-    [/\bdon['’]t\b/gi, "do not"], [ /\bdoesn['’]t\b/gi, "does not"], [ /\bdidn['’]t\b/gi, "did not"],
-    [/\bI['’]ve\b/g, "I have"], [ /\bI['’]ll\b/g, "I will"], [ /\bwouldn['’]t\b/gi, "would not"],
-    [/\bcouldn['’]t\b/gi, "could not"], [ /\bshouldn['’]t\b/gi, "should not"], [ /\bisn['’]t\b/gi, "is not"],
-    [/\bwasn['’]t\b/gi, "was not"], [ /\baren['’]t\b/gi, "are not"], [ /\bweren['’]t\b/gi, "were not"]
+    [/\bwho['â€™]s\b/gi, "who is"], [ /\bwhat['â€™]s\b/gi, "what is"], [ /\bwhere['â€™]s\b/gi, "where is"],
+    [/\bwhen['â€™]s\b/gi, "when is"], [ /\bthat['â€™]s\b/gi, "that is"], [ /\bthere['â€™]s\b/gi, "there is"],
+    [/\bI['â€™]m\b/g, "I am"], [ /\bcan['â€™]t\b/gi, "cannot"], [ /\bwon['â€™]t\b/gi, "will not"],
+    [/\bdon['â€™]t\b/gi, "do not"], [ /\bdoesn['â€™]t\b/gi, "does not"], [ /\bdidn['â€™]t\b/gi, "did not"],
+    [/\bI['â€™]ve\b/g, "I have"], [ /\bI['â€™]ll\b/g, "I will"], [ /\bwouldn['â€™]t\b/gi, "would not"],
+    [/\bcouldn['â€™]t\b/gi, "could not"], [ /\bshouldn['â€™]t\b/gi, "should not"], [ /\bisn['â€™]t\b/gi, "is not"],
+    [/\bwasn['â€™]t\b/gi, "was not"], [ /\baren['â€™]t\b/gi, "are not"], [ /\bweren['â€™]t\b/gi, "were not"]
 ];
 
 function cleanSurface(query) {
@@ -58,7 +52,7 @@ function cleanSurface(query) {
     }
     for (const [pattern, replacement] of CONTRACTIONS) text = text.replace(pattern, replacement);
     return text
-        .replace(/[“”]/g, '"')
+        .replace(/[â€œâ€]/g, '"')
         .replace(/[!?]{3,}/g, "??")
         .replace(/\s+/g, " ")
         .trim();
@@ -80,31 +74,33 @@ function hasIntentContext(sentence) {
 
 function safeCorrection(token, index, sentence) {
     const lower = token.toLowerCase();
-    if (!token || PROTECTED_TERMS.has(lower) || looksLikeEntity(token)) return token;
-    if (COMMON_CORRECTIONS[lower]) return preserveCase(COMMON_CORRECTIONS[lower], token);
-    if (lower.length < 3 || words.has(lower) || !hasIntentContext(sentence)) return token;
-    if (index > 0 && /^[A-Z][a-z]+$/.test(token)) return token;
 
+    if (!token || PROTECTED_TERMS.has(lower) || looksLikeEntity(token)) {
+        return token;
+    }
+
+    if (COMMON_CORRECTIONS[lower]) {
+        return preserveCase(COMMON_CORRECTIONS[lower], token);
+    }
+
+    if (lower.length < 3 || !hasIntentContext(sentence)) {
+        return token;
+    }
+
+    if (index > 0 && /^[A-Z][a-z]+$/.test(token)) {
+        return token;
+    }
+
+    // Keep typo handling lightweight for small cloud instances.
+    // Do not load a massive English-word corpus or build a global spellchecker.
     const compressed = lower.replace(/(.)\1{2,}/g, "$1$1");
-    if (compressed !== lower && words.has(compressed)) return preserveCase(compressed, token);
 
-    const maxDistance = lower.length <= 4 ? 1 : lower.length <= 8 ? 2 : 3;
-    const candidates = spellcheck.getCorrections(lower, maxDistance);
-    if (!candidates.length) return token;
+    if (compressed !== lower && COMMON_CORRECTIONS[compressed]) {
+        return preserveCase(COMMON_CORRECTIONS[compressed], token);
+    }
 
-    const ranked = candidates
-        .map(candidate => ({
-            candidate,
-            distance: natural.DamerauLevenshteinDistance(lower, candidate),
-            common: COMMON_CORRECTIONS[candidate] ? 1 : 0
-        }))
-        .filter(item => item.distance <= maxDistance)
-        .sort((a, b) => a.distance - b.distance || b.common - a.common || a.candidate.length - b.candidate.length);
-
-    const best = ranked[0];
-    return best && best.distance <= maxDistance ? preserveCase(best.candidate, token) : token;
+    return token;
 }
-
 function preserveCase(value, original) {
     if (!value) return value;
     if (/^[A-Z]+$/.test(original)) return value.toUpperCase();
