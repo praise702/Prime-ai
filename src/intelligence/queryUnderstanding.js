@@ -35,13 +35,13 @@ const PHRASE_CORRECTIONS = Object.freeze({
 });
 
 const CONTRACTIONS = [
-    [/\bwho['â€™]s\b/gi, "who is"], [ /\bwhat['â€™]s\b/gi, "what is"], [ /\bwhere['â€™]s\b/gi, "where is"],
-    [/\bwhen['â€™]s\b/gi, "when is"], [ /\bthat['â€™]s\b/gi, "that is"], [ /\bthere['â€™]s\b/gi, "there is"],
-    [/\bI['â€™]m\b/g, "I am"], [ /\bcan['â€™]t\b/gi, "cannot"], [ /\bwon['â€™]t\b/gi, "will not"],
-    [/\bdon['â€™]t\b/gi, "do not"], [ /\bdoesn['â€™]t\b/gi, "does not"], [ /\bdidn['â€™]t\b/gi, "did not"],
-    [/\bI['â€™]ve\b/g, "I have"], [ /\bI['â€™]ll\b/g, "I will"], [ /\bwouldn['â€™]t\b/gi, "would not"],
-    [/\bcouldn['â€™]t\b/gi, "could not"], [ /\bshouldn['â€™]t\b/gi, "should not"], [ /\bisn['â€™]t\b/gi, "is not"],
-    [/\bwasn['â€™]t\b/gi, "was not"], [ /\baren['â€™]t\b/gi, "are not"], [ /\bweren['â€™]t\b/gi, "were not"]
+    [/\bwho['’]s\b/gi, "who is"], [ /\bwhat['’]s\b/gi, "what is"], [ /\bwhere['’]s\b/gi, "where is"],
+    [/\bwhen['’]s\b/gi, "when is"], [ /\bthat['’]s\b/gi, "that is"], [ /\bthere['’]s\b/gi, "there is"],
+    [/\bI['’]m\b/g, "I am"], [ /\bcan['’]t\b/gi, "cannot"], [ /\bwon['’]t\b/gi, "will not"],
+    [/\bdon['’]t\b/gi, "do not"], [ /\bdoesn['’]t\b/gi, "does not"], [ /\bdidn['’]t\b/gi, "did not"],
+    [/\bI['’]ve\b/g, "I have"], [ /\bI['’]ll\b/g, "I will"], [ /\bwouldn['’]t\b/gi, "would not"],
+    [/\bcouldn['’]t\b/gi, "could not"], [ /\bshouldn['’]t\b/gi, "should not"], [ /\bisn['’]t\b/gi, "is not"],
+    [/\bwasn['’]t\b/gi, "was not"], [ /\baren['’]t\b/gi, "are not"], [ /\bweren['’]t\b/gi, "were not"]
 ];
 
 function cleanSurface(query) {
@@ -52,7 +52,7 @@ function cleanSurface(query) {
     }
     for (const [pattern, replacement] of CONTRACTIONS) text = text.replace(pattern, replacement);
     return text
-        .replace(/[â€œâ€]/g, '"')
+        .replace(/[“”]/g, '"')
         .replace(/[!?]{3,}/g, "??")
         .replace(/\s+/g, " ")
         .trim();
@@ -92,7 +92,6 @@ function safeCorrection(token, index, sentence) {
     }
 
     // Keep typo handling lightweight for small cloud instances.
-    // Do not load a massive English-word corpus or build a global spellchecker.
     const compressed = lower.replace(/(.)\1{2,}/g, "$1$1");
 
     if (compressed !== lower && COMMON_CORRECTIONS[compressed]) {
@@ -101,6 +100,7 @@ function safeCorrection(token, index, sentence) {
 
     return token;
 }
+
 function preserveCase(value, original) {
     if (!value) return value;
     if (/^[A-Z]+$/.test(original)) return value.toUpperCase();

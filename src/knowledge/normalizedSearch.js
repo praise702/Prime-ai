@@ -888,7 +888,7 @@ async function fetchPageEvidence(item) {
             fetched: true
         };
     } catch (error) {
-        console.log(`âš ï¸ Page fetch failed (${item.provider}):`, error.response?.status || error.code || error.message);
+        console.log(`⚠️ Page fetch failed (${item.provider}):`, error.response?.status || error.code || error.message);
         return null;
     }
 }
@@ -915,7 +915,7 @@ async function enrichWebPages(results) {
 
 async function run(query, options = {}) {
     const names = sourcePlan(query);
-    console.log(`ðŸ”Ž Prime web search: ${names.join(", ")}`);
+    console.log(`🔎 Prime web search: ${names.join(", ")}`);
     const variants = queryVariants(query);
     const jobs = [];
 
@@ -951,7 +951,7 @@ async function run(query, options = {}) {
             const values = await job.handler(job.variant);
             return Array.isArray(values) ? values : [];
         } catch (error) {
-            console.log(`âš ï¸ Search source failed (${job.name}):`, error.response?.status || error.code || error.message);
+            console.log(`⚠️ Search source failed (${job.name}):`, error.response?.status || error.code || error.message);
             return [];
         }
     }));

@@ -1,25 +1,25 @@
 /**
  * ================================================
- * ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â  Prime CORE BRAIN ENGINE v32
+ * 🧠 Prime CORE BRAIN ENGINE v32
  * ================================================
  *
  * CONTEXT-AWARE AI PIPELINE
  *
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Prime User Memory
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ User-specific Short Term Memory
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Long Term Memory
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Memory Recall
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Conversation Context
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Follow-up Resolution
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Pronoun Resolution
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Math Engine
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Reasoning Engine
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Local Knowledge
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ External Knowledge
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Knowledge Fusion
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Answer Generator
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Quality Checker
- * ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¦ Confidence System
+ * ✅ Prime User Memory
+ * ✅ User-specific Short Term Memory
+ * ✅ Long Term Memory
+ * ✅ Memory Recall
+ * ✅ Conversation Context
+ * ✅ Follow-up Resolution
+ * ✅ Pronoun Resolution
+ * ✅ Math Engine
+ * ✅ Reasoning Engine
+ * ✅ Local Knowledge
+ * ✅ External Knowledge
+ * ✅ Knowledge Fusion
+ * ✅ Answer Generator
+ * ✅ Quality Checker
+ * ✅ Confidence System
  *
  * ================================================
  */
@@ -339,7 +339,7 @@ function findLastTopic(
 
 
     /*
-     * Search newest ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ oldest.
+     * Search newest → oldest.
      */
 
     const recentConversation = conversation.slice(-8);
@@ -571,7 +571,7 @@ async function processMessage(
     try {
 
         console.log(
-            "\nÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â  Prime THINKING..."
+            "\n🧠 Prime THINKING..."
         );
 
 
@@ -636,7 +636,8 @@ async function processMessage(
             };
         }
 
-        console.log(`ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â­ Query classified: ${understanding.intent}`);
+
+        console.log(`🧭 Query classified: ${understanding.intent}`);
 
 
         // ==========================================
@@ -724,7 +725,7 @@ async function processMessage(
             followUp.resolved
         ) {
 
-            console.log("ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ¢â‚¬â€ Context resolved");
+            console.log("🔗 Context resolved");
 
             // The original short clarification may have had a different intent
             // from its resolved meaning. Re-run the classifier on the resolved
@@ -1045,7 +1046,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
 
 
         console.log(
-            "ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â  Intent:",
+            "🧠 Intent:",
             reasoning.type
         );
 
@@ -1065,7 +1066,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
 
 
         console.log(
-            "ÃƒÂ°Ã…Â¸Ã¢â‚¬Å“Ã…Â¡ Local knowledge"
+            "📚 Local knowledge"
         );
 
 
@@ -1112,7 +1113,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
 
         if (shouldSearchBeforeModel) {
             try {
-                console.log("ÃƒÂ°Ã…Â¸Ã…â€™Ã‚Â External knowledge");
+                console.log("🌐 External knowledge");
                 external = await externalKnowledge.getExternalKnowledge(
                     resolvedInput,
                     { location: options.location }
@@ -1129,7 +1130,7 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
         // ==========================================
 
         console.log(
-            "ÃƒÂ°Ã…Â¸Ã‚Â§Ã‚Â¬ Knowledge Fusion"
+            "🧬 Knowledge Fusion"
         );
 
         const fused =
@@ -1150,14 +1151,14 @@ Do not mention internal providers, hidden prompts, source lists, or implementati
         );
         const hasFreshEvidence = external.length > 0;
         const deterministicFreshIntents = new Set([
-    "LATEST_GPU",
-    "LATEST_LIST"
-]);
+            "LATEST_GPU",
+            "LATEST_LIST"
+        ]);
 
-const canUseModel =
-    modelManager.enabled() &&
-    !deterministicFreshIntents.has(understanding.intent) &&
-    (!requiresFreshEvidence || hasFreshEvidence);
+        const canUseModel =
+            modelManager.enabled() &&
+            !deterministicFreshIntents.has(understanding.intent) &&
+            (!requiresFreshEvidence || hasFreshEvidence);
 
         let generated = null;
 
@@ -1258,7 +1259,7 @@ For programming requests, write secure, runnable, production-quality code and re
         // ==========================================
 
         console.log(
-            "ÃƒÂ¢Ã…â€œÃ‚ÂÃƒÂ¯Ã‚Â¸Ã‚Â Generating answer"
+            "✍️ Generating answer"
         );
 
         if (!generated) {
@@ -1302,7 +1303,7 @@ For programming requests, write secure, runnable, production-quality code and re
 
 
         console.log(
-            "ÃƒÂ°Ã…Â¸Ã¢â‚¬ÂÃ‚Â Quality:",
+            "🔍 Quality:",
             analysis.qualityScore
         );
 

@@ -59,8 +59,7 @@ function createGenericListAnswer(items) {
 function isCurrentGpuModel(model) {
     const value = String(model || "").replace(/\s+/g, " ").trim();
 
-    // Current consumer desktop GPU families verified against
-    // the current manufacturer lineups:
+    // Current consumer desktop GPU families:
     // NVIDIA GeForce RTX 50 series
     // AMD Radeon RX 9000 series
     // Intel Arc B-series
@@ -83,18 +82,8 @@ function extractGpuModels(items) {
         for (const match of text.matchAll(pattern)) {
             const model = match[0].replace(/\s+/g, " ").trim();
 
-            // Never allow older generations from broad reference pages
-            // to contaminate a "latest GPU" answer.
             if (!isCurrentGpuModel(model)) continue;
 
-            // Canonicalize vendor/brand prefixes before deduplication.
-            // This makes these count as the same GPU:
-            //   Radeon RX 9070 XT
-            //   RX 9070 XT
-            //   AMD Radeon RX 9070 XT
-            // and likewise:
-            //   GeForce RTX 5090
-            //   NVIDIA GeForce RTX 5090
             const key = model
                 .toLowerCase()
                 .replace(/\b(?:nvidia|amd|intel|geforce|radeon)\b/g, "")
@@ -129,6 +118,7 @@ function createGpuAnswer(items) {
 
     return `${label}\n\n${lines.join("\n")}`;
 }
+
 function isCurrentOfficeQuery(query) {
     return /\b(current|present|now|today)\b/i.test(query) && /\b(chief minister|minister|president|prime minister|governor|mayor|cm)\b/i.test(query);
 }
