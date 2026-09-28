@@ -187,10 +187,10 @@ function queryVariants(query) {
     if (info.currentList) {
         if (info.gpu) {
             return [
-                "latest NVIDIA GeForce GPUs 2026 official",
-                "latest AMD Radeon GPUs 2026 official",
-                "latest Intel Arc GPUs 2026 official",
-                "latest desktop graphics cards 2026"
+                "latest NVIDIA GeForce RTX 50 Series GPUs 2026 official",
+                "latest AMD Radeon RX 9000 Series GPUs 2026 official",
+                "latest Intel Arc B-Series GPUs 2026 official",
+                "latest desktop graphics cards RTX 50 RX 9000 Arc B-Series 2026"
             ];
         }
         const genericListTopic = extractTopicText(normalized)
@@ -241,7 +241,9 @@ function sourcePlan(query) {
     }
     plan.add("duckduckgo");
     if (SEARCH.browserFallbackEnabled) plan.add("browser");
-    plan.add("wikimedia");
+
+    // Wikimedia can return vendor/company pages instead of GPU models.
+    if (!(info.currentList && info.gpu)) plan.add("wikimedia");
 
     if (info.news) {
         if (info.news && process.env.BRAVE_SEARCH_API_KEY) plan.add("braveNews");
@@ -713,7 +715,20 @@ function relevanceScore(item, query) {
 function isResultRelevant(item, query, info = classifyQuery(query)) {
     const signals = relevanceSignals(item, query);
     if (!signals.terms.length) return false;
-    if (signals.matched === 0) return false;
+    if (signals.matched === 0) {
+        // The query term can be just "gpu", while a valid result may name
+        // the model directly without containing the literal word "gpu".
+        const earlyCurrentGpuModel =
+            info.currentList &&
+            info.gpu &&
+            /\b(?:RTX\s+50\d{2}(?:\s+(?:Ti|SUPER|Super))?|(?:Radeon\s+)?RX\s+9\d{3}(?:\s+(?:XT|GRE|XTX|PRO))?|(?:Arc\s+(?:Pro\s+)?)B\d{2,4})\b/i.test(
+                `${item.title || ""} ${item.text || ""}`
+            );
+
+        if (!earlyCurrentGpuModel) {
+            return false;
+        }
+    }
 
     const topic = extractTopicText(query).toLowerCase();
     const title = String(item.title || "").toLowerCase();
@@ -733,6 +748,17 @@ function isResultRelevant(item, query, info = classifyQuery(query)) {
         movies: /\b(?:movie|film|cinema|netflix|disney|marvel|dc)\b/i
     };
     const aliasMatch = topicAliases[topic]?.test(combined);
+
+    // Current GPU searches require an actual current GPU model mention.
+    // Vendor/company-only pages are not sufficient evidence.
+    if (info.currentList && info.gpu) {
+        const currentGpuModel =
+            /\b(?:RTX\s+50\d{2}(?:\s+(?:Ti|SUPER|Super))?|(?:Radeon\s+)?RX\s+9\d{3}(?:\s+(?:XT|GRE|XTX|PRO))?|(?:Arc\s+(?:Pro\s+)?)B\d{2,4})\b/i;
+
+        if (!currentGpuModel.test(combined)) {
+            return false;
+        }
+    }
     if (topic.length >= 3 && !title.includes(topic) && !body.includes(topic) && !aliasMatch && topic.split(/\s+/).filter(Boolean).length === 1) return false;
 
     // Every search gets the same entity/topic lock. Generic conversational words
@@ -741,7 +767,22 @@ function isResultRelevant(item, query, info = classifyQuery(query)) {
     const termCount = signals.terms.length;
     const coverageRequired = termCount >= 5 ? 0.40 : termCount >= 3 ? 0.50 : termCount === 2 ? 0.50 : 1;
     const titleEscape = signals.titleMatched >= (termCount >= 4 ? 2 : 1);
-    if (signals.coverage < coverageRequired && !titleEscape && !signals.exactPhrase) return false;
+
+    // A current GPU model name is valid evidence even when the literal
+    // query word "gpu" does not appear in the result title/body.
+    const currentGpuModelEvidence =
+        info.currentList &&
+        info.gpu &&
+        /\b(?:RTX\s+50\d{2}(?:\s+(?:Ti|SUPER|Super))?|(?:Radeon\s+)?RX\s+9\d{3}(?:\s+(?:XT|GRE|XTX|PRO))?|(?:Arc\s+(?:Pro\s+)?)B\d{2,4})\b/i.test(combined);
+
+    if (
+        signals.coverage < coverageRequired &&
+        !titleEscape &&
+        !signals.exactPhrase &&
+        !currentGpuModelEvidence
+    ) {
+        return false;
+    }
 
     // Intent-aware evidence requirements improve source discipline without making
     // the search GPU-specific.

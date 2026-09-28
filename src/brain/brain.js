@@ -853,6 +853,59 @@ async function processMessage(
         }
 
         // ==========================================
+        // DETERMINISTIC CURRENT GPU ROUTE
+        // ==========================================
+        // Current GPU requests bypass general model generation.
+        // Search directly and only return verified GPU model evidence.
+        if (understanding.intent === "LATEST_GPU") {
+            let gpuResults = [];
+
+            try {
+                console.log("Current GPU search");
+
+                gpuResults =
+                    await externalKnowledge.getExternalKnowledge(
+                        resolvedInput,
+                        { location: options.location }
+                    );
+            } catch (error) {
+                console.log(
+                    "GPU search error:",
+                    error.message
+                );
+            }
+
+            const gpuAnswer =
+                answerGenerator.generateAnswer(
+                    gpuResults,
+                    resolvedInput
+                );
+
+            const answer =
+                gpuAnswer?.tool === "gpu-search"
+                    ? gpuAnswer.answer
+                    : "I couldn't verify any current GPU models from the available search results, so I don't want to guess.";
+
+            memoryManager.addConversation(
+                userId,
+                "assistant",
+                answer
+            );
+
+            return {
+                answer,
+                confidence:
+                    gpuAnswer?.tool === "gpu-search"
+                        ? (gpuAnswer.confidence || 82)
+                        : 35,
+                tool: "gpu-search",
+                query: understanding,
+                searchResults: gpuResults
+            };
+        }
+
+
+        // ==========================================
         // VISUAL UNDERSTANDING
         // ==========================================
         const visionImages = Array.isArray(options.visionImages)

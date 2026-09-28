@@ -20,7 +20,7 @@ const COMMON_CORRECTIONS = Object.freeze({
     didnt: "did not", doesnt: "does not", dont: "do not", didnt: "did not", nite: "night",
     occured: "occurred", pleasse: "please", recieve: "receive", seperate: "separate", teh: "the",
     tommorow: "tomorrow", untill: "until", whre: "where", wich: "which", wierd: "weird",
-    whatt: "what", einsteinn: "einstein", einstin: "einstein", einsteen: "einstein", devolop: "develop", developement: "development",
+    whatt: "what", matest: "latest", einsteinn: "einstein", einstin: "einstein", einsteen: "einstein", devolop: "develop", developement: "development",
     calcuate: "calculate", explan: "explain", exmple: "example", becuase: "because", thier: "their",
     recieve: "receive", ocured: "occurred", knowlege: "knowledge", queston: "question",
     mesage: "message", langauge: "language", intellgence: "intelligence", responce: "response",

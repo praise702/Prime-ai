@@ -243,8 +243,22 @@ function generateAnswer(knowledge, message) {
         if (!items.length) return { answer: "I don't have enough reliable information to answer that confidently.", confidence: 0, tool: "knowledge" };
 
         if (isLatestGpuQuery(message)) {
-            const answer = createGpuAnswer(items);
-            if (answer) return { answer, confidence: 82, tool: "gpu-search" };
+            const answer =
+                createGpuAnswer(items);
+
+            if (answer) {
+                return {
+                    answer,
+                    confidence: 82,
+                    tool: "gpu-search"
+                };
+            }
+
+            return {
+                answer: "I couldn't verify any current GPU models from the available search results, so I don't want to guess.",
+                confidence: 35,
+                tool: "gpu-search"
+            };
         }
 
         if (isListQuery(message)) {
